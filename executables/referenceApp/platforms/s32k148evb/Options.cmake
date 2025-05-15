@@ -15,3 +15,6 @@ set(PLATFORM_SUPPORT_WATCHDOG
 set(PLATFORM_SUPPORT_MPU
     ON
     CACHE BOOL "Turn ON MPU support" FORCE)
+set(PLATFORM_SUPPORT_STORAGE
+    ON
+    CACHE BOOL "Turn persistent storage on or off" FORCE)

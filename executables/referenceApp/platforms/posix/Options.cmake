@@ -19,3 +19,6 @@ set(PLATFORM_SUPPORT_MPU
 set(PLATFORM_SUPPORT_ETHERNET
     ON
     CACHE BOOL "Turn ethernet support on or off" FORCE)
+set(PLATFORM_SUPPORT_STORAGE
+    ON
+    CACHE BOOL "Turn persistent storage on or off" FORCE)

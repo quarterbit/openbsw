@@ -3,6 +3,7 @@
 #include "app/app.h"
 
 #include "console/console.h"
+#include "lifecycle/StaticBsp.h"
 #include "logger/logger.h"
 #include "reset/softwareSystemReset.h"
 #include "systems/DemoSystem.h"
@@ -30,6 +31,10 @@
 #ifdef PLATFORM_SUPPORT_ETHERNET
 #include "systems/EthernetSystem.h"
 #endif // PLATFORM_SUPPORT_ETHERNET
+
+#ifdef PLATFORM_SUPPORT_STORAGE
+#include "systems/StorageSystem.h"
+#endif // PLATFORM_SUPPORT_STORAGE
 
 #include <async/AsyncBinding.h>
 #include <lifecycle/LifecycleLogger.h>
@@ -61,6 +66,7 @@ namespace platform
 {
 // TODO: move declaration to header file
 extern void platformLifecycleAdd(::lifecycle::LifecycleManager& lifecycleManager, uint8_t level);
+extern StaticBsp& getStaticBsp();
 } // namespace platform
 
 namespace app
@@ -99,14 +105,15 @@ LifecycleManager lifecycleManager{
 
 #ifdef PLATFORM_SUPPORT_UDS
 ::etl::typed_storage<::transport::TransportSystem> transportSystem;
+::etl::typed_storage<::uds::UdsSystem> udsSystem;
 #endif
 
 #ifdef PLATFORM_SUPPORT_CAN
 ::etl::typed_storage<::docan::DoCanSystem> doCanSystem;
 #endif
 
-#ifdef PLATFORM_SUPPORT_UDS
-::etl::typed_storage<::uds::UdsSystem> udsSystem;
+#ifdef PLATFORM_SUPPORT_STORAGE
+::etl::typed_storage<::systems::StorageSystem> storageSystem;
 #endif
 
 class LifecycleMonitor : private ::lifecycle::ILifecycleListener
@@ -184,6 +191,13 @@ void run()
         "ethernet", ethernetSystem.create(TASK_ETHERNET, ::systems::getEthernetSystem()), 5U);
 #endif
 
+#ifdef PLATFORM_SUPPORT_STORAGE
+    lifecycleManager.addComponent(
+        "storage",
+        storageSystem.create(TASK_BSP, ::platform::getStaticBsp().getEepromDriver()),
+        5U);
+#endif
+
     /* runlevel 6 */
 #ifdef PLATFORM_SUPPORT_UDS
     lifecycleManager.addComponent(
@@ -196,17 +210,21 @@ void run()
 
     /* runlevel 8 */
     ::platform::platformLifecycleAdd(lifecycleManager, 8U);
+    // clang-format off
     lifecycleManager.addComponent(
         "demo",
         demoSystem.create(
             TASK_DEMO,
             lifecycleManager
 #ifdef PLATFORM_SUPPORT_CAN
-            ,
-            ::systems::getCanSystem()
+            , ::systems::getCanSystem()
 #endif
-                ),
+#ifdef PLATFORM_SUPPORT_STORAGE
+            , (*storageSystem).getStorage()
+#endif
+        ),
         8U);
+    // clang-format on
 
     lifecycleManager.transitionToLevel(MaxNumLevels);
 

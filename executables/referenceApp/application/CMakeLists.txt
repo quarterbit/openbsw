@@ -16,6 +16,10 @@ if (PLATFORM_SUPPORT_UDS)
     endif ()
 endif ()
 
+if (PLATFORM_SUPPORT_STORAGE)
+    list(APPEND app.referenceAppExtraSources src/systems/StorageSystem.cpp)
+endif ()
+
 add_executable(
     app.referenceApp
     src/app/app.cpp
@@ -80,4 +84,8 @@ endif ()
 if (PLATFORM_SUPPORT_ETHERNET)
 
     target_link_libraries(app.referenceApp PRIVATE cpp2ethernet lwipSocket)
+endif ()
+
+if (PLATFORM_SUPPORT_STORAGE)
+    target_link_libraries(app.referenceApp PRIVATE storage)
 endif ()

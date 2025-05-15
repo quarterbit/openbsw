@@ -20,3 +20,4 @@ Some simple lessons to get new users up and running.
     uds/index
     hwio/index
     tracing/index
+    storage/index

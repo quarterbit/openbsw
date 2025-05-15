@@ -57,6 +57,7 @@ brings up or tears down each “System“.
   systems/DemoSystem
   systems/DoCanSystem
   systems/EthernetSystem
+  systems/StorageSystem
   systems/SysAdminSystem
   systems/TransportSystem
   systems/RuntimeSystem

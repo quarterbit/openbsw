@@ -1,0 +1,5 @@
+add_executable(ethernetTsnTest src/TsnEthernetTransportLayerTest.cpp)
+
+target_link_libraries(ethernetTsnTest PRIVATE ethernet gmock_main)
+
+gtest_discover_tests(ethernetTsnTest PROPERTIES LABELS "ethernetTsnTest")

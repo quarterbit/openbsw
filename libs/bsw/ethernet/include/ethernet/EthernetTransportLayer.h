@@ -30,7 +30,7 @@ public:
     /**
      * Destructor.
      */
-    ~EthernetTransportLayer() override = default;
+    ~EthernetTransportLayer() = default;
 
     /**
      * Initialize the Ethernet transport layer.

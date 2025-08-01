@@ -1,7 +1,6 @@
 // Copyright 2024 Accenture.
 
 #include "ethernet/EthernetTransportLayer.h"
-#include <transport/TransportLogger.h>
 
 namespace ethernet
 {
@@ -27,9 +26,6 @@ EthernetTransportLayer::EthernetTransportLayer(uint8_t busId)
     auto lwipResult = ::lwip::LwipInterface::init();
     if (lwipResult != ::lwip::LwipInterface::ErrorCode::OK)
     {
-        ::transport::TransportLogger::error(
-            getBusId(), 
-            "EthernetTransportLayer::init() - lwIP initialization failed");
         return ErrorCode::TP_GENERAL_ERROR;
     }
 
@@ -41,10 +37,6 @@ EthernetTransportLayer::EthernetTransportLayer(uint8_t busId)
     }
 
     _initialized = true;
-    
-    ::transport::TransportLogger::debug(
-        getBusId(), 
-        "EthernetTransportLayer::init() - Ethernet transport layer initialized");
     
     return ErrorCode::TP_OK;
 }
@@ -58,10 +50,6 @@ bool EthernetTransportLayer::shutdown(ShutdownDelegate delegate)
 
     _shutdownDelegate = delegate;
     _initialized = false;
-
-    ::transport::TransportLogger::debug(
-        getBusId(), 
-        "EthernetTransportLayer::shutdown() - Ethernet transport layer shutdown");
 
     // For now, we perform synchronous shutdown
     // In a full implementation, this might involve closing network connections asynchronously
@@ -81,46 +69,29 @@ bool EthernetTransportLayer::shutdown(ShutdownDelegate delegate)
 {
     if (!_initialized)
     {
-        ::transport::TransportLogger::error(
-            getBusId(), 
-            "EthernetTransportLayer::send() - Transport layer not initialized");
         return ErrorCode::TP_GENERAL_ERROR;
     }
 
     if (!::lwip::LwipInterface::isNetworkUp())
     {
-        ::transport::TransportLogger::error(
-            getBusId(), 
-            "EthernetTransportLayer::send() - Network is down");
         _sendErrors++;
         return ErrorCode::TP_SEND_FAIL;
     }
 
     // Basic validation
-    if (transportMessage.getSize() == 0U)
+    if (transportMessage.payloadLength() == 0U)
     {
-        ::transport::TransportLogger::error(
-            getBusId(), 
-            "EthernetTransportLayer::send() - Empty message");
         return ErrorCode::TP_MESSAGE_INCOMPLETE;
     }
 
-    if (transportMessage.getSize() > EthernetConfiguration::MAX_MESSAGE_SIZE)
+    if (transportMessage.payloadLength() > EthernetConfiguration::MAX_MESSAGE_SIZE)
     {
-        ::transport::TransportLogger::error(
-            getBusId(), 
-            "EthernetTransportLayer::send() - Message too large");
         return ErrorCode::TP_MESSAGE_INCOMPLETE;
     }
 
     // TODO: Implement actual Ethernet/UDP/TCP sending
     // For now, simulate successful send
     
-    ::transport::TransportLogger::debug(
-        getBusId(), 
-        "EthernetTransportLayer::send() - Sending message of size %u", 
-        static_cast<unsigned>(transportMessage.getSize()));
-
     _messagesSent++;
 
     // Simulate immediate successful completion
@@ -128,7 +99,7 @@ bool EthernetTransportLayer::shutdown(ShutdownDelegate delegate)
     {
         pNotificationListener->transportMessageProcessed(
             transportMessage, 
-            ::transport::ITransportMessageProcessedListener::ProcessingResult::PROCESSED_OK);
+            ::transport::ITransportMessageProcessedListener::ProcessingResult::PROCESSED_NO_ERROR);
     }
 
     return ErrorCode::TP_OK;

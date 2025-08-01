@@ -2,7 +2,6 @@
 
 #include "ethernet/TsnEthernetTransportLayer.h"
 #include "tsn/GptpTypes.h"
-#include <transport/TransportLogger.h>
 
 namespace ethernet
 {
@@ -34,10 +33,6 @@ TsnEthernetTransportLayer::TsnEthernetTransportLayer(uint8_t busId)
     // Initialize TSN-specific components
     // Note: Time synchronization initialization would go here in full implementation
     _timeSyncEnabled = false; // Placeholder for now
-    
-    ::transport::TransportLogger::debug(
-        getBusId(), 
-        "TsnEthernetTransportLayer::init() - TSN transport layer initialized");
     
     return ErrorCode::TP_OK;
 }
@@ -74,7 +69,7 @@ bool TsnEthernetTransportLayer::shutdown(ShutdownDelegate delegate)
     }
 
     // Apply TSN priority mapping (placeholder implementation)
-    uint8_t vlanPcp = mapPriorityToVlanPcp(priority);
+    uint8_t vlanPcp __attribute__((unused)) = mapPriorityToVlanPcp(priority);
     
     // For now, delegate to base class - in full implementation, this would
     // apply TSN-specific handling including VLAN tagging, traffic shaping, etc.
@@ -128,10 +123,6 @@ bool TsnEthernetTransportLayer::shutdown(ShutdownDelegate delegate)
 
     ++_streamCount;
 
-    ::transport::TransportLogger::debug(
-        getBusId(), 
-        "TsnEthernetTransportLayer::registerStream() - Registered TSN stream");
-
     return ErrorCode::TP_OK;
 }
 
@@ -148,10 +139,6 @@ bool TsnEthernetTransportLayer::shutdown(ShutdownDelegate delegate)
     stream->active = false;
     stream->streamId = 0;
     --_streamCount;
-
-    ::transport::TransportLogger::debug(
-        getBusId(), 
-        "TsnEthernetTransportLayer::unregisterStream() - Unregistered TSN stream");
 
     return ErrorCode::TP_OK;
 }
@@ -229,7 +216,7 @@ bool TsnEthernetTransportLayer::isTimeSynchronized() const
 // Private helper methods
 
 ::transport::AbstractTransportLayer::ErrorCode TsnEthernetTransportLayer::classifyMessage(
-    const ::transport::TransportMessage& message,
+    const ::transport::TransportMessage& message __attribute__((unused)),
     ::tsn::TsnStreamClass& streamClass,
     ::tsn::TsnPriority& priority)
 {
@@ -246,7 +233,7 @@ bool TsnEthernetTransportLayer::isTimeSynchronized() const
 
 ::transport::AbstractTransportLayer::ErrorCode TsnEthernetTransportLayer::applyTrafficShaping(
     ::tsn::StreamId streamId,
-    const ::transport::TransportMessage& message)
+    const ::transport::TransportMessage& message __attribute__((unused)))
 {
     TsnStream* stream = findStreamById(streamId);
     if (stream == nullptr)

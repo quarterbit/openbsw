@@ -31,7 +31,7 @@ public:
     /**
      * Destructor.
      */
-    ~TsnEthernetTransportLayer() override = default;
+    ~TsnEthernetTransportLayer() = default;
 
     /**
      * Initialize the TSN Ethernet transport layer.

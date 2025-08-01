@@ -147,7 +147,7 @@ public:
     
     // Message limits
     static constexpr uint8_t MAX_HOPS = 255U;
-    static constexpr uint16_t SEQUENCE_ID_WRAP = 65536U;
+    static constexpr uint32_t SEQUENCE_ID_WRAP = 65536U;
     
     // Default values
     static constexpr uint8_t DEFAULT_DOMAIN_NUMBER = 0U;

@@ -17,11 +17,32 @@ using namespace ::util::logger;
 
 namespace
 {
-static uint8_t calculateHashIndex(uint8_t const* /* pMulticastAddr */)
+
+// Calculate the 32bit crc as described in
+// the s32k1 reference manual section 57.6.4.3.2
+static uint8_t calculateHashIndex(::etl::array<uint8_t, 6> const addr)
 {
-    // TODO: implement GAUR/GALR hash CRC calculation.
-    return 0;
+    uint32_t crc = 0xFFFFFFFFu;
+
+    for (size_t i = 0; i < 6; i++)
+    {
+        crc = crc ^ addr[i];
+        for (size_t b = 0; b < 8; b++)
+        {
+            if (crc & 1u)
+            {
+                crc = (crc >> 1) ^ 0xEDB88320u;
+            }
+            else
+            {
+                crc = crc >> 1;
+            }
+        }
+    }
+
+    return static_cast<uint8_t>((crc >> 26) & 0x3Fu);
 }
+
 } // namespace
 
 namespace ethernet
@@ -206,7 +227,7 @@ void EnetDriver::interruptError()
     IP_ENET->EIR = ENET_EIR_EBERR(1);
 }
 
-void setGroupcastAddressRecognitionImpl(uint8_t const* const mac)
+void setGroupcastAddressRecognitionImpl(::etl::array<uint8_t, 6> const mac)
 {
     uint8_t const hashIndex = calculateHashIndex(mac);
 
@@ -232,23 +253,9 @@ void EnetDriver::interruptGroup2() {}
 
 void EnetDriver::interruptGroup3() { interruptError(); }
 
-void EnetDriver::setGroupcastAddressRecognition(uint8_t const* const mac) const
+void EnetDriver::setGroupcastAddressRecognition(::etl::array<uint8_t, 6> const mac) const
 {
     ::ethernet::setGroupcastAddressRecognitionImpl(mac);
 }
 
 } /* namespace ethernet */
-
-extern "C"
-{
-uint8_t ethernet_multicast_join(ip4_addr const* const /* ip */)
-{
-    // TODO: also use param ip
-    uint8_t mac[6];
-    mac[0] = 0x01U;
-    mac[1] = 0x00U;
-    mac[2] = 0x5EU;
-    ::ethernet::setGroupcastAddressRecognitionImpl(&mac[0]);
-    return ERR_OK;
-}
-}

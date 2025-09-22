@@ -4,8 +4,11 @@
 
 extern "C"
 {
-extern void call_can_isr_RX();
-extern void call_can_isr_TX();
+#ifndef PLATFORM_SUPPORT_CAN
+// Stub implementations when CAN support is disabled
+void call_can_isr_RX() {}
+void call_can_isr_TX() {}
+#endif
 
 void CAN0_ORed_0_15_MB_IRQHandler() { call_can_isr_RX(); }
 

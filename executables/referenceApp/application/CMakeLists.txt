@@ -31,7 +31,10 @@ add_executable(
     src/systems/SysAdminSystem.cpp
     src/systems/SafetySystem.cpp
     ${app.referenceAppExtraSources}
-    src/main.cpp)
+     src/main.cpp)
+
+# Add LED proximity demo
+target_sources(app.referenceApp PRIVATE led_proximity.cpp)
 
 set_target_properties(app.referenceApp PROPERTIES SUFFIX ".elf")
 
@@ -54,6 +57,7 @@ target_link_libraries(
             configuration
             ethConfiguration
             etl
+            hcsr04
             lifecycle
             consoleCommands
             logger
@@ -67,7 +71,8 @@ target_link_libraries(
             udsConfigurationImpl
             runtime
             safeLifecycle
-            socBsp)
+            socBsp
+            ws2812b)
 
 if (PLATFORM_SUPPORT_UDS)
 

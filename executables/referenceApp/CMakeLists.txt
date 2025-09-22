@@ -21,7 +21,7 @@ option(PLATFORM_SUPPORT_UDS "Turn UDS support on or off" OFF)
 option(PLATFORM_SUPPORT_STORAGE "Turn persistent storage on or off" OFF)
 
 set(BUILD_TARGET_PLATFORM
-    "POSIX"
+    "S32K148EVB"
     CACHE STRING "Target Platform")
 
 # Convert target name to lower case to match directory name

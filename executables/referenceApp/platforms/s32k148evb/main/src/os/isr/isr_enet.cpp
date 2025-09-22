@@ -4,10 +4,11 @@
 
 extern "C"
 {
-extern void enetRxIsr();
-extern void enetTxIsr();
-
-// extern void call_enet_isr_Error();
+#ifndef PLATFORM_SUPPORT_ETHERNET
+// Stub implementations when Ethernet support is disabled
+void enetRxIsr() {}
+void enetTxIsr() {}
+#endif
 
 void ENET_TX_Buffer_IRQHandler() { enetTxIsr(); }
 

@@ -11,13 +11,31 @@ add_library(
 
 target_link_libraries(startUp PRIVATE bspMcu common hardFaultHandler)
 
-add_library(
-    main
+# Define platform support macros for ISR files
+if (PLATFORM_SUPPORT_CAN)
+    target_compile_definitions(startUp PRIVATE PLATFORM_SUPPORT_CAN)
+endif ()
+
+if (PLATFORM_SUPPORT_ETHERNET)
+    target_compile_definitions(startUp PRIVATE PLATFORM_SUPPORT_ETHERNET)
+endif ()
+
+set(mainSources
     src/systems/BspSystem.cpp
     src/lifecycle/StaticBsp.cpp
-    src/systems/S32K148EvbEthernetSystem.cpp
-    src/systems/CanSystem.cpp
     src/main.cpp)
+
+if (PLATFORM_SUPPORT_CAN)
+    list(APPEND mainSources src/systems/CanSystem.cpp)
+endif ()
+
+if (PLATFORM_SUPPORT_ETHERNET)
+    list(APPEND mainSources src/systems/S32K148EvbEthernetSystem.cpp)
+endif ()
+
+add_library(
+    main
+    ${mainSources})
 
 target_include_directories(main PUBLIC include)
 

@@ -1,5 +1,5 @@
 #include "hcsr04.h"
-#include <cstdint>
+// Removed <cstdint> to avoid pulling in C++ standard library
 #include "bsp/timer/SystemTimer.h"
 
 // Platform-specific includes

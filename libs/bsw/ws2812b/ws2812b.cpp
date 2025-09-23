@@ -1,6 +1,5 @@
 #include "ws2812b.h"
-#include <cstring>
-#include <cstdint>
+// Removed <cstdint> to avoid pulling in C++ standard library
 #include "bsp/timer/SystemTimer.h"
 
 // Platform-specific includes
@@ -86,7 +85,9 @@ void ws2812b_set_led(uint32_t index, uint8_t r, uint8_t g, uint8_t b) {
 }
 
 void ws2812b_clear() {
-    std::memset(ws2812b_buffer, 0, sizeof(ws2812b_buffer));
+    for (uint32_t i = 0; i < sizeof(ws2812b_buffer); ++i) {
+        ws2812b_buffer[i] = 0;
+    }
     ws2812b_show();
 }
 

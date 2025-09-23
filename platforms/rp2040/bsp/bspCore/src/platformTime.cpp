@@ -20,16 +20,14 @@ unsigned long getSystemTimeUs32Bit() {
 }
 
 /**
- * Get system ticks (32-bit)
+ * Get system ticks (32-bit) 
  * For RP2040, we'll use the same timer but convert to tick units
  * Assuming 1ms tick period (1000 Hz tick rate)
  */
 unsigned long getSystemTicks32Bit() {
-    // Use RP2040 timer for high resolution clock
-    return rp2040::getTimerRegisters()->TIMELR;
-}
-
-/**
+    // Convert microseconds to milliseconds (1 tick = 1ms)
+    return rp2040::getTimerRegisters()->TIMELR / 1000;
+}/**
  * Convert system ticks to microseconds
  * @param ticks Number of system ticks
  * @return Time in microseconds
@@ -44,8 +42,8 @@ unsigned long systemTicksToTimeUs(unsigned long ticks) {
  * Used by ETL chrono library
  */
 unsigned long etl_get_high_resolution_clock() {
-    // Return high resolution time in microseconds
-    return getSystemTimeUs32Bit();
+    // Use RP2040 timer for high resolution clock
+    return rp2040::getTimerRegisters()->TIMELR;
 }
 
 } // extern "C"

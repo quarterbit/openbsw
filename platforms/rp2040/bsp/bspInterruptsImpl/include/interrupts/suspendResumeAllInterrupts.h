@@ -9,6 +9,25 @@ typedef uint32_t OldIntEnabledStatusValueType;
 #define getMachineStateRegisterValueAndSuspendAllInterrupts \
     getOldIntEnabledStatusValueAndSuspendAllInterrupts
 
-OldIntEnabledStatusValueType getOldIntEnabledStatusValueAndSuspendAllInterrupts(void);
+// clang-format off
+static inline __attribute__((always_inline))
+uint32_t getOldIntEnabledStatusValueAndSuspendAllInterrupts(void)
+{
+    uint32_t _PRIMASK;
+    __asm volatile ("mrs %0, primask\n"
+                    "cpsid i\n"
+                    : "=r" (_PRIMASK)
+                    :
+                    : "memory");
+    return _PRIMASK;
+}
 
-void resumeAllInterrupts(OldIntEnabledStatusValueType const oldIntEnabledStatusValue);
+static inline __attribute__((always_inline))
+void resumeAllInterrupts(uint32_t const oldIntEnabledStatusValue)
+{
+    __asm volatile ("msr primask, %[Input]\n"
+                    :
+                    : [Input] "r" (oldIntEnabledStatusValue)
+                    : "memory");
+}
+// clang-format on

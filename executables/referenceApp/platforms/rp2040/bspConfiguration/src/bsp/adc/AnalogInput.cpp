@@ -17,13 +17,13 @@ void AnalogInput::init()
         return;
     }
 
-    AdcRegisters* adc = getAdcRegisters();
+    volatile rp2040::AdcRegisters* adc = rp2040::getAdcRegisters();
     
     // Enable ADC
-    adc->cs = rp2040::adc_bits::CS_EN;
+    adc->CS = rp2040::adc_bits::CS_EN;
     
     // Wait for ADC to be ready
-    while (!(adc->cs & rp2040::adc_bits::CS_READY)) {
+    while (!(adc->CS & rp2040::adc_bits::CS_READY)) {
         // Wait
     }
     
@@ -40,18 +40,18 @@ bsp::BspReturnCode AnalogInput::get(uint16_t channel, uint16_t& value)
         return bsp::BSP_ERROR;
     }
     
-    AdcRegisters* adc = getAdcRegisters();
+    volatile rp2040::AdcRegisters* adc = rp2040::getAdcRegisters();
     
     // Select channel and start conversion
-    adc->cs = rp2040::adc_bits::CS_EN | rp2040::adc_bits::CS_START_ONCE | (channel & rp2040::adc_bits::CS_AINSEL_MASK);
+    adc->CS = rp2040::adc_bits::CS_EN | rp2040::adc_bits::CS_START_ONCE | (channel & rp2040::adc_bits::CS_AINSEL_MASK);
     
     // Wait for conversion to complete
-    while (!(adc->cs & rp2040::adc_bits::CS_READY)) {
+    while (!(adc->CS & rp2040::adc_bits::CS_READY)) {
         // Wait
     }
     
     // Read result (12-bit value in lower bits)
-    value = adc->result & 0xFFF;
+    value = adc->RESULT & 0xFFF;
     
     return bsp::BSP_OK;
 }

@@ -82,9 +82,15 @@ public:
     // RP2040 Pin Definitions
     enum
     {
-        ONBOARD_LED      = 25,  // GP25 - Built-in LED on Pico boards
-        ONBOARD_BUTTON   = 16,  // GP16 - Example button pin (user configurable)
-        PORT_UNAVAILABLE = 255  // Invalid pin marker
+        // Demo application pins
+        WS2812B_DATA_PIN     = 2,   // GP2 - WS2812B LED strip data
+        HCSR04_TRIGGER_PIN   = 3,   // GP3 - HC-SR04 ultrasonic trigger  
+        HCSR04_ECHO_PIN      = 4,   // GP4 - HC-SR04 ultrasonic echo
+        
+        // Standard board pins
+        ONBOARD_LED          = 25,  // GP25 - Built-in LED on Pico boards
+        ONBOARD_BUTTON       = 16,  // GP16 - Example button pin (user configurable)
+        PORT_UNAVAILABLE     = 255  // Invalid pin marker
     };
 
     /**

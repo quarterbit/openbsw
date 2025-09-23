@@ -3,9 +3,8 @@ add_library(bspCore
     src/platformInterrupts.cpp
     src/platformConsole.cpp
     src/platformFreeRTOS.cpp
-    src/platformSyscalls.cpp
 )
 
 target_include_directories(bspCore PUBLIC include)
 
-target_link_libraries(bspCore PUBLIC bsp)
+target_link_libraries(bspCore PUBLIC bsp freeRtos)

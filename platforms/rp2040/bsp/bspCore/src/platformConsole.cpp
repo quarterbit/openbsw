@@ -13,15 +13,15 @@ extern "C" {
  * @param data Byte to transmit
  */
 void putByteToStdout(int data) {
-    UartRegisters* uart = getUart0Registers();
+    volatile rp2040::UartRegisters* uart = rp2040::getUart0Registers();
     
     // Wait for TX FIFO to have space
-    while (uart->fr & rp2040::uart_bits::FR_TXFF) {
+    while (uart->FR & rp2040::uart_bits::FR_TXFF) {
         // TX FIFO is full, wait
     }
     
     // Write data to transmit FIFO
-    uart->dr = static_cast<uint8_t>(data);
+    uart->DR = static_cast<uint8_t>(data);
 }
 
 /**
@@ -29,16 +29,16 @@ void putByteToStdout(int data) {
  * @return Received byte or -1 if no data available
  */
 int getByteFromStdin() {
-    UartRegisters* uart = getUart0Registers();
+    volatile rp2040::UartRegisters* uart = rp2040::getUart0Registers();
     
     // Check if RX FIFO has data
-    if (uart->fr & rp2040::uart_bits::FR_RXFE) {
+    if (uart->FR & rp2040::uart_bits::FR_RXFE) {
         // RX FIFO is empty
         return -1;
     }
     
     // Read data from receive FIFO
-    return uart->dr & 0xFF;
+    return uart->DR & 0xFF;
 }
 
 } // extern "C"

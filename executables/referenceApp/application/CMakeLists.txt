@@ -70,6 +70,7 @@ target_link_libraries(
             runtime
             safeLifecycle
             socBsp
+            bspSyscalls
             ws2812b)
 
 # Only link ethConfiguration if ethernet is supported

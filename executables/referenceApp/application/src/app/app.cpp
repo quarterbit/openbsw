@@ -7,6 +7,7 @@
 #include "logger/logger.h"
 #include "reset/softwareSystemReset.h"
 #include "systems/DemoSystem.h"
+#include "systems/LedProximitySystem.h"
 #include "systems/RuntimeSystem.h"
 #include "systems/SafetySystem.h"
 #include "systems/SysAdminSystem.h"
@@ -98,6 +99,7 @@ LifecycleManager lifecycleManager{
 ::etl::typed_storage<::systems::RuntimeSystem> runtimeSystem;
 ::etl::typed_storage<::systems::SysAdminSystem> sysAdminSystem;
 ::etl::typed_storage<::systems::DemoSystem> demoSystem;
+::etl::typed_storage<::systems::LedProximitySystem> ledProximitySystem;
 ::etl::typed_storage<::systems::SafetySystem> safetySystem;
 #ifdef PLATFORM_SUPPORT_ETHERNET
 ::etl::typed_storage<::systems::EthernetSystem> ethernetSystem;
@@ -236,6 +238,8 @@ void startApp()
     /* runlevel 7 */
     lifecycleManager.addComponent(
         "sysadmin", sysAdminSystem.create(TASK_SYSADMIN, lifecycleManager), 7U);
+    lifecycleManager.addComponent(
+        "ledproximity", ledProximitySystem.create(TASK_DEMO), 7U);
 
     /* runlevel 8 */
     ::platform::platformLifecycleAdd(lifecycleManager, 8U);

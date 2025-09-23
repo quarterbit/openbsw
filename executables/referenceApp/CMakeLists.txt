@@ -30,6 +30,13 @@ string(TOLOWER "${BUILD_TARGET_PLATFORM}" OPENBSW_TARGET)
 set(OPENBSW_TARGET_DIR ${OPENBSW_APP_DIR}/platforms/${OPENBSW_TARGET})
 include(${OPENBSW_TARGET_DIR}/Options.cmake)
 
+# Define platform macros for conditional compilation based on target platform
+if(BUILD_TARGET_PLATFORM STREQUAL "RP2040")
+    add_definitions(-DPLATFORM_RP2040)
+elseif(BUILD_TARGET_PLATFORM STREQUAL "S32K148EVB")
+    add_definitions(-DPLATFORM_S32K148EVB)
+endif()
+
 # Add platform configuration headers to global include path
 include_directories(${OPENBSW_TARGET_DIR}/bspConfiguration/include)
 

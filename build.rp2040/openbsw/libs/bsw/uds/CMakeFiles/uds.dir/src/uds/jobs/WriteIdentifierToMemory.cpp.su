@@ -1,0 +1,3 @@
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/WriteIdentifierToMemory.cpp:23:1:virtual uds::DiagReturnCode::Type uds::WriteIdentifierToMemory::verify(const uint8_t*, uint16_t)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/WriteIdentifierToMemory.cpp:38:22:virtual uds::DiagReturnCode::Type uds::WriteIdentifierToMemory::process(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/WriteIdentifierToMemory.cpp:11:1:uds::WriteIdentifierToMemory::WriteIdentifierToMemory(uint16_t, const etl::span<unsigned char>&, uds::AbstractDiagJob::DiagSessionMask)	0	static

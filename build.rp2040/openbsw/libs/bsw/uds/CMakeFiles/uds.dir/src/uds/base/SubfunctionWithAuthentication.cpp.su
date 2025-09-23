@@ -1,0 +1,3 @@
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/SubfunctionWithAuthentication.cpp:24:27:virtual const uds::IDiagAuthenticator& uds::SubfunctionWithAuthentication::getDiagAuthenticator() const	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/SubfunctionWithAuthentication.cpp:7:1:uds::SubfunctionWithAuthentication::SubfunctionWithAuthentication(const uds::IDiagAuthenticator&, const uint8_t*, uds::DiagSession::DiagSessionMask)	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/SubfunctionWithAuthentication.cpp:14:1:uds::SubfunctionWithAuthentication::SubfunctionWithAuthentication(const uds::IDiagAuthenticator&, const uint8_t*, uint8_t, uint8_t, uds::DiagSession::DiagSessionMask)	32	static

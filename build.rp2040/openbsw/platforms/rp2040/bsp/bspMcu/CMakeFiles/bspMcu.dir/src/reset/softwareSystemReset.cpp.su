@@ -1,0 +1,2 @@
+/workspaces/openbsw/platforms/rp2040/bsp/bspMcu/src/reset/softwareSystemReset.cpp:16:19:void softwareSystemReset()	0	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspMcu/src/reset/softwareSystemReset.cpp:25:6:void softwareDestructiveReset()	0	static

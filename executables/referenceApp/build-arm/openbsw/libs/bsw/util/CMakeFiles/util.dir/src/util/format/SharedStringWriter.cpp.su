@@ -1,0 +1,2 @@
+/workspaces/openbsw/libs/bsw/util/src/util/format/SharedStringWriter.cpp:9:1:util::format::SharedStringWriter::SharedStringWriter(util::stream::ISharedOutputStream&)	16	static
+/workspaces/openbsw/libs/bsw/util/src/util/format/SharedStringWriter.cpp:13:1:util::format::SharedStringWriter::~SharedStringWriter()	8	static

@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libstartUp.a CMakeFiles/startUp.dir/src/bsp/bootHeader.S.obj CMakeFiles/startUp.dir/src/bsp/startUp.S.obj CMakeFiles/startUp.dir/src/os/isr/isr_can.cpp.obj CMakeFiles/startUp.dir/src/os/isr/isr_enet.cpp.obj CMakeFiles/startUp.dir/src/os/isr/isr_erm.cpp.obj CMakeFiles/startUp.dir/src/os/isr/isr_ftfc.cpp.obj CMakeFiles/startUp.dir/src/os/isr/isr_sys.cpp.obj CMakeFiles/startUp.dir/src/os/isr/isr_wdg.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libstartUp.a

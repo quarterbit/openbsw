@@ -1,0 +1,4 @@
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_can.cpp:9:6:void call_can_isr_RX()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_can.cpp:10:6:void call_can_isr_TX()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_can.cpp:13:6:void CAN0_ORed_0_15_MB_IRQHandler()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_can.cpp:15:6:void CAN0_ORed_16_31_MB_IRQHandler()	0	static

@@ -1,0 +1,10 @@
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/LoopbackTestServer.cpp:19:17:virtual tcp::AbstractSocket* tcp::LoopbackTestServer::getSocket(const ip::IPAddress&, uint16_t)	0	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/LoopbackTestServer.cpp:30:6:virtual void tcp::LoopbackTestServer::connectionAccepted(tcp::AbstractSocket&)	0	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/LoopbackTestServer.cpp:115:6:virtual void tcp::LoopbackTestServer::connectionClosed(tcp::IDataListener::ErrorCode)	0	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/include/tcp/util/LoopbackTestServer.h:27:10:virtual void tcp::LoopbackTestServer::_ZThn4_N3tcp18LoopbackTestServer16connectionClosedENS_13IDataListener9ErrorCodeE(tcp::IDataListener::ErrorCode)	0	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:186:13:)	20	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:201:13:)	20	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/LoopbackTestServer.cpp:17:1:tcp::LoopbackTestServer::LoopbackTestServer(tcp::AbstractSocket&)	4	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/LoopbackTestServer.cpp:35:6:void tcp::LoopbackTestServer::sendByte(uint8_t)	24	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/LoopbackTestServer.cpp:67:6:void tcp::LoopbackTestServer::sendData(etl::span<unsigned char>)	16	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/LoopbackTestServer.cpp:99:6:virtual void tcp::LoopbackTestServer::dataReceived(uint16_t)	24	static

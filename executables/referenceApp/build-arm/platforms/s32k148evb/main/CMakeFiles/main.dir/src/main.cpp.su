@@ -1,0 +1,7 @@
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/main.cpp:34:6:void ExceptionHandler()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/main.cpp:42:6:void boardInit()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/main.cpp:51:6:void setupApplicationsIsr()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/main.cpp:79:12:StaticBsp& platform::getStaticBsp()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/main.cpp:95:6:void platform::platformLifecycleAdd(lifecycle::LifecycleManager&, uint8_t)	16	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/main.cpp:128:5:int main()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/main.cpp:146:1:cpp)	8	static

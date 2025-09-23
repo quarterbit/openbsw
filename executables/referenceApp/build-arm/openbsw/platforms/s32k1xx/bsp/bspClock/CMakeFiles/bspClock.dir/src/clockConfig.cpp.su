@@ -1,0 +1,7 @@
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspClock/src/clockConfig.cpp:343:6:void configurPll()	8	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspClock/src/clockConfig.cpp:403:6:void fircOff()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspClock/src/clockConfig.cpp:415:6:void extOscOff()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspClock/src/clockConfig.cpp:427:6:void pllOff()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspClock/src/clockConfig.cpp:439:6:void systemClock2Sirc()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspClock/src/clockConfig.cpp:456:6:void systemClock2Firc()	4	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspClock/src/clockConfig.cpp:473:6:void systemClock2Pll()	4	static

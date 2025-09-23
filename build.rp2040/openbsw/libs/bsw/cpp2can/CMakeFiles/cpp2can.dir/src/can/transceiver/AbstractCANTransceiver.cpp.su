@@ -1,0 +1,14 @@
+/workspaces/openbsw/libs/bsw/cpp2can/include/can/transceiver/AbstractCANTransceiver.h:122:13:virtual uint8_t can::AbstractCANTransceiver::getBusId() const	0	static
+/workspaces/openbsw/libs/bsw/cpp2can/include/can/transceiver/AbstractCANTransceiver.h:128:55:virtual can::ICANTransceiverStateListener::CANTransceiverState can::AbstractCANTransceiver::getCANTransceiverState() const	0	static
+/workspaces/openbsw/libs/bsw/cpp2can/include/can/transceiver/AbstractCANTransceiver.h:138:10:virtual void can::AbstractCANTransceiver::setStateListener(can::ICANTransceiverStateListener&)	0	static
+/workspaces/openbsw/libs/bsw/cpp2can/include/can/transceiver/AbstractCANTransceiver.h:143:10:virtual void can::AbstractCANTransceiver::removeStateListener()	0	static
+/workspaces/openbsw/libs/bsw/cpp2can/include/can/transceiver/AbstractCANTransceiver.h:191:31:virtual can::ICanTransceiver::State can::AbstractCANTransceiver::getState() const	0	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:28:6:virtual void can::AbstractCANTransceiver::addCANFrameListener(can::ICANFrameListener&)	16	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:38:6:virtual void can::AbstractCANTransceiver::addVIPCANFrameListener(can::ICANFrameListener&)	16	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:54:6:virtual void can::AbstractCANTransceiver::addCANFrameSentListener(can::IFilteredCANFrameSentListener&)	16	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:60:6:virtual void can::AbstractCANTransceiver::removeCANFrameSentListener(can::IFilteredCANFrameSentListener&)	16	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:48:6:virtual void can::AbstractCANTransceiver::removeCANFrameListener(can::ICANFrameListener&)	16	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:16:1:can::AbstractCANTransceiver::AbstractCANTransceiver(uint8_t)	16	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:66:6:void can::AbstractCANTransceiver::notifyListeners(const can::CANFrame&)	24	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:82:6:void can::AbstractCANTransceiver::notifySentListeners(const can::CANFrame&)	16	static
+/workspaces/openbsw/libs/bsw/cpp2can/src/can/transceiver/AbstractCANTransceiver.cpp:96:1:cpp)	0	static

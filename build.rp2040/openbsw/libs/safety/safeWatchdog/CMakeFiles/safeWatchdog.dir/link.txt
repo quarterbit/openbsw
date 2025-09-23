@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libsafeWatchdog.a CMakeFiles/safeWatchdog.dir/src/safeWatchdog/SafeWatchdog.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libsafeWatchdog.a

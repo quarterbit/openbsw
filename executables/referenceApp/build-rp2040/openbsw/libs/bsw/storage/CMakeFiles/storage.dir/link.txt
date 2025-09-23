@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libstorage.a CMakeFiles/storage.dir/src/storage/MappingStorage.cpp.obj CMakeFiles/storage.dir/src/storage/QueuingStorage.cpp.obj CMakeFiles/storage.dir/src/storage/EepStorage.cpp.obj CMakeFiles/storage.dir/src/storage/StorageTester.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libstorage.a

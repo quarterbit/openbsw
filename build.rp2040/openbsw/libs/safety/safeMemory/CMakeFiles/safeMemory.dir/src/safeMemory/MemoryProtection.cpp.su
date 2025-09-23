@@ -1,0 +1,6 @@
+/workspaces/openbsw/libs/safety/safeMemory/src/safeMemory/MemoryProtection.cpp:42:6:static void safety::MemoryProtection::init()	0	static
+/workspaces/openbsw/libs/safety/safeMemory/src/safeMemory/MemoryProtection.cpp:61:6:static void safety::MemoryProtection::fusaGateOpen()	0	static
+/workspaces/openbsw/libs/safety/safeMemory/src/safeMemory/MemoryProtection.cpp:67:6:static void safety::MemoryProtection::fusaGateClose()	0	static
+/workspaces/openbsw/libs/safety/safeMemory/src/safeMemory/MemoryProtection.cpp:73:6:static bool safety::MemoryProtection::fusaGateGetLockAndUnlock()	0	static
+/workspaces/openbsw/libs/safety/safeMemory/src/safeMemory/MemoryProtection.cpp:84:6:static void safety::MemoryProtection::fusaGateRestoreLock(bool)	0	static
+/workspaces/openbsw/libs/safety/safeMemory/src/safeMemory/MemoryProtection.cpp:100:6:static bool safety::MemoryProtection::fusaGateIsLocked()	0	static

@@ -1,0 +1,6 @@
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/netif/LwipNetworkInterface.cpp:30:14:err_t lwipnetif::initNetif(netif*)	0	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:186:13:)	20	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/netif/LwipNetworkInterface.cpp:32:6:bool lwipnetif::initNetifIp4(netif&, const ip::Ip4Config&, const ip::NetworkInterfaceConfig&, void*)	72	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/netif/LwipNetworkInterface.cpp:115:6:void lwipnetif::start(netif&, const ip::Ip4Config&)	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/netif/LwipNetworkInterface.cpp:141:6:void lwipnetif::stop(netif&, NetifState&, ip::Ip4Config&)	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/netif/LwipNetworkInterface.cpp:185:6:void lwipnetif::onLinkStatusChanged(bool, netif&)	8	static

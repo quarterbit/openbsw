@@ -1,0 +1,26 @@
+/workspaces/openbsw/libs/bsw/lwipSocket/include/lwipSocket/udp/LwipDatagramSocket.h:34:13:udp::LwipDatagramSocket::~LwipDatagramSocket()	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:62:6:virtual bool udp::LwipDatagramSocket::isBound() const	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:64:6:virtual bool udp::LwipDatagramSocket::isConnected() const	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:492:10:virtual uint16_t udp::LwipDatagramSocket::getLocalPort() const	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:512:10:virtual uint16_t udp::LwipDatagramSocket::getPort() const	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:501:22:virtual const ip::IPAddress* udp::LwipDatagramSocket::getLocalIPAddress() const	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:521:22:virtual const ip::IPAddress* udp::LwipDatagramSocket::getIPAddress() const	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:243:8:virtual size_t udp::LwipDatagramSocket::read(uint8_t*, size_t)	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/include/lwipSocket/udp/LwipDatagramSocket.h:34:13:virtual udp::LwipDatagramSocket::~LwipDatagramSocket()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:532:6:virtual void udp::LwipDatagramSocket::noChksum(bool)	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:66:6:virtual bool udp::LwipDatagramSocket::isClosed() const	8	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:186:13:)	20	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:367:6:virtual void udp::LwipDatagramSocket::disconnect()	96	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:475:6:virtual void udp::LwipDatagramSocket::close()	16	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:196:13:)	20	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:201:13:)	20	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:206:6:static void udp::LwipDatagramSocket::udpReceiveListener(void*, udp_pcb*, pbuf*, const ip_addr_t*, uint16_t)	96	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:401:35:virtual udp::AbstractDatagramSocket::ErrorCode udp::LwipDatagramSocket::send(const etl::span<const unsigned char>&)	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:419:31:virtual udp::AbstractDatagramSocket::ErrorCode udp::LwipDatagramSocket::send(const udp::DatagramPacket&)	56	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:69:1:virtual udp::AbstractDatagramSocket::ErrorCode udp::LwipDatagramSocket::bind(const ip::IPAddress*, uint16_t)	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:113:35:virtual udp::AbstractDatagramSocket::ErrorCode udp::LwipDatagramSocket::join(const ip::IPAddress&)	32	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:291:35:virtual udp::AbstractDatagramSocket::ErrorCode udp::LwipDatagramSocket::connect(const ip::IPAddress&, uint16_t, ip::IPAddress*)	96	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:24:15:netif* custom_ip_route_src(const ip4_addr_t*, const ip4_addr_t*)	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:53:1:udp::LwipDatagramSocket::LwipDatagramSocket()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:192:6:bool udp::LwipDatagramSocket::isAlreadyJoined(const ip::IPAddress&) const	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/udp/LwipDatagramSocket.cpp:387:7:static err_t udp::LwipDatagramSocket::udpWrite(udp_pcb*, const void*, size_t)	24	static

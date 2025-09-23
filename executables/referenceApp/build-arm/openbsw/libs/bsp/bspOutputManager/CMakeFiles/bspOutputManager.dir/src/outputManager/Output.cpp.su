@@ -1,0 +1,12 @@
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/include/bsp/io/output/outputConfiguration.h:15:29:const bios::Output::OutputConfig* bios::Output::getConfiguration(uint8_t)	0	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:23:6:void bios::Output::init(uint8_t, bool)	16	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:44:6:void bios::Output::shutdown()	0	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:46:20:static bsp::BspReturnCode bios::Output::invert(OutputId)	16	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:120:20:static bsp::BspReturnCode bios::Output::init(OutputId)	8	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:139:20:static bsp::BspReturnCode bios::Output::release(OutputId)	8	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:158:20:static bsp::BspReturnCode bios::Output::get(OutputId, bool&)	16	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:211:20:static bsp::BspReturnCode bios::Output::set(OutputId, uint8_t, bool)	8	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:263:20:static bsp::BspReturnCode bios::Output::setDynamicClient(uint16_t, uint16_t, IDynamicOutputClient*)	0	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:292:20:static bsp::BspReturnCode bios::Output::clrDynamicClient(uint16_t)	0	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:317:6:static void bios::Output::cleanDynamicClients()	0	static
+/workspaces/openbsw/libs/bsp/bspOutputManager/src/outputManager/Output.cpp:325:13:static const char* bios::Output::getName(uint16_t)	0	static

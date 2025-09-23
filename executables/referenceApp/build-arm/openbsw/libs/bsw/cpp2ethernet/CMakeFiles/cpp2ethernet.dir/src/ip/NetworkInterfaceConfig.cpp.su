@@ -1,0 +1,8 @@
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/NetworkInterfaceConfig.cpp:11:1:ip::NetworkInterfaceConfig::NetworkInterfaceConfig()	0	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/NetworkInterfaceConfig.cpp:13:1:ip::NetworkInterfaceConfig::NetworkInterfaceConfig(uint32_t, uint32_t, uint32_t)	0	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/NetworkInterfaceConfig.cpp:25:1:ip::NetworkInterfaceConfig::NetworkInterfaceConfig(const uint32_t (&)[4])	8	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/NetworkInterfaceConfig.cpp:34:11:ip::IPAddress ip::NetworkInterfaceConfig::ipAddress() const	16	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/NetworkInterfaceConfig.cpp:50:11:ip::IPAddress ip::NetworkInterfaceConfig::networkMask() const	8	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/NetworkInterfaceConfig.cpp:60:11:ip::IPAddress ip::NetworkInterfaceConfig::defaultGateway() const	8	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/NetworkInterfaceConfig.cpp:70:11:ip::IPAddress ip::NetworkInterfaceConfig::broadcastAddress() const	8	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/NetworkInterfaceConfig.cpp:81:6:bool ip::operator==(const NetworkInterfaceConfig&, const NetworkInterfaceConfig&)	4	static

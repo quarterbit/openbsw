@@ -1,0 +1,79 @@
+openbsw/libs/3rdparty/freeRtos/CMakeFiles/freeRtos.dir/src/event_groups.c.obj: \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/src/event_groups.c \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/sys/features.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/machine/stdlib.h \
+ /usr/include/newlib/alloca.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/FreeRTOS.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /workspaces/openbsw/libs/bsw/asyncFreeRtos/freeRtosConfiguration/FreeRTOSConfig.h \
+ /workspaces/openbsw/executables/referenceApp/asyncCoreConfiguration/include/async/Config.h \
+ /workspaces/openbsw/libs/bsw/asyncFreeRtos/freeRtosConfiguration/async/Hook.h \
+ /workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/freeRtosCoreConfiguration/include/os/FreeRtosPlatformConfig.h \
+ /workspaces/openbsw/libs/bsw/bsp/include/bsp/SystemTime.h \
+ /workspaces/openbsw/libs/bsw/bsp/include/bsp/timer/SystemTimer.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/mcu/mcu.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_ADC.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_COMMON.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_AIPS.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_CMP.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_CRC.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_DMA.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_DMAMUX.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_EIM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_ENET.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_ERM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_EWM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_FLEXCAN.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_FLEXIO.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_FTFC.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_FTM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_GPIO.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_LMEM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_LPI2C.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_LPIT.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_LPSPI.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_LPTMR.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_LPUART.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_MCM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_MPU.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_MSCM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_PCC.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_PDB.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_PMC.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_PORT.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_QUADSPI.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_RCM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_RTC.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_SAI.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_SCG.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_SIM.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_SMC.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_TRGMUX.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/nxp/S32K148_WDOG.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/cmsis/core_cm4.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/cmsis/cmsis_version.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/cmsis/cmsis_compiler.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/cmsis/cmsis_gcc.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/arm_acle.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/cmsis/m-profile/cmsis_gcc_m.h \
+ /workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/mcu/typedefs.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/projdefs.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/portable.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/deprecated_definitions.h \
+ /workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/include/portmacro.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/mpu_wrappers.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/task.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/list.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/timers.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/task.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/event_groups.h \
+ /workspaces/openbsw/libs/3rdparty/freeRtos/include/timers.h

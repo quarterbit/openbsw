@@ -1,0 +1,7 @@
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:196:13:)	20	static
+/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafetyManager.cpp:21:1:safety::SafetyManager::SafetyManager()	0	static
+/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafetyManager.cpp:23:6:void safety::SafetyManager::init()	8	static
+/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafetyManager.cpp:35:6:void safety::SafetyManager::run()	0	static
+/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafetyManager.cpp:37:6:void safety::SafetyManager::shutdown()	0	static
+/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafetyManager.cpp:39:6:void safety::SafetyManager::cyclic()	16	static
+/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafetyManager.cpp:68:1:cpp)	0	static

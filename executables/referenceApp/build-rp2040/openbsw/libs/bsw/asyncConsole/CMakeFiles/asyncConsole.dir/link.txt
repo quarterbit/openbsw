@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libasyncConsole.a CMakeFiles/asyncConsole.dir/src/console/AsyncCommandWrapper.cpp.obj CMakeFiles/asyncConsole.dir/src/console/AsyncConsole.cpp.obj CMakeFiles/asyncConsole.dir/src/console/SyncCommandWrapper.cpp.obj CMakeFiles/asyncConsole.dir/src/logger/ConsoleLogger.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libasyncConsole.a

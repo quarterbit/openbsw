@@ -1,0 +1,9 @@
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:47:1:bios::Io::Io()	0	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:53:15:static bsp::BspReturnCode bios::Io::setDefaultConfiguration(uint16_t)	4	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:65:15:static bsp::BspReturnCode bios::Io::setConfiguration(uint16_t, const PinConfiguration&)	0	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:123:15:static bsp::BspReturnCode bios::Io::getConfiguration(uint16_t, PinConfiguration&)	0	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:136:6:static bool bios::Io::getPin(uint16_t)	0	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:147:15:static bsp::BspReturnCode bios::Io::setPin(uint16_t, bool)	0	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:166:10:static uint32_t bios::Io::getPinNumber(uint16_t)	0	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:176:15:static bsp::BspReturnCode bios::Io::resetConfig(uint16_t)	4	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspIo/src/io/Io.cpp:181:6:static bool bios::Io::getPinIrq(uint16_t)	0	static

@@ -10,6 +10,7 @@ target_link_libraries(
     PUBLIC bsp
            bspDynamicClient
            bspIo
+           bspInterrupts
            etl
            platform
            util)

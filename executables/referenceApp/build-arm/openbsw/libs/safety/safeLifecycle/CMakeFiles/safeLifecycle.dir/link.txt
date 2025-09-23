@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libsafeLifecycle.a CMakeFiles/safeLifecycle.dir/src/safeLifecycle/SafetyManager.cpp.obj CMakeFiles/safeLifecycle.dir/src/safeLifecycle/SafeSupervisor.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libsafeLifecycle.a

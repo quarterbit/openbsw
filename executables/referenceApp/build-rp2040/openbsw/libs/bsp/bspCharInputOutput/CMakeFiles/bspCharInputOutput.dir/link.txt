@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libbspCharInputOutput.a CMakeFiles/bspCharInputOutput.dir/src/charInputOutput/bspIo.cpp.obj CMakeFiles/bspCharInputOutput.dir/src/charInputOutput/charIo.cpp.obj CMakeFiles/bspCharInputOutput.dir/src/charInputOutput/charIoSerial.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libbspCharInputOutput.a

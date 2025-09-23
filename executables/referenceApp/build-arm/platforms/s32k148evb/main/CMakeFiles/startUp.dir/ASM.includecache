@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/bsp/bootHeader.S
+
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/bsp/startUp.S
+

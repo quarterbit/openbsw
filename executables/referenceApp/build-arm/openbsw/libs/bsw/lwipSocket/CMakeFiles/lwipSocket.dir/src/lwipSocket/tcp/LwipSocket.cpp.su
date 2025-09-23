@@ -1,0 +1,43 @@
+/workspaces/openbsw/libs/bsw/lwipSocket/include/lwipSocket/tcp/LwipSocket.h:38:13:tcp::LwipSocket::~LwipSocket()	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:359:6:virtual bool tcp::LwipSocket::isClosed() const	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:368:6:virtual bool tcp::LwipSocket::isEstablished() const	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:483:9:virtual uint8_t tcp::LwipSocket::read(uint8_t&)	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:658:10:virtual uint16_t tcp::LwipSocket::getRemotePort() const	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:663:10:virtual uint16_t tcp::LwipSocket::getLocalPort() const	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:714:6:virtual void tcp::LwipSocket::enableKeepAlive(uint32_t, uint32_t, uint32_t)	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:731:6:virtual void tcp::LwipSocket::disableKeepAlive()	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:680:6:virtual void tcp::LwipSocket::disableNagleAlgorithm()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:546:6:virtual void tcp::LwipSocket::discardData()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:640:11:virtual ip::IPAddress tcp::LwipSocket::getRemoteIPAddress() const	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:649:11:virtual ip::IPAddress tcp::LwipSocket::getLocalIPAddress() const	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/include/lwipSocket/tcp/LwipSocket.h:38:13:virtual tcp::LwipSocket::~LwipSocket()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:497:8:virtual size_t tcp::LwipSocket::read(uint8_t*, size_t)	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:668:27:virtual tcp::AbstractSocket::ErrorCode tcp::LwipSocket::bind(const ip::IPAddress&, uint16_t)	48	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:350:8:virtual size_t tcp::LwipSocket::available()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:455:27:virtual tcp::AbstractSocket::ErrorCode tcp::LwipSocket::flush()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:398:27:virtual tcp::AbstractSocket::ErrorCode tcp::LwipSocket::shutdown(int32_t, int32_t)	16	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:186:13:)	20	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:196:13:)	20	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:201:13:)	20	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:206:13:)	20	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:258:7:static err_t tcp::LwipSocket::tcpConnectedListener(void*, tcp_pcb*, err_t)	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:37:1:tcp::LwipSocket::LwipSocket()	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:55:6:void tcp::LwipSocket::setForceCopy(bool)	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:143:7:err_t tcp::LwipSocket::sendPendingData(tcp_pcb*)	32	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:57:27:virtual tcp::AbstractSocket::ErrorCode tcp::LwipSocket::send(const etl::span<const unsigned char>&)	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:128:7:err_t tcp::LwipSocket::sentCallback(tcp_pcb*, uint16_t)	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:555:7:static err_t tcp::LwipSocket::tcpPollListener(void*, tcp_pcb*)	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:114:7:static err_t tcp::LwipSocket::tcpSentListener(void*, tcp_pcb*, uint16_t)	32	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:271:7:err_t tcp::LwipSocket::connectCallback(const tcp_pcb*, err_t)	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:377:6:void tcp::LwipSocket::open(tcp_pcb*)	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:625:6:void tcp::LwipSocket::setNagle(bool)	0	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:687:6:void tcp::LwipSocket::resetSocket()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:417:27:virtual tcp::AbstractSocket::ErrorCode tcp::LwipSocket::close()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:444:6:virtual void tcp::LwipSocket::abort()	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:207:7:err_t tcp::LwipSocket::receiveCallback(const tcp_pcb*, pbuf*, err_t)	24	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:193:7:static err_t tcp::LwipSocket::tcpReceiveListener(void*, tcp_pcb*, pbuf*, err_t)	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:581:6:void tcp::LwipSocket::errorCallback(err_t)	16	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:568:6:static void tcp::LwipSocket::tcpErrorListener(void*, err_t)	8	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:282:1:virtual tcp::AbstractSocket::ErrorCode tcp::LwipSocket::connect(const ip::IPAddress&, uint16_t, tcp::AbstractSocket::ConnectedDelegate)	88	static
+/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/tcp/LwipSocket.cpp:702:7:err_t tcp::LwipSocket::checkResult(err_t) const	0	static

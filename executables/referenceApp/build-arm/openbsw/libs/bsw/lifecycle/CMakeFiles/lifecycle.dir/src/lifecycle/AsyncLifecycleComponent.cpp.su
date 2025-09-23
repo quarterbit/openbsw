@@ -1,0 +1,4 @@
+/workspaces/openbsw/libs/bsw/lifecycle/src/lifecycle/AsyncLifecycleComponent.cpp:13:1:virtual async::ContextType lifecycle::AsyncLifecycleComponent::getTransitionContext(lifecycle::ILifecycleComponent::Transition::Type)	0	static
+/workspaces/openbsw/libs/bsw/lifecycle/src/lifecycle/AsyncLifecycleComponent.cpp:7:1:lifecycle::AsyncLifecycleComponent::AsyncLifecycleComponent()	4	static
+/workspaces/openbsw/libs/bsw/lifecycle/src/lifecycle/AsyncLifecycleComponent.cpp:18:6:void lifecycle::AsyncLifecycleComponent::setTransitionContext(async::ContextType)	0	static
+/workspaces/openbsw/libs/bsw/lifecycle/src/lifecycle/AsyncLifecycleComponent.cpp:23:6:void lifecycle::AsyncLifecycleComponent::setTransitionContext(lifecycle::ILifecycleComponent::Transition::Type, async::ContextType)	0	static

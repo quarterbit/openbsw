@@ -1,0 +1,3 @@
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspCore/src/cache/cache.cpp:8:6:void cacheEnable()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspCore/src/cache/cache.cpp:14:6:void cacheDisable()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspCore/src/cache/cache.cpp:20:6:void cacheInvalidate(uint32_t, uint32_t)	0	static

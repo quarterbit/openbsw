@@ -1,0 +1,9 @@
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:24:1:bios::OutputPwm::OutputPwm()	0	static
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:26:6:static void bios::OutputPwm::init(uint8_t)	8	static
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:28:6:static void bios::OutputPwm::shutdown()	8	static
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:30:20:static bsp::BspReturnCode bios::OutputPwm::setDuty(uint16_t, uint16_t, bool)	8	static
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:68:20:static bsp::BspReturnCode bios::OutputPwm::setPeriod(uint16_t, uint16_t)	4	static
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:104:20:static bsp::BspReturnCode bios::OutputPwm::setDynamicClient(uint16_t, uint16_t, IDynamicPwmClient*)	16	static
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:131:20:static bsp::BspReturnCode bios::OutputPwm::clrDynamicClient(uint16_t)	16	static
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:156:6:static void bios::OutputPwm::cleanDynamicClients()	8	static
+/workspaces/openbsw/libs/bsp/bspOutputPwm/src/outputPwm/OutputPwm.cpp:164:13:static const char* bios::OutputPwm::getName(uint16_t)	0	static

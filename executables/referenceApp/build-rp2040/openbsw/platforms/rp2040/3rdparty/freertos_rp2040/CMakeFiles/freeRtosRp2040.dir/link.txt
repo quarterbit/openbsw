@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libfreeRtosRp2040.a CMakeFiles/freeRtosRp2040.dir/src/port.c.obj
+/usr/bin/arm-none-eabi-ranlib libfreeRtosRp2040.a

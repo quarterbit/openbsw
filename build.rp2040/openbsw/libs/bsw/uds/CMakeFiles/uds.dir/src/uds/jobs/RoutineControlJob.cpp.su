@@ -1,0 +1,9 @@
+/workspaces/openbsw/libs/bsw/uds/include/uds/jobs/RoutineControlJob.h:53:34:virtual uds::DiagReturnCode::Type uds::RoutineControlJob::stop(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	0	static
+/workspaces/openbsw/libs/bsw/uds/include/uds/jobs/RoutineControlJob.h:61:34:virtual uds::DiagReturnCode::Type uds::RoutineControlJob::requestResults(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/RoutineControlJob.cpp:79:22:virtual uds::DiagReturnCode::Type uds::RoutineControlJob::RoutineControlJobNode::process(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	4	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/RoutineControlJob.cpp:25:1:virtual uds::DiagReturnCode::Type uds::RoutineControlJob::verify(const uint8_t*, uint16_t)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/RoutineControlJob.cpp:35:22:virtual uds::DiagReturnCode::Type uds::RoutineControlJob::process(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/RoutineControlJob.cpp:73:22:virtual uds::DiagReturnCode::Type uds::RoutineControlJob::RoutineControlJobNode::verify(const uint8_t*, uint16_t)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/RoutineControlJob.cpp:10:18:uds::AbstractDiagJob& uds::RoutineControlJob::getStartRoutine()	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/RoutineControlJob.cpp:12:18:uds::AbstractDiagJob& uds::RoutineControlJob::getStopRoutine()	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/jobs/RoutineControlJob.cpp:18:18:uds::AbstractDiagJob& uds::RoutineControlJob::getRequestRoutineResults()	8	static

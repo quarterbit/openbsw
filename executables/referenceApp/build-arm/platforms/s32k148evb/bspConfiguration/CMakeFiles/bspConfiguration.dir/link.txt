@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libbspConfiguration.a CMakeFiles/bspConfiguration.dir/src/bsp/adc/AnalogInput.cpp.obj CMakeFiles/bspConfiguration.dir/src/bsp/io/outputPwm/PwmSupport.cpp.obj CMakeFiles/bspConfiguration.dir/src/bsp/stdIo/stdIo.cpp.obj CMakeFiles/bspConfiguration.dir/src/bsp/SystemTimer/SystemTimer.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libbspConfiguration.a

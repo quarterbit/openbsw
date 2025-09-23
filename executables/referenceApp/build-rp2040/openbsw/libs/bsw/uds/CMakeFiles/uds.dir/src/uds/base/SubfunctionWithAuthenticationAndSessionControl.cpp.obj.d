@@ -1,0 +1,34 @@
+openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/SubfunctionWithAuthenticationAndSessionControl.cpp.obj: \
+ /workspaces/openbsw/libs/bsw/uds/src/uds/base/SubfunctionWithAuthenticationAndSessionControl.cpp \
+ /workspaces/openbsw/libs/bsw/uds/include/uds/base/SubfunctionWithAuthenticationAndSessionControl.h \
+ /workspaces/openbsw/libs/bsw/uds/include/uds/base/SubfunctionWithAuthentication.h \
+ /workspaces/openbsw/libs/bsw/uds/include/uds/base/Subfunction.h \
+ /workspaces/openbsw/libs/bsw/uds/include/uds/base/AbstractDiagJob.h \
+ /workspaces/openbsw/libs/bsw/uds/include/uds/DiagReturnCode.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/estdint.h \
+ /usr/include/newlib/c++/13.2.1/cstddef \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/config.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/config/gnu.h \
+ /usr/include/newlib/c++/13.2.1/cstdint \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /workspaces/openbsw/libs/bsw/uds/include/uds/UdsConstants.h \
+ /workspaces/openbsw/executables/referenceApp/udsConfiguration/include/uds/session/DiagSession.h \
+ /workspaces/openbsw/libs/bsw/common/include/util/Mask.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/uncopyable.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/platform.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/limits.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/file_error_numbers.h \
+ /workspaces/openbsw/libs/3rdparty/etl_configuration/etl_profile.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/profiles/determine_compiler_version.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/profiles/determine_compiler.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/profiles/determine_compiler_language_support.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/profiles/determine_development_os.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/private/diagnostic_cxx_20_compat_push.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/private/diagnostic_pop.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/profiles/determine_builtin_support.h \
+ /workspaces/openbsw/libs/3rdparty/etl/include/etl/private/choose_namespace.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/estd/assert.h

@@ -30,6 +30,9 @@ string(TOLOWER "${BUILD_TARGET_PLATFORM}" OPENBSW_TARGET)
 set(OPENBSW_TARGET_DIR ${OPENBSW_APP_DIR}/platforms/${OPENBSW_TARGET})
 include(${OPENBSW_TARGET_DIR}/Options.cmake)
 
+# Add platform configuration headers to global include path
+include_directories(${OPENBSW_TARGET_DIR}/bspConfiguration/include)
+
 set(OPENBSW_PLATFORM_DIR ${OPENBSW_DIR}/platforms/${OPENBSW_PLATFORM})
 message(STATUS "OPENBSW_APP_DIR: ${OPENBSW_APP_DIR}")
 message(STATUS "OPENBSW_TARGET: ${OPENBSW_TARGET}")

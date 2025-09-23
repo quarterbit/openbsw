@@ -1,0 +1,9 @@
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/include/uds/session/DiagSession.h:48:18:virtual void uds::DiagSession::enter()	0	static
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/src/uds/session/DiagSession.cpp:11:28:static uds::ApplicationDefaultSession& uds::DiagSession::APPLICATION_DEFAULT_SESSION()	0	static
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/src/uds/session/DiagSession.cpp:17:29:static uds::ApplicationExtendedSession& uds::DiagSession::APPLICATION_EXTENDED_SESSION()	0	static
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/src/uds/session/DiagSession.cpp:23:21:static uds::ProgrammingSession& uds::DiagSession::PROGRAMMING_SESSION()	0	static
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/src/uds/session/DiagSession.cpp:29:37:static const uds::DiagSession::DiagSessionMask& uds::DiagSession::ALL_SESSIONS()	0	static
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/src/uds/session/DiagSession.cpp:36:37:static const uds::DiagSession::DiagSessionMask& uds::DiagSession::APPLICATION_EXTENDED_SESSION_MASK()	4	static
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/src/uds/session/DiagSession.cpp:42:6:bool uds::operator==(const DiagSession&, const DiagSession&)	0	static
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/src/uds/session/DiagSession.cpp:44:6:bool uds::operator!=(const DiagSession&, const DiagSession&)	0	static
+/workspaces/openbsw/executables/referenceApp/udsConfiguration/src/uds/session/DiagSession.cpp:46:1:uds::DiagSession::DiagSession(SessionType, uint8_t)	4	static

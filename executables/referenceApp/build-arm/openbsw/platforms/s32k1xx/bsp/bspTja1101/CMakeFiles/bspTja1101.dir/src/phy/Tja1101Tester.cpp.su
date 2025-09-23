@@ -1,0 +1,4 @@
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101Tester.cpp:12:1:virtual const util::command::GroupCommand::PlainCommandInfo* enetphy::Tja1101Tester::getInfo() const	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101Tester.cpp:19:1:enetphy::Tja1101Tester::Tja1101Tester(enetphy::Tja1101&)	4	static
+/workspaces/openbsw/libs/bsw/util/include/util/command/CommandContext.h:90:3:T util::command::CommandContext::scanIntToken() [with T = unsigned char]	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101Tester.cpp:22:6:virtual void enetphy::Tja1101Tester::executeCommand(util::command::CommandContext&, uint8_t)	40	static

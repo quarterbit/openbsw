@@ -1,0 +1,5 @@
+/workspaces/openbsw/libs/bsw/util/src/util/command/SimpleCommand.cpp:18:13:virtual const char* util::command::SimpleCommand::getId() const	0	static
+/workspaces/openbsw/libs/bsw/util/src/util/command/SimpleCommand.cpp:34:6:virtual void util::command::SimpleCommand::getHelp(util::command::ICommand::IHelpCallback&) const	4	static
+/workspaces/openbsw/libs/bsw/util/src/util/command/SimpleCommand.cpp:20:25:virtual util::command::ICommand::ExecuteResult util::command::SimpleCommand::execute(const util::string::ConstString&, util::stream::ISharedOutputStream*)	72	static
+/workspaces/openbsw/libs/bsw/util/src/util/command/SimpleCommand.cpp:11:1:util::command::SimpleCommand::SimpleCommand(const char*, const char*, ExecuteFunction)	4	static
+/workspaces/openbsw/libs/bsw/util/src/util/command/SimpleCommand.cpp:16:13:const char* util::command::SimpleCommand::getDescription() const	0	static

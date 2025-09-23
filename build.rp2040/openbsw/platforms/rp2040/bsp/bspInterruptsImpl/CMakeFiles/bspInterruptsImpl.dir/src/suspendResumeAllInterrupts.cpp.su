@@ -1,0 +1,2 @@
+/workspaces/openbsw/platforms/rp2040/bsp/bspInterruptsImpl/src/suspendResumeAllInterrupts.cpp:11:10:uint32_t interrupts::getOldIntEnabledStatusValueAndSuspendAllInterrupts()	0	static
+/workspaces/openbsw/platforms/rp2040/bsp/bspInterruptsImpl/src/suspendResumeAllInterrupts.cpp:20:6:void interrupts::resumeAllInterrupts(uint32_t)	0	static

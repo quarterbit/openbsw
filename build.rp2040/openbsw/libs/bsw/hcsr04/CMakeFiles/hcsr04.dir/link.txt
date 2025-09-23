@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libhcsr04.a CMakeFiles/hcsr04.dir/hcsr04.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libhcsr04.a

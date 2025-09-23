@@ -1,0 +1,2 @@
+/workspaces/openbsw/libs/bsw/util/src/util/logger/LevelInfo.cpp:23:22:static const util::logger::LevelInfo::PlainInfo (& util::logger::LevelInfo::getDefaultTable())[6]	0	static
+/workspaces/openbsw/libs/bsw/util/src/util/logger/LevelInfo.cpp:25:12:util::logger::LevelInfo& util::logger::LevelInfo::operator=(const util::logger::LevelInfo&)	0	static

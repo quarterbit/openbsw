@@ -10,6 +10,7 @@ if (PLATFORM_SUPPORT_UDS)
 
     if (PLATFORM_SUPPORT_CAN)
         list(APPEND app.referenceAppExtraSources src/systems/DoCanSystem.cpp)
+        list(APPEND app.referenceAppExtraSources src/app/CanDemoListener.cpp)
     endif ()
     if (PLATFORM_SUPPORT_ETHERNET)
         list(APPEND app.referenceAppExtraSources src/systems/EthernetSystem.cpp)
@@ -23,7 +24,6 @@ endif ()
 add_executable(
     app.referenceApp
     src/app/app.cpp
-    src/app/CanDemoListener.cpp
     src/logger/logger.cpp
     src/console/console.cpp
     src/systems/DemoSystem.cpp
@@ -51,11 +51,9 @@ target_include_directories(app.referenceApp PRIVATE include)
 target_link_libraries(
     app.referenceApp
     PRIVATE asyncBinding
-            lwipcore
             asyncConsole
             bspMcu
             configuration
-            ethConfiguration
             etl
             hcsr04
             lifecycle
@@ -74,6 +72,16 @@ target_link_libraries(
             socBsp
             ws2812b)
 
+# Only link ethConfiguration if ethernet is supported
+if (PLATFORM_SUPPORT_ETHERNET)
+    target_link_libraries(app.referenceApp PRIVATE ethConfiguration)
+endif()
+
+# Only link ethConfiguration if ethernet is supported
+if (PLATFORM_SUPPORT_ETHERNET)
+    target_link_libraries(app.referenceApp PRIVATE ethConfiguration)
+endif()
+
 if (PLATFORM_SUPPORT_UDS)
 
     target_link_libraries(app.referenceApp PRIVATE transport
@@ -88,7 +96,7 @@ endif ()
 
 if (PLATFORM_SUPPORT_ETHERNET)
 
-    target_link_libraries(app.referenceApp PRIVATE cpp2ethernet lwipSocket)
+    target_link_libraries(app.referenceApp PRIVATE cpp2ethernet lwipSocket lwipcore)
 endif ()
 
 if (PLATFORM_SUPPORT_STORAGE)

@@ -1,0 +1,2 @@
+/workspaces/openbsw/libs/bsw/transport/src/LogicalAddress.cpp:12:1:etl::optional<transport::LogicalAddress> transport::addressfinder::findDoipAddressInSlice(uint16_t, const etl::span<const transport::LogicalAddress>&)	16	static
+/workspaces/openbsw/libs/bsw/transport/src/LogicalAddress.cpp:26:1:etl::optional<transport::LogicalAddress> transport::addressfinder::find8BitAddressInSlice(uint16_t, const etl::span<const transport::LogicalAddress>&)	16	static

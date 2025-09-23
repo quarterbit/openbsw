@@ -1,0 +1,6 @@
+/workspaces/openbsw/executables/referenceApp/consoleCommands/src/can/console/CanCommand.cpp:20:1:virtual const util::command::GroupCommand::PlainCommandInfo* can::CanCommand::getInfo() const	0	static
+/workspaces/openbsw/executables/referenceApp/consoleCommands/src/can/console/CanCommand.cpp:29:1:can::CanCommand::CanCommand(can::ICanSystem&)	8	static
+/workspaces/openbsw/libs/bsw/util/include/util/command/CommandContext.h:90:3:T util::command::CommandContext::scanIntToken() [with T = long unsigned int]	24	static
+/workspaces/openbsw/libs/bsw/util/include/util/command/CommandContext.h:90:3:T util::command::CommandContext::scanIntToken() [with T = unsigned char]	24	static
+/workspaces/openbsw/executables/referenceApp/consoleCommands/src/can/console/CanCommand.cpp:31:6:void can::CanCommand::send(util::command::CommandContext&, util::format::SharedStringWriter&)	24	static
+/workspaces/openbsw/executables/referenceApp/consoleCommands/src/can/console/CanCommand.cpp:61:6:virtual void can::CanCommand::executeCommand(util::command::CommandContext&, uint8_t)	24	static

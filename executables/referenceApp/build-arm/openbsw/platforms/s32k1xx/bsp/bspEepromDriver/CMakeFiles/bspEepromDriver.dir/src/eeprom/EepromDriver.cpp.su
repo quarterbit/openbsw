@@ -1,0 +1,9 @@
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:66:38:uint8_t eeprom::launchCommandFromRAM()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:21:1:eeprom::EepromDriver::EepromDriver(const eeprom::EepromConfiguration&)	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:24:6:bool eeprom::EepromDriver::isOperationAllowed(uint32_t, const uint8_t*, uint32_t) const	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:182:1:virtual bsp::BspReturnCode eeprom::EepromDriver::write(uint32_t, const uint8_t*, uint32_t)	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:209:1:virtual bsp::BspReturnCode eeprom::EepromDriver::read(uint32_t, uint8_t*, uint32_t)	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:55:6:void eeprom::EepromDriver::clearCommand()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:57:6:bool eeprom::EepromDriver::isInitialized() const	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:100:20:bsp::BspReturnCode eeprom::EepromDriver::launchCommand()	296	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEepromDriver/src/eeprom/EepromDriver.cpp:147:20:virtual bsp::BspReturnCode eeprom::EepromDriver::init()	16	static

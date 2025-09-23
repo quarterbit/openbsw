@@ -1,0 +1,5 @@
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/mem.c:503:1:mem_init	8	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/mem.c:604:1:mem_free	32	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/mem.c:686:1:mem_trim	24	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/mem.c:818:1:mem_malloc	32	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/mem.c:986:1:mem_calloc	16	static

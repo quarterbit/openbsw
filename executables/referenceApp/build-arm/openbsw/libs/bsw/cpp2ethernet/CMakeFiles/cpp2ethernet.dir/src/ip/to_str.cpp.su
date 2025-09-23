@@ -1,0 +1,2 @@
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/to_str.cpp:9:19:etl::span<char> ip::to_str(const IPAddress&, const etl::span<char>&)	88	static
+/workspaces/openbsw/libs/bsw/cpp2ethernet/src/ip/to_str.cpp:60:19:etl::span<char> ip::to_str(const IPEndpoint&, const etl::span<char>&)	88	static

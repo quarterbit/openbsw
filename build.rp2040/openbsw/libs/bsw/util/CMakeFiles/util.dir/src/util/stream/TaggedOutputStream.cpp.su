@@ -1,0 +1,5 @@
+/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputStream.cpp:25:6:virtual void util::stream::TaggedOutputStream::write(const etl::span<const unsigned char>&)	0	static
+/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputStream.cpp:20:6:virtual void util::stream::TaggedOutputStream::write(uint8_t)	24	static
+/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputStream.cpp:18:6:virtual bool util::stream::TaggedOutputStream::isEof() const	0	static
+/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputStream.cpp:11:1:util::stream::TaggedOutputStream::TaggedOutputStream(util::stream::IOutputStream&, const char*, const char*)	16	static
+/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputStream.cpp:16:1:util::stream::TaggedOutputStream::~TaggedOutputStream()	8	static

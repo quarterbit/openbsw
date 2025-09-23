@@ -1,0 +1,2 @@
+/workspaces/openbsw/libs/bsw/util/src/util/format/PrintfArgumentReader.cpp:11:21:virtual const util::format::ParamVariant* util::format::PrintfArgumentReader::readArgument(util::format::ParamDatatype)	0	static
+/workspaces/openbsw/libs/bsw/util/src/util/format/PrintfArgumentReader.cpp:9:1:util::format::PrintfArgumentReader::PrintfArgumentReader(estd::va_list_ref)	0	static

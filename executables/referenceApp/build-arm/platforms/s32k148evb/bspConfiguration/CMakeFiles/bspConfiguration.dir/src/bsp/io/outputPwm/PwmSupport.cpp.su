@@ -1,0 +1,7 @@
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/io/outputPwm/PwmSupport.cpp:66:20:virtual bsp::BspReturnCode bios::PwmSupport::setPeriod(uint16_t, uint16_t)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/io/outputPwm/PwmSupport.cpp:50:20:virtual bsp::BspReturnCode bios::PwmSupport::setDuty(uint16_t, uint16_t, bool)	4	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/io/outputPwm/PwmSupport.cpp:10:1:bios::PwmSupport::PwmSupport(bios::tFtm&)	4	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/io/outputPwm/PwmSupport.cpp:16:6:void bios::PwmSupport::init()	24	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/io/outputPwm/PwmSupport.cpp:27:6:void bios::PwmSupport::start()	4	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/io/outputPwm/PwmSupport.cpp:34:6:void bios::PwmSupport::stop()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/io/outputPwm/PwmSupport.cpp:41:6:void bios::PwmSupport::shutdown()	8	static

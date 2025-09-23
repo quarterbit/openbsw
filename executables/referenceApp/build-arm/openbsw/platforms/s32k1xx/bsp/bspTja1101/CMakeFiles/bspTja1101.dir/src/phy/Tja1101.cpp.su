@@ -1,0 +1,11 @@
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:186:13:)	20	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:34:1:enetphy::Tja1101::Tja1101(enetphy::MdioTja1101&, uint8_t)	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:42:6:void enetphy::Tja1101::cableTest()	16	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:79:6:bool enetphy::Tja1101::up()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:86:6:bool enetphy::Tja1101::isLinkUp()	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:120:6:void enetphy::Tja1101::down()	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:126:6:void enetphy::Tja1101::stop()	8	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:133:6:void enetphy::Tja1101::start()	8	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:145:6:bool enetphy::Tja1101::writeMiimRegister(uint8_t, uint16_t)	8	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/phy/Tja1101.cpp:154:6:bool enetphy::Tja1101::readMiimRegister(uint8_t, uint16_t&)	8	static

@@ -1,0 +1,3 @@
+/workspaces/openbsw/libs/bsw/lifecycle/src/lifecycle/LifecycleComponent.cpp:9:6:virtual void lifecycle::LifecycleComponent::initCallback(lifecycle::ILifecycleComponentCallback&)	0	static
+/workspaces/openbsw/libs/bsw/lifecycle/src/lifecycle/LifecycleComponent.cpp:23:6:virtual void lifecycle::LifecycleComponent::startTransition(lifecycle::ILifecycleComponent::Transition::Type)	0	static
+/workspaces/openbsw/libs/bsw/lifecycle/src/lifecycle/LifecycleComponent.cpp:15:6:void lifecycle::LifecycleComponent::transitionDone()	0	static

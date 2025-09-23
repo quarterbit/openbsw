@@ -1,0 +1,10 @@
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:22:1:runtime::StatisticsWriter::StatisticsWriter(util::format::StringWriter&, uint32_t, uint32_t)	0	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:31:6:void runtime::StatisticsWriter::setMode(Mode::Type)	0	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:33:6:void runtime::StatisticsWriter::writeEol()	8	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:100:6:bool runtime::StatisticsWriter::handleDefaultMode(const char*, uint32_t, uint32_t, bool, uint32_t&)	32	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:39:6:void runtime::StatisticsWriter::writeText(const char*, uint32_t, const char*)	32	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:49:6:void runtime::StatisticsWriter::writeNumber(const char*, uint32_t, uint32_t)	32	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:59:6:void runtime::StatisticsWriter::writeRuntime(const char*, uint32_t, uint32_t)	32	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:69:6:void runtime::StatisticsWriter::writeRuntimeMS(const char*, uint32_t, uint32_t)	32	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:85:6:void runtime::StatisticsWriter::writePercentage(const char*, uint32_t, uint32_t)	32	static
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:80:6:void runtime::StatisticsWriter::writeRuntimePercentage(const char*, uint32_t)	32	static

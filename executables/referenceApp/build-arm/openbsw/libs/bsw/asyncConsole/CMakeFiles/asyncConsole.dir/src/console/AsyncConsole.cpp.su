@@ -1,0 +1,8 @@
+/workspaces/openbsw/libs/bsw/asyncConsole/src/console/AsyncConsole.cpp:18:71:void __tcf_0()	0	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:186:13:)	20	static
+/workspaces/openbsw/libs/bsw/asyncConsole/src/console/AsyncConsole.cpp:28:1:console::AsyncConsole::AsyncConsole()	16	static
+/workspaces/openbsw/libs/bsw/asyncConsole/src/console/AsyncConsole.cpp:35:6:static void console::AsyncConsole::addCommand(util::command::ICommand&)	16	static
+/workspaces/openbsw/libs/bsw/asyncConsole/src/console/AsyncConsole.cpp:45:6:void console::AsyncConsole::onLineReceived(util::stream::ISharedOutputStream&, const etl::istring&, const OnLineProcessed&)	56	static
+/workspaces/openbsw/libs/bsw/asyncConsole/src/console/AsyncConsole.cpp:72:6:void console::AsyncConsole::terminate(util::command::ICommand::ExecuteResult)	24	static
+/workspaces/openbsw/libs/bsw/asyncConsole/src/console/AsyncConsole.cpp:40:6:static void console::AsyncConsole::commandExecuted(util::command::ICommand::ExecuteResult)	24	static
+/workspaces/openbsw/libs/bsw/asyncConsole/src/console/AsyncConsole.cpp:101:1:cpp)	0	static

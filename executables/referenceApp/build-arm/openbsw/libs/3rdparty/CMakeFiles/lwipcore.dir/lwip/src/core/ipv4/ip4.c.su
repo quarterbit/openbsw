@@ -1,0 +1,10 @@
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:408:1:ip4_input_accept	16	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:117:1:ip4_set_default_multicast_netif	0	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:152:1:ip4_route	8	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:129:1:ip4_route_src	8	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:460:1:ip4_input	40	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:874:1:ip4_output_if_opt_src	56	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:836:1:ip4_output_if_opt	20	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:861:1:ip4_output_if_src	32	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:821:1:ip4_output_if	48	static
+/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/ip4.c:1062:1:ip4_output	56	static

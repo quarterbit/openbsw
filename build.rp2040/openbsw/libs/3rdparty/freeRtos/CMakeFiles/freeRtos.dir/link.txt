@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libfreeRtos.a CMakeFiles/freeRtos.dir/src/croutine.c.obj CMakeFiles/freeRtos.dir/src/event_groups.c.obj CMakeFiles/freeRtos.dir/src/list.c.obj CMakeFiles/freeRtos.dir/src/queue.c.obj CMakeFiles/freeRtos.dir/src/stream_buffer.c.obj CMakeFiles/freeRtos.dir/src/tasks.c.obj CMakeFiles/freeRtos.dir/src/timers.c.obj
+/usr/bin/arm-none-eabi-ranlib libfreeRtos.a

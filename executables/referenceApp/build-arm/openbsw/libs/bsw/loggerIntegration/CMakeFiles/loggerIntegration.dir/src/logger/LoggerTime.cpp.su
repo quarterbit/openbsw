@@ -1,0 +1,3 @@
+/workspaces/openbsw/libs/bsw/loggerIntegration/src/logger/LoggerTime.cpp:25:9:virtual int64_t logger::LoggerTime::getTimestamp() const	8	static
+/workspaces/openbsw/libs/bsw/loggerIntegration/src/logger/LoggerTime.cpp:31:6:virtual void logger::LoggerTime::formatTimestamp(util::stream::IOutputStream&, const int64_t&) const	96	static
+/workspaces/openbsw/libs/bsw/loggerIntegration/src/logger/LoggerTime.cpp:23:1:logger::LoggerTime::LoggerTime(const char*)	0	static

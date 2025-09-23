@@ -7,5 +7,6 @@ target_link_libraries(
     bspOutputPwm
     bspDynamicClient
     bspIo
+    bspInterrupts
     etl
     util)

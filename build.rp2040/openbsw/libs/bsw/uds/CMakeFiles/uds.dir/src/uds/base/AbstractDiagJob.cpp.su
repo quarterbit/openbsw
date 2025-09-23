@@ -1,0 +1,23 @@
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:264:27:virtual const uds::IDiagAuthenticator& uds::AbstractDiagJob::getDiagAuthenticator() const	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:343:6:virtual void uds::AbstractDiagJob::responseSent(uds::IncomingDiagConnection&, ResponseSendResult)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:244:22:virtual uds::IDiagSessionManager& uds::AbstractDiagJob::getDiagSessionManager()	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:244:22:virtual uds::IDiagSessionManager& uds::AbstractDiagJob::getDiagSessionManager()	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:252:28:virtual const uds::IDiagSessionManager& uds::AbstractDiagJob::getDiagSessionManager() const	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:354:6:0(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	32	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:20:6:bool uds::operator==(const AbstractDiagJob&, const AbstractDiagJob&)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:34:6:static void uds::AbstractDiagJob::setDefaultDiagSessionManager(uds::IDiagSessionManager&)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:123:10:uint32_t uds::AbstractDiagJob::getRequestId() const	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:250:14:static uds::DiagJobRoot* uds::AbstractDiagJob::getDiagJobRoot()	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:258:27:static const uds::IDiagAuthenticator& uds::AbstractDiagJob::getDefaultDiagAuthenticator()	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:269:6:void uds::AbstractDiagJob::setNextJob(uds::AbstractDiagJob*)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:210:6:void uds::AbstractDiagJob::removeAbstractDiagJob(uds::AbstractDiagJob&)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:137:28:uds::AbstractDiagJob::ErrorCode uds::AbstractDiagJob::addAbstractDiagJob(uds::AbstractDiagJob&)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:280:6:bool uds::AbstractDiagJob::isFamily(const uint8_t*, uint16_t) const	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:292:6:bool uds::AbstractDiagJob::isChild(const uint8_t*, uint16_t) const	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:325:6:static bool uds::AbstractDiagJob::compare(const uint8_t*, const uint8_t*, uint16_t)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:349:20:const uds::DiagSession& uds::AbstractDiagJob::getSession() const	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:39:22:uds::DiagReturnCode::Type uds::AbstractDiagJob::execute(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	40	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:304:22:virtual uds::DiagReturnCode::Type uds::AbstractDiagJob::process(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:354:6:void uds::AbstractDiagJob::acceptJob(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	4	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/AbstractDiagJob.cpp:363:6:void uds::AbstractDiagJob::checkSuppressPositiveResponseBit(uds::IncomingDiagConnection&, const uint8_t*) const	0	static

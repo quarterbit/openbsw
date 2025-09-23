@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc lib/libprintf.a CMakeFiles/printf.dir/src/printf/printf.c.obj
+/usr/bin/arm-none-eabi-ranlib lib/libprintf.a

@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libbspCore.a CMakeFiles/bspCore.dir/src/platformTime.cpp.obj CMakeFiles/bspCore.dir/src/platformInterrupts.cpp.obj CMakeFiles/bspCore.dir/src/platformConsole.cpp.obj CMakeFiles/bspCore.dir/src/platformFreeRTOS.cpp.obj CMakeFiles/bspCore.dir/src/platformSyscalls.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libbspCore.a

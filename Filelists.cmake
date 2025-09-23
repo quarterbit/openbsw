@@ -9,10 +9,10 @@ if (CMAKE_CXX_STANDARD AND NOT ${CMAKE_CXX_STANDARD} EQUAL 14)
 else ()
     set(CMAKE_CXX_STANDARD 14)
 endif ()
-if (CMAKE_C_STANDARD AND NOT ${CMAKE_C_STANDARD} EQUAL 99)
+if (CMAKE_C_STANDARD AND NOT ${CMAKE_C_STANDARD} EQUAL 11)
     message(WARNING "Using custom C standard (C${CMAKE_C_STANDARD})")
 else ()
-    set(CMAKE_C_STANDARD 99)
+    set(CMAKE_C_STANDARD 11)
 endif ()
 
 # Set preprocessor defines based on cmake options by the same name to configure

@@ -1,0 +1,2 @@
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/stdIo/stdIo.cpp:6:17:void putByteToStdout(uint8_t)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/src/bsp/stdIo/stdIo.cpp:11:20:int32_t getByteFromStdin()	8	static

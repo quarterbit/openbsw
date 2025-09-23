@@ -1,0 +1,2 @@
+arm-none-eabi-ar cr libhardFaultHandler.a CMakeFiles/hardFaultHandler.dir/src/hardFaultHandler.s.obj 
+/usr/bin/arm-none-eabi-ranlib libhardFaultHandler.a

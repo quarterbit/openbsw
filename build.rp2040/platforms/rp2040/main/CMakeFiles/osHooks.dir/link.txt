@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libosHooks.a CMakeFiles/osHooks.dir/src/osHooks.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libosHooks.a

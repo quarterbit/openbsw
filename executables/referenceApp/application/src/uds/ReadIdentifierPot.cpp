@@ -41,7 +41,11 @@ DiagReturnCode::Type ReadIdentifierPot::process(
     uint32_t adcValue = 0x00000002;
 
 #ifdef PLATFORM_SUPPORT_IO
+#ifdef OPENBSW_PLATFORM_RP2040
+    (void)AnalogInputScale::get(AnalogInput::AiRP2040_ADC0, adcValue);
+#else
     (void)AnalogInputScale::get(AnalogInput::AiEVAL_POTI_ADC, adcValue);
+#endif
 #endif
 
     ::etl::be_int32_t responseData22Cf02(adcValue);

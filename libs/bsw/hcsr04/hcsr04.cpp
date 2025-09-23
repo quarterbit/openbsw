@@ -7,6 +7,11 @@
 #include "io/Io.h"
 #endif
 
+// GPIO constant for pinCfg field (compatible with S32K1xx interface)
+#ifndef GPIO
+#define GPIO (1 << 8)
+#endif
+
 namespace {
     uint32_t hcsr04_trigger_pin;
     uint32_t hcsr04_echo_pin;
@@ -20,10 +25,10 @@ namespace {
         if (bios::Io::getConfiguration(pin, cfg) == bsp::BSP_OK) {
             if (mode == 1) { // OUTPUT
                 cfg.dir = bios::Io::_OUT;
-                cfg.pinCfg = bios::Io::GPIO;
+                cfg.pinCfg = GPIO;
             } else { // INPUT
                 cfg.dir = bios::Io::_IN;
-                cfg.pinCfg = bios::Io::GPIO;
+                cfg.pinCfg = GPIO;
             }
             bios::Io::setConfiguration(pin, cfg);
         }

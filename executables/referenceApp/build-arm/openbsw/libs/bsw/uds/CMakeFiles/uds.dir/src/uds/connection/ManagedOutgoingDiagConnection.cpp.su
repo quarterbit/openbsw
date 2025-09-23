@@ -1,0 +1,15 @@
+/workspaces/openbsw/libs/bsw/uds/include/uds/connection/OutgoingDiagConnection.h:138:14:virtual void uds::OutgoingDiagConnection::Timeout::execute()	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:286:6:virtual void uds::ManagedOutgoingDiagConnection::timeoutOccurred()	0	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:191:6:virtual void uds::ManagedOutgoingDiagConnection::terminate()	32	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:196:13:)	20	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:201:13:)	20	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:80:6:0()	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:253:6:virtual void uds::ManagedOutgoingDiagConnection::responseProcessed()	16	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:206:13:)	20	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:24:1:uds::ManagedOutgoingDiagConnection::ManagedOutgoingDiagConnection()	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:31:6:void uds::ManagedOutgoingDiagConnection::setSourceId(uint16_t)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:44:6:void uds::ManagedOutgoingDiagConnection::setTargetId(uint16_t)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:57:10:uint16_t uds::ManagedOutgoingDiagConnection::isExpectedResponse(const transport::TransportMessage&)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:80:6:void uds::ManagedOutgoingDiagConnection::processResponseQueue()	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/ManagedOutgoingDiagConnection.cpp:111:6:void uds::ManagedOutgoingDiagConnection::responseReceived(transport::TransportMessage&, transport::ITransportMessageProcessedListener*)	24	static

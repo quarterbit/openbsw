@@ -1,0 +1,5 @@
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/main.cpp:19:12:StaticBsp& platform::getStaticBsp()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/main.cpp:27:6:void platform::platformLifecycleAdd(lifecycle::LifecycleManager&, uint8_t)	16	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/main.cpp:38:6:void boardInit()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/main.cpp:46:5:int main()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/main.cpp:60:1:cpp)	8	static

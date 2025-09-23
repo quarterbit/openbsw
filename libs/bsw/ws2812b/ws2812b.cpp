@@ -17,15 +17,23 @@ namespace {
     // GPIO functions with platform-specific implementations
     void gpio_set_mode(uint32_t pin, uint32_t mode) {
 #ifndef __linux__
-        // S32K1xx implementation using BSP IO API
+        // Platform-specific implementation using BSP IO API
         bios::Io::PinConfiguration cfg;
         if (bios::Io::getConfiguration(pin, cfg) == bsp::BSP_OK) {
             if (mode == 1) { // OUTPUT
                 cfg.dir = bios::Io::_OUT;
+#if defined(PLATFORM_S32K1XX)
                 cfg.pinCfg = bios::Io::GPIO;
+#elif defined(PLATFORM_RP2040)
+                cfg.pinCfg = bios::Io::GPIO_FUNC_SIO;
+#endif
             } else { // INPUT
                 cfg.dir = bios::Io::_IN;
+#if defined(PLATFORM_S32K1XX)
                 cfg.pinCfg = bios::Io::GPIO;
+#elif defined(PLATFORM_RP2040)
+                cfg.pinCfg = bios::Io::GPIO_FUNC_SIO;
+#endif
             }
             bios::Io::setConfiguration(pin, cfg);
         }

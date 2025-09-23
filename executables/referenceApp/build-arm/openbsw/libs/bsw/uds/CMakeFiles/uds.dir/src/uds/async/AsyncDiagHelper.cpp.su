@@ -1,0 +1,6 @@
+/workspaces/openbsw/libs/bsw/uds/src/uds/async/AsyncDiagHelper.cpp:20:1:virtual uds::DiagReturnCode::Type uds::AsyncDiagHelper::verify(const uint8_t*, uint16_t)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/async/AsyncDiagHelper.cpp:25:22:virtual async::ContextType uds::AsyncDiagHelper::getDiagContext() const	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/async/AsyncDiagHelper.cpp:42:6:virtual void uds::AsyncDiagHelper::processAndReleaseRequest(uds::AbstractDiagJob&, uds::IAsyncDiagHelper::StoredRequest&)	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/async/AsyncDiagHelper.cpp:27:33:virtual uds::IAsyncDiagHelper::StoredRequest* uds::AsyncDiagHelper::allocateRequest(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	24	static
+/workspaces/openbsw/libs/bsw/uds/include/uds/async/AsyncDiagHelper.h:35:26:virtual uds::DiagReturnCode::Type uds::AsyncDiagHelper::_ZThn4_N3uds15AsyncDiagHelper6verifyEPKht(const uint8_t*, uint16_t)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/async/AsyncDiagHelper.cpp:11:1:uds::AsyncDiagHelper::AsyncDiagHelper(StoredRequestPool&, async::ContextType)	16	static

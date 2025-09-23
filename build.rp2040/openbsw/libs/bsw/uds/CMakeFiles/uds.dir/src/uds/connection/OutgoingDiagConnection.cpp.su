@@ -1,0 +1,10 @@
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:196:13:)	20	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/OutgoingDiagConnection.cpp:248:6:virtual void uds::OutgoingDiagConnection::transportMessageProcessed(transport::TransportMessage&, transport::ITransportMessageProcessedListener::ProcessingResult)	8	static
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:206:13:)	20	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/OutgoingDiagConnection.cpp:105:6:bool uds::OutgoingDiagConnection::isConflicting(const uds::OutgoingDiagConnection&)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/OutgoingDiagConnection.cpp:151:10:uint16_t uds::OutgoingDiagConnection::verifyResponse(const transport::TransportMessage&)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/OutgoingDiagConnection.cpp:201:18:uds::ErrorCode uds::OutgoingDiagConnection::setTimeout(uint32_t)	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/OutgoingDiagConnection.cpp:23:18:uds::ErrorCode uds::OutgoingDiagConnection::sendDiagRequest(uint16_t, uds::AbstractDiagApplication&, uint32_t, uint16_t, bool, bool, bool)	40	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/OutgoingDiagConnection.cpp:93:18:uds::ErrorCode uds::OutgoingDiagConnection::resend(uint32_t)	24	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/OutgoingDiagConnection.cpp:236:6:void uds::OutgoingDiagConnection::getRequestBuffer(uint8_t*&, uint16_t&)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/connection/OutgoingDiagConnection.cpp:276:6:void uds::OutgoingDiagConnection::execute(const async::RunnableType&)	16	static

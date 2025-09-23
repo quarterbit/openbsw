@@ -1,0 +1,11 @@
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:71:6:void fctprintf_helper(char, void*)	8	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:24:5:int __inchar()	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:26:5:int __inedit()	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:28:5:int __outchar(int, int)	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:30:5:int __outedit(int, int)	16	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:39:5:int vsnprintf(char*, size_t, const char*, va_list)	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:44:5:int vsprintf(char*, const char*, va_list)	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:46:5:)	16	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:55:5:)	12	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:64:6:void putchar_(char)	8	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/bspIo.cpp:78:9:)	16	static

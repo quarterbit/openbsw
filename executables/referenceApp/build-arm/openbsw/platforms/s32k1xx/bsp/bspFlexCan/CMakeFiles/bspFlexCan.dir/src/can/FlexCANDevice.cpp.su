@@ -1,0 +1,16 @@
+/workspaces/openbsw/libs/bsw/bsp/include/bsp/can/canTransceiver/CanPhy.h:60:13:virtual void bios::CanPhyDummy::init(uint32_t)	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:22:1:bios::FlexCANDevice::FlexCANDevice(const Config&, bios::CanPhy&, etl::delegate<void()>, bios::IEcuPowerStateController&)	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:58:1:bios::FlexCANDevice::FlexCANDevice(const Config&, bios::CanPhy&, bios::IEcuPowerStateController&)	16	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:196:6:void bios::FlexCANDevice::stop()	16	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:206:6:void bios::FlexCANDevice::mute()	8	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:265:9:uint8_t bios::FlexCANDevice::enqueueRxFrame(uint32_t, uint8_t, vuint32_t*, bool, const uint8_t*)	32	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:215:9:uint8_t bios::FlexCANDevice::receiveISR(const uint8_t*)	48	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:294:9:uint8_t bios::FlexCANDevice::getTransmitBuffer(const can::CANFrame&, bool)	20	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:356:1:can::ICanTransceiver::ErrorCode bios::FlexCANDevice::transmit(const can::CANFrame&, uint8_t, bool)	32	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:405:15:unsigned char bios::FlexCANDevice::dequeueRxFrameStream(unsigned char*)	12	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:432:1:can::ICanTransceiver::ErrorCode bios::FlexCANDevice::transmitStream(uint8_t*, bool)	0	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:437:6:bool bios::FlexCANDevice::wokenUp()	8	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:462:6:void bios::FlexCANDevice::transmitISR()	4	static
+/workspaces/openbsw/libs/bsw/bsp/include/bsp/timer/isEqualAfterTimeout.h:22:6:bool bsp::isEqualAfterTimeout(const T*, T, T, uint32_t) [with T = volatile long unsigned int]	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:90:28:can::ICanTransceiver::ErrorCode bios::FlexCANDevice::init()	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspFlexCan/src/can/FlexCANDevice.cpp:169:28:can::ICanTransceiver::ErrorCode bios::FlexCANDevice::start()	16	static

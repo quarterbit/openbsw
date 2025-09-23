@@ -1,0 +1,4 @@
+/workspaces/openbsw/libs/bsw/uds/src/util/RoutineControlOptionParser.cpp:10:1:static uint8_t uds::RoutineControlOptionParser::getLogicalBlockNumberLength(uint8_t)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/util/RoutineControlOptionParser.cpp:15:9:static uint8_t uds::RoutineControlOptionParser::getMemoryAddressLength(uint8_t)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/util/RoutineControlOptionParser.cpp:20:9:static uint8_t uds::RoutineControlOptionParser::getMemorySizeLength(uint8_t)	0	static
+/workspaces/openbsw/libs/bsw/uds/src/util/RoutineControlOptionParser.cpp:26:1:static uint32_t uds::RoutineControlOptionParser::parseParameter(const uint8_t*, uint8_t)	16	static

@@ -1,0 +1,4 @@
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_sys.cpp:8:6:void HardFault_Handler()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_sys.cpp:21:6:void HardFault_Handler_Final()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_sys.cpp:28:6:void BusFault_Handler()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_sys.cpp:35:6:void UsageFault_Handler()	8	static

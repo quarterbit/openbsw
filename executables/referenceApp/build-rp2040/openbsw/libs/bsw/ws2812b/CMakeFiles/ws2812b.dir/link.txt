@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libws2812b.a CMakeFiles/ws2812b.dir/ws2812b.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libws2812b.a

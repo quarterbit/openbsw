@@ -1,0 +1,3 @@
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/DiagJobWithAuthentication.cpp:35:27:virtual const uds::IDiagAuthenticator& uds::DiagJobWithAuthentication::getDiagAuthenticator() const	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/DiagJobWithAuthentication.cpp:7:1:uds::DiagJobWithAuthentication::DiagJobWithAuthentication(const uds::IDiagAuthenticator&, const uint8_t*, uint8_t, uint8_t, uds::AbstractDiagJob::DiagSessionMask)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/DiagJobWithAuthentication.cpp:17:1:uds::DiagJobWithAuthentication::DiagJobWithAuthentication(const uds::IDiagAuthenticator&, const uint8_t*, uint8_t, uint8_t, uint8_t, uint8_t, uds::AbstractDiagJob::DiagSessionMask)	8	static

@@ -1,0 +1,11 @@
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:58:1:util::memory::BuddyMemoryManager::BuddyMemoryManager(etl::span<unsigned char>)	8	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:67:6:void util::memory::BuddyMemoryManager::clear()	8	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:134:35:util::memory::BuddyMemoryManager::AcquireResult util::memory::BuddyMemoryManager::findBucketInLevel(size_t)	16	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:187:6:void util::memory::BuddyMemoryManager::freeNode(size_t)	8	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:156:8:size_t util::memory::BuddyMemoryManager::releaseMemoryExtended(size_t)	16	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:151:6:bool util::memory::BuddyMemoryManager::releaseMemory(size_t)	8	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:217:6:void util::memory::BuddyMemoryManager::tryToSplitParentLevel(size_t)	16	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:109:35:util::memory::BuddyMemoryManager::AcquireResult util::memory::BuddyMemoryManager::acquireMemory(size_t)	32	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:241:6:void util::memory::BuddyMemoryManager::splitNodeUntilLevelReached(size_t, size_t, size_t)	12	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:257:6:void util::memory::BuddyMemoryManager::clearNodeTree()	8	static
+/workspaces/openbsw/libs/bsw/util/src/util/memory/BuddyMemoryManager.cpp:264:6:bool util::memory::BuddyMemoryManager::isEmpty() const	0	static

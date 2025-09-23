@@ -1,0 +1,3 @@
+/workspaces/openbsw/libs/bsw/uds/src/uds/services/ecureset/SoftReset.cpp:46:6:virtual void uds::SoftReset::responseSent(uds::IncomingDiagConnection&, uds::AbstractDiagJob::ResponseSendResult)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/services/ecureset/SoftReset.cpp:29:22:virtual uds::DiagReturnCode::Type uds::SoftReset::process(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	16	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/services/ecureset/SoftReset.cpp:17:1:uds::SoftReset::SoftReset(uds::IUdsLifecycleConnector&, uds::DiagDispatcher2&)	48	static

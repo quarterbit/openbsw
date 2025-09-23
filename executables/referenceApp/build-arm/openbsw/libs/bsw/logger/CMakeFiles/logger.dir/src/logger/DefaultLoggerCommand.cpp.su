@@ -1,0 +1,4 @@
+/workspaces/openbsw/libs/bsw/logger/src/logger/DefaultLoggerCommand.cpp:21:6:void logger::DefaultLoggerCommand::levelCommand(util::command::CommandContext&)	64	static
+/workspaces/openbsw/libs/3rdparty/etl/include/etl/private/delegate_cpp11.h:582:36:) = &logger::DefaultLoggerCommand::levelCommand; TReturn = void; TParams = {util::command::CommandContext&}]	0	static
+/workspaces/openbsw/libs/bsw/logger/src/logger/DefaultLoggerCommand.cpp:81:1:cpp)	0	static
+/workspaces/openbsw/libs/bsw/logger/src/logger/DefaultLoggerCommand.cpp:9:1:logger::DefaultLoggerCommand::DefaultLoggerCommand(logger::IComponentConfig&)	32	static

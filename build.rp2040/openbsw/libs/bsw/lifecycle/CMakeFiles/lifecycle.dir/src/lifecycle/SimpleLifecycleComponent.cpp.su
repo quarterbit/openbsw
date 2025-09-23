@@ -1,0 +1,1 @@
+/workspaces/openbsw/libs/bsw/lifecycle/src/lifecycle/SimpleLifecycleComponent.cpp:7:22:virtual async::ContextType lifecycle::SimpleLifecycleComponent::getTransitionContext(lifecycle::ILifecycleComponent::Transition::Type)	0	static

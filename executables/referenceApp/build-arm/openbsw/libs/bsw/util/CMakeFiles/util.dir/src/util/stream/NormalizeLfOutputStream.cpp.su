@@ -1,0 +1,4 @@
+/workspaces/openbsw/libs/bsw/util/src/util/stream/NormalizeLfOutputStream.cpp:32:6:virtual void util::stream::NormalizeLfOutputStream::write(const etl::span<const unsigned char>&)	24	static
+/workspaces/openbsw/libs/bsw/util/src/util/stream/NormalizeLfOutputStream.cpp:15:6:virtual void util::stream::NormalizeLfOutputStream::write(uint8_t)	16	static
+/workspaces/openbsw/libs/bsw/util/src/util/stream/NormalizeLfOutputStream.cpp:13:6:virtual bool util::stream::NormalizeLfOutputStream::isEof() const	0	static
+/workspaces/openbsw/libs/bsw/util/src/util/stream/NormalizeLfOutputStream.cpp:9:1:util::stream::NormalizeLfOutputStream::NormalizeLfOutputStream(util::stream::IOutputStream&, const char*)	4	static

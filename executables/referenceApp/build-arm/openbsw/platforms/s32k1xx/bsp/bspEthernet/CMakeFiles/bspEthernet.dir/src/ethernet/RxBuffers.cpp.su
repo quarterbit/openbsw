@@ -1,0 +1,10 @@
+/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:211:13:)	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:14:9:uint8_t ethernet::freeRxDescriptorIndex(size_t, uint8_t, etl::span<pbuf*>)	16	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:28:6:void ethernet::freeCustomPbufHelper(pbuf*)	24	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:51:6:void ethernet::RxBuffers::init()	40	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:152:7:pbuf* ethernet::RxBuffers::getCurrentBuffer()	4	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:163:6:void ethernet::handleErrornousBuffer(pbuf*&, pbuf*)	16	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:212:6:void ethernet::RxBuffers::handleBuffer(pbuf*&, pbuf*) const	4	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:229:6:void ethernet::RxBuffers::handleLastBuffer(pbuf*&, pbuf*&, pbuf*) const	16	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:173:7:pbuf* ethernet::RxBuffers::readFrame(netif*&)	40	static
+/workspaces/openbsw/platforms/s32k1xx/bsp/bspEthernet/src/ethernet/RxBuffers.cpp:80:6:void ethernet::RxBuffers::interrupt()	40	static

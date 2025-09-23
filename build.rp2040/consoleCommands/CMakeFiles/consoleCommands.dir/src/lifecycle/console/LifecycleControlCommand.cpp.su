@@ -1,0 +1,4 @@
+/workspaces/openbsw/executables/referenceApp/consoleCommands/src/lifecycle/console/LifecycleControlCommand.cpp:26:1:virtual const util::command::GroupCommand::PlainCommandInfo* lifecycle::LifecycleControlCommand::getInfo() const	0	static
+/workspaces/openbsw/executables/referenceApp/consoleCommands/src/lifecycle/console/LifecycleControlCommand.cpp:36:1:lifecycle::LifecycleControlCommand::LifecycleControlCommand(lifecycle::ILifecycleManager&)	4	static
+/workspaces/openbsw/libs/bsw/util/include/util/command/CommandContext.h:90:3:T util::command::CommandContext::scanIntToken() [with T = unsigned char]	24	static
+/workspaces/openbsw/executables/referenceApp/consoleCommands/src/lifecycle/console/LifecycleControlCommand.cpp:40:6:virtual void lifecycle::LifecycleControlCommand::executeCommand(util::command::CommandContext&, uint8_t)	16	static

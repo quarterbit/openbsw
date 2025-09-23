@@ -1,0 +1,9 @@
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:4:6:SYS_EnableIRQ	0	static
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:9:6:SYS_DisableIRQ	0	static
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:14:6:SYS_SetPriority	0	static
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:19:9:SYS_GetPriority	0	static
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:25:6:SYS_ClearPendingIRQ	0	static
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:30:6:SYS_SetPendingIRQ	0	static
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:35:10:SYS_GetPendingIRQ	0	static
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:40:10:SYS_GetActive	0	static
+/workspaces/openbsw/platforms/s32k1xx/3rdparty/freertos_cm4_sysTick/src/interrupt_manager.c:50:6:DefaultISR	0	static

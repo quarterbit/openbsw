@@ -1,0 +1,2 @@
+/workspaces/openbsw/libs/bsw/hcsr04/hcsr04.cpp:68:6:void hcsr04_init(uint32_t, uint32_t)	24	static
+/workspaces/openbsw/libs/bsw/hcsr04/hcsr04.cpp:76:9:int32_t hcsr04_measure_cm()	16	static

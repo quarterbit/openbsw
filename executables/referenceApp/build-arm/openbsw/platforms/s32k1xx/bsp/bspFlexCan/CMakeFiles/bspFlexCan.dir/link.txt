@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libbspFlexCan.a CMakeFiles/bspFlexCan.dir/src/can/FlexCANDevice.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libbspFlexCan.a

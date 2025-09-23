@@ -1,0 +1,2 @@
+/workspaces/openbsw/libs/bsw/uds/src/uds/authentication/DefaultDiagAuthenticator.cpp:7:6:virtual bool uds::DefaultDiagAuthenticator::isAuthenticated(uint16_t) const	0	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/authentication/DefaultDiagAuthenticator.cpp:9:22:virtual uds::DiagReturnCode::Type uds::DefaultDiagAuthenticator::getNotAuthenticatedReturnCode() const	0	static

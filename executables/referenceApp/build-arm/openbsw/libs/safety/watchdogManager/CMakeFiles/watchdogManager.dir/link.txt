@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libwatchdogManager.a CMakeFiles/watchdogManager.dir/src/watchdogManager/watchdogManager.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libwatchdogManager.a

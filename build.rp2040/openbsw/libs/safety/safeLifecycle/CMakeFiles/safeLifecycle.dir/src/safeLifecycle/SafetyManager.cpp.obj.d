@@ -1,0 +1,34 @@
+openbsw/libs/safety/safeLifecycle/CMakeFiles/safeLifecycle.dir/src/safeLifecycle/SafetyManager.cpp.obj: \
+ /workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafetyManager.cpp \
+ /workspaces/openbsw/libs/safety/safeLifecycle/include/safeLifecycle/SafetyManager.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/estdint.h \
+ /usr/include/newlib/c++/13.2.1/cstddef \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/config.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/config/gnu.h \
+ /usr/include/newlib/c++/13.2.1/cstdint \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /workspaces/openbsw/libs/safety/safeLifecycle/include/safeLifecycle/SafeSupervisor.h \
+ /workspaces/openbsw/libs/safety/safeMonitor/include/safeMonitor/Sequence.h \
+ /workspaces/openbsw/libs/safety/safeMonitor/include/safeMonitor/common.h \
+ /workspaces/openbsw/libs/safety/safeMonitor/include/safeMonitor/Trigger.h \
+ /workspaces/openbsw/libs/safety/safeMonitor/include/safeMonitor/Value.h \
+ /workspaces/openbsw/libs/safety/safeLifecycle/include/safeLifecycle/SafetyLogger.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/logger/LoggerBinding.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/logger/LevelInfo.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/format/AttributedString.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/estd/assert.h \
+ /usr/include/newlib/c++/13.2.1/cstdarg \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/logger/IComponentMapping.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/logger/ComponentInfo.h \
+ /workspaces/openbsw/libs/safety/safeLifecycle/include/safeLifecycle/SafetyShell.h \
+ /workspaces/openbsw/libs/safety/safeLifecycle/include/safeLifecycle/interrupts/suspendResumeAllInterrupts.h \
+ /workspaces/openbsw/libs/safety/safeMemory/include/safeMemory/MemoryProtection.h \
+ /workspaces/openbsw/libs/safety/safeMemory/include/safeMemory/mpu.h \
+ /workspaces/openbsw/libs/safety/safeMemory/include/safeMemory/ProtectedRamScopedUnlock.h \
+ /workspaces/openbsw/libs/safety/safeWatchdog/include/safeWatchdog/SafeWatchdog.h

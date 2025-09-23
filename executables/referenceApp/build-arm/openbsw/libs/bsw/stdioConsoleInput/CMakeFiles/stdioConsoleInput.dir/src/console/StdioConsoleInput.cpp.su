@@ -1,0 +1,8 @@
+/workspaces/openbsw/libs/3rdparty/etl/include/etl/private/delegate_cpp11.h:582:36:) = &console::StdioConsoleInput::onLineReceived; TReturn = void; TParams = {util::stream::ISharedOutputStream&, const etl::ibasic_string<char>&, const etl::delegate<void()>&}]	0	static
+/workspaces/openbsw/libs/3rdparty/etl/include/etl/private/delegate_cpp11.h:582:36:) = &console::StdioConsoleInput::onLineProcessed; TReturn = void; TParams = {}]	16	static
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:100:1:console::StdioConsoleInput::StdioConsoleInput(const char*, const char*)	32	static
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:110:6:void console::StdioConsoleInput::init(const OnLineReceived&)	0	static
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:115:6:void console::StdioConsoleInput::shutdown()	0	static
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:121:6:void console::StdioConsoleInput::run()	24	static
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:143:6:void console::StdioConsoleInput::onLineReceived(util::stream::ISharedOutputStream&, const etl::istring&, const OnLineProcessed&)	0	static
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:151:6:void console::StdioConsoleInput::onLineProcessed()	16	static

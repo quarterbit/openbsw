@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libbspMcu.a CMakeFiles/bspMcu.dir/src/reset/softwareSystemReset.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libbspMcu.a

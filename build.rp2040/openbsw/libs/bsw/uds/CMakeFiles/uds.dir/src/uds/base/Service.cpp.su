@@ -1,0 +1,4 @@
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/Service.cpp:40:1:virtual uds::DiagReturnCode::Type uds::Service::verify(const uint8_t*, uint16_t)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/Service.cpp:11:1:uds::Service::Service(uint8_t, uds::DiagSession::DiagSessionMask)	4	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/Service.cpp:23:1:uds::Service::Service(uint8_t, uint8_t, uint8_t, uds::DiagSession::DiagSessionMask)	8	static
+/workspaces/openbsw/libs/bsw/uds/src/uds/base/Service.cpp:33:6:void uds::Service::init(uint8_t)	0	static

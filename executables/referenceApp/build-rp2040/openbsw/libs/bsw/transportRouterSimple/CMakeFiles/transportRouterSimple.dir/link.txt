@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libtransportRouterSimple.a CMakeFiles/transportRouterSimple.dir/src/transport/routing/TransportRouterSimple.cpp.obj CMakeFiles/transportRouterSimple.dir/src/transport/TpRouterLogger.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libtransportRouterSimple.a

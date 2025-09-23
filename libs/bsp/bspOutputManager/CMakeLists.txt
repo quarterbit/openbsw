@@ -3,4 +3,4 @@ add_library(bspOutputManager src/outputManager/Output.cpp
 
 target_include_directories(bspOutputManager PUBLIC include)
 
-target_link_libraries(bspOutputManager PUBLIC bspDynamicClient bspIo etl util)
+target_link_libraries(bspOutputManager PUBLIC bspDynamicClient bspIo bspInterrupts etl util)

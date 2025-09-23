@@ -1,0 +1,9 @@
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:22:6:void SerialLogger_setAsynchronous()	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:27:6:void SerialLogger_setSynchronous()	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:35:9:uint8_t SerialLogger_getInitState()	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:38:6:void SerialLogger_init()	0	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:44:5:int SerialLogger_putc(int)	16	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:65:5:int SerialLogger_getc()	8	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:77:6:void SerialLogger_Idle()	24	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:86:5:int SerialLogger__outchar(int, int)	16	static
+/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIoSerial.cpp:106:5:int SerialLogger__inchar()	8	static

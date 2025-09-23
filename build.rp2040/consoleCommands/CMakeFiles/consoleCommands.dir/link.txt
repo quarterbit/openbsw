@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libconsoleCommands.a CMakeFiles/consoleCommands.dir/src/lifecycle/console/LifecycleControlCommand.cpp.obj CMakeFiles/consoleCommands.dir/src/lifecycle/console/StatisticsCommand.cpp.obj CMakeFiles/consoleCommands.dir/src/can/console/CanCommand.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libconsoleCommands.a

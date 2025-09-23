@@ -1,0 +1,7 @@
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/systems/BspSystem.cpp:14:6:virtual void systems::BspSystem::init()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/systems/BspSystem.cpp:16:6:virtual void systems::BspSystem::run()	16	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/systems/BspSystem.cpp:22:6:virtual void systems::BspSystem::shutdown()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/systems/BspSystem.cpp:28:6:virtual void systems::BspSystem::execute()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/include/systems/BspSystem.h:22:10:virtual void systems::BspSystem::_ZThn12_N7systems9BspSystem7executeEv()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/systems/BspSystem.cpp:8:1:systems::BspSystem::BspSystem(async::ContextType, StaticBsp&)	16	static
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/systems/BspSystem.cpp:34:6:void systems::BspSystem::cyclic()	0	static

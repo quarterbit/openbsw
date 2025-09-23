@@ -1,0 +1,18 @@
+/workspaces/openbsw/libs/bsw/bsp/include/bsp/can/canTransceiver/CanPhy.h:44:21:virtual bios::CanPhy::Mode bios::CanPhy::getMode(uint32_t)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:26:18:virtual void bios::CanPhyCommon::init(uint32_t)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:28:18:virtual bool bios::CanPhyCommon::setMode(bios::CanPhy::Mode, uint32_t)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:48:23:virtual bios::CanPhy::ErrorCode bios::CanPhyCommon::getPhyErrorStatus(uint32_t)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:89:14:virtual void StaticBsp::DummyEcuPowerStateController::startPreSleep()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:91:18:virtual uint32_t StaticBsp::DummyEcuPowerStateController::powerDown(uint8_t, bios::IEcuPowerStateController::tCheckWakeupDelegate)	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:96:18:virtual uint32_t StaticBsp::DummyEcuPowerStateController::powerDown(uint8_t)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:98:14:virtual void StaticBsp::DummyEcuPowerStateController::fullPowerUp()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:100:14:virtual void StaticBsp::DummyEcuPowerStateController::setWakeupSourceMonitoring(uint32_t, bool, bool)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:107:14:virtual void StaticBsp::DummyEcuPowerStateController::clearWakeupSourceMonitoring(uint32_t)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:109:14:virtual bool StaticBsp::DummyEcuPowerStateController::setWakeupDelegate(bios::IEcuPowerStateController::tCheckWakeupDelegate&)	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/lifecycle/StaticBsp.h:111:18:virtual uint32_t StaticBsp::DummyEcuPowerStateController::getWakeupSource()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/lifecycle/StaticBsp.cpp:29:1:StaticBsp::StaticBsp()	16	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/lifecycle/StaticBsp.cpp:72:6:void StaticBsp::shutdown()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/lifecycle/StaticBsp.cpp:74:6:void StaticBsp::cyclic()	8	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/lifecycle/StaticBsp.cpp:85:15:bios::CanPhy& StaticBsp::getCanPhy()	0	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/lifecycle/StaticBsp.cpp:47:6:void StaticBsp::hwInit()	16	static
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/lifecycle/StaticBsp.cpp:45:6:void StaticBsp::init()	0	static

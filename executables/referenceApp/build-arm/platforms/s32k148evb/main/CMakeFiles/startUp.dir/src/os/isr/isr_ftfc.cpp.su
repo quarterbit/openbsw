@@ -1,0 +1,1 @@
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/os/isr/isr_ftfc.cpp:7:6:void FTFC_Fault_IRQHandler()	8	static

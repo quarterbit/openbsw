@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libbspInputManager.a CMakeFiles/bspInputManager.dir/src/inputManager/AlternativeDigitalInput.cpp.obj CMakeFiles/bspInputManager.dir/src/inputManager/DigitalInput.cpp.obj CMakeFiles/bspInputManager.dir/src/inputManager/DigitalInputTester.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libbspInputManager.a

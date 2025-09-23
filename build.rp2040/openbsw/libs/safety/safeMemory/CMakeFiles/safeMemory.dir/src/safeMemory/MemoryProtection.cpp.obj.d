@@ -1,0 +1,18 @@
+openbsw/libs/safety/safeMemory/CMakeFiles/safeMemory.dir/src/safeMemory/MemoryProtection.cpp.obj: \
+ /workspaces/openbsw/libs/safety/safeMemory/src/safeMemory/MemoryProtection.cpp \
+ /workspaces/openbsw/libs/safety/safeMemory/include/safeMemory/MemoryProtection.h \
+ /workspaces/openbsw/libs/safety/safeMemory/include/safeMemory/mpu.h \
+ /workspaces/openbsw/libs/bsw/util/include/util/estd/assert.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/estdint.h \
+ /usr/include/newlib/c++/13.2.1/cstddef \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/config.h \
+ /workspaces/openbsw/libs/bsw/platform/include/platform/config/gnu.h \
+ /usr/include/newlib/c++/13.2.1/cstdint \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /workspaces/openbsw/libs/safety/safeMemory/include/safeMemory/MemoryLocations.h \
+ /workspaces/openbsw/libs/safety/safeLifecycle/include/safeLifecycle/interrupts/IsrLock.h \
+ /workspaces/openbsw/libs/safety/safeLifecycle/include/safeLifecycle/interrupts/suspendResumeAllInterrupts.h

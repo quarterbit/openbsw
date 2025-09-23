@@ -1,0 +1,9 @@
+/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/bspConfiguration/include/bsp/io/input/inputConfiguration.h:16:1:const bios::DigitalInput::InputConfiguration* bios::DigitalInput::getConfiguration(uint8_t)	0	static
+/workspaces/openbsw/libs/bsp/bspInputManager/src/inputManager/DigitalInput.cpp:28:6:void bios::DigitalInput::init(uint8_t, bool)	8	static
+/workspaces/openbsw/libs/bsp/bspInputManager/src/inputManager/DigitalInput.cpp:47:6:void bios::DigitalInput::cyclic()	0	static
+/workspaces/openbsw/libs/bsp/bspInputManager/src/inputManager/DigitalInput.cpp:86:6:static void bios::DigitalInput::shutdown()	0	static
+/workspaces/openbsw/libs/bsp/bspInputManager/src/inputManager/DigitalInput.cpp:88:20:static bsp::BspReturnCode bios::DigitalInput::get(DigitalInputId, bool&)	16	static
+/workspaces/openbsw/libs/bsp/bspInputManager/src/inputManager/DigitalInput.cpp:149:20:static bsp::BspReturnCode bios::DigitalInput::setDynamicClient(uint16_t, uint16_t, IDynamicInputClient*)	0	static
+/workspaces/openbsw/libs/bsp/bspInputManager/src/inputManager/DigitalInput.cpp:177:20:static bsp::BspReturnCode bios::DigitalInput::clrDynamicClient(uint16_t)	0	static
+/workspaces/openbsw/libs/bsp/bspInputManager/src/inputManager/DigitalInput.cpp:204:6:static void bios::DigitalInput::cleanDynamicClients()	0	static
+/workspaces/openbsw/libs/bsp/bspInputManager/src/inputManager/DigitalInput.cpp:212:13:static const char* bios::DigitalInput::getName(uint16_t)	0	static

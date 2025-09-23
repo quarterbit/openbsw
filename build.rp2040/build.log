@@ -1,0 +1,384 @@
+[  0%] Building CXX object openbsw/platforms/rp2040/hardFaultHandler/CMakeFiles/hardFaultHandler.dir/src/hardFaultHandler.cpp.obj
+[  0%] Building C object openbsw/platforms/rp2040/3rdparty/freertos_rp2040/CMakeFiles/freeRtosRp2040.dir/src/port.c.obj
+[  0%] Building CXX object openbsw/platforms/rp2040/bsp/bspMcu/CMakeFiles/bspMcu.dir/src/reset/softwareSystemReset.cpp.obj
+[  0%] Building CXX object openbsw/platforms/rp2040/bsp/bspInterruptsImpl/CMakeFiles/bspInterruptsImpl.dir/src/suspendResumeAllInterrupts.cpp.obj
+[  0%] Linking CXX static library libhardFaultHandler.a
+[  1%] Linking CXX static library libbspMcu.a
+[  3%] Linking C static library libfreeRtosRp2040.a
+[  5%] Linking CXX static library libbspInterruptsImpl.a
+[  5%] Built target hardFaultHandler
+[  5%] Built target bspMcu
+[  5%] Built target freeRtosRp2040
+[  5%] Built target bspInterruptsImpl
+[  5%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/logger/StderrLogger.cpp.obj
+[  7%] Building CXX object configuration/CMakeFiles/commonImpl.dir/common/src/busid/BusId.cpp.obj
+[  9%] Building C object openbsw/libs/3rdparty/printf/CMakeFiles/printf.dir/src/printf/printf.c.obj
+[  9%] Building CXX object openbsw/platforms/rp2040/bsp/bspIo/CMakeFiles/bspIo.dir/src/io/Io.cpp.obj
+[  9%] Linking CXX static library libcommonImpl.a
+[  9%] Linking CXX static library libbspIo.a
+[  9%] Built target commonImpl
+[ 11%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/logger/ComponentInfo.cpp.obj
+[ 11%] Built target bspIo
+[ 11%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/logger/Logger.cpp.obj
+[ 11%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/logger/LevelInfo.cpp.obj
+[ 11%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/memory/BuddyMemoryManager.cpp.obj
+[ 12%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/StdoutStream.cpp.obj
+[ 12%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/TaggedOutputHelper.cpp.obj
+[ 12%] Linking C static library lib/libprintf.a
+[ 12%] Built target printf
+[ 14%] Building CXX object openbsw/libs/bsw/hcsr04/CMakeFiles/hcsr04.dir/hcsr04.cpp.obj
+[ 12%] Building CXX object platforms/rp2040/main/CMakeFiles/osHooks.dir/src/osHooks.cpp.obj
+[ 14%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/StdinStream.cpp.obj
+[ 14%] Linking CXX static library libhcsr04.a
+[ 16%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/ByteBufferOutputStream.cpp.obj
+[ 16%] Linking CXX static library libosHooks.a
+[ 16%] Built target osHooks
+[ 16%] Built target hcsr04
+[ 16%] Building CXX object openbsw/libs/bsw/ws2812b/CMakeFiles/ws2812b.dir/ws2812b.cpp.obj
+[ 16%] Building C object openbsw/libs/3rdparty/freeRtos/CMakeFiles/freeRtos.dir/src/croutine.c.obj
+[ 16%] Building C object openbsw/libs/3rdparty/freeRtos/CMakeFiles/freeRtos.dir/src/event_groups.c.obj
+[ 16%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/NormalizeLfOutputStream.cpp.obj
+[ 18%] Linking CXX static library libws2812b.a
+[ 20%] Building C object openbsw/libs/3rdparty/freeRtos/CMakeFiles/freeRtos.dir/src/list.c.obj
+[ 20%] Built target ws2812b
+[ 20%] Building C object openbsw/libs/3rdparty/freeRtos/CMakeFiles/freeRtos.dir/src/queue.c.obj
+[ 20%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/StringBufferOutputStream.cpp.obj
+[ 20%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/TaggedSharedOutputStream.cpp.obj
+[ 22%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/NullOutputStream.cpp.obj
+[ 22%] Building C object openbsw/libs/3rdparty/freeRtos/CMakeFiles/freeRtos.dir/src/stream_buffer.c.obj
+[ 22%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/SharedOutputStream.cpp.obj
+[ 22%] Building C object openbsw/libs/3rdparty/freeRtos/CMakeFiles/freeRtos.dir/src/tasks.c.obj
+[ 24%] Building C object openbsw/libs/3rdparty/freeRtos/CMakeFiles/freeRtos.dir/src/timers.c.obj
+[ 24%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/stream/TaggedOutputStream.cpp.obj
+[ 24%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/estd/assert.cpp.obj
+[ 25%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/crc/LookupTable_0x1D.cpp.obj
+[ 25%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/crc/LookupTable_0x07.cpp.obj
+[ 25%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/crc/LookupTable_0x1021.cpp.obj
+[ 27%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/crc/LookupTable_0xF4ACFB13.cpp.obj
+[ 27%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/crc/LookupTable_0x4C11DB7.cpp.obj
+[ 27%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/crc/LookupTable_0xCF.cpp.obj
+[ 27%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/crc/LookupTable_0x31.cpp.obj
+[ 29%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/crc/LookupTable_0x2F.cpp.obj
+[ 29%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/format/Vt100AttributedStringFormatter.cpp.obj
+[ 29%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/format/PrintfFormatter.cpp.obj
+[ 29%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/format/StringWriter.cpp.obj
+[ 31%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/format/PrintfFormatScanner.cpp.obj
+[ 31%] Linking CXX static library libfreeRtos.a
+[ 31%] Built target freeRtos
+[ 31%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/format/AttributedString.cpp.obj
+[ 31%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/format/PrintfArgumentReader.cpp.obj
+[ 33%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/format/SharedStringWriter.cpp.obj
+[ 33%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/string/ConstString.cpp.obj
+[ 33%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/command/CommandContext.cpp.obj
+[ 33%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/command/GroupCommand.cpp.obj
+[ 35%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/command/SimpleCommand.cpp.obj
+[ 35%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/command/HelpCommand.cpp.obj
+[ 35%] Building CXX object openbsw/libs/bsw/util/CMakeFiles/util.dir/src/util/command/ParentCommand.cpp.obj
+[ 35%] Linking CXX static library libutil.a
+[ 35%] Built target util
+[ 35%] Building CXX object openbsw/libs/bsw/runtime/CMakeFiles/runtime.dir/src/runtime/StatisticsWriter.cpp.obj
+[ 35%] Building CXX object openbsw/libs/bsp/bspOutputManager/CMakeFiles/bspOutputManager.dir/src/outputManager/Output.cpp.obj
+[ 37%] Building CXX object openbsw/libs/bsw/lifecycle/CMakeFiles/lifecycle.dir/src/lifecycle/AsyncLifecycleComponent.cpp.obj
+[ 37%] Building CXX object openbsw/libs/bsp/bspInputManager/CMakeFiles/bspInputManager.dir/src/inputManager/AlternativeDigitalInput.cpp.obj
+[ 38%] Building CXX object openbsw/libs/bsp/bspInputManager/CMakeFiles/bspInputManager.dir/src/inputManager/DigitalInput.cpp.obj
+[ 38%] Building CXX object openbsw/libs/bsp/bspOutputManager/CMakeFiles/bspOutputManager.dir/src/outputManager/OutputTester.cpp.obj
+[ 38%] Building CXX object openbsw/libs/bsw/lifecycle/CMakeFiles/lifecycle.dir/src/lifecycle/LifecycleComponent.cpp.obj
+[ 38%] Building CXX object openbsw/libs/bsp/bspInputManager/CMakeFiles/bspInputManager.dir/src/inputManager/DigitalInputTester.cpp.obj
+[ 38%] Building CXX object openbsw/libs/bsw/lifecycle/CMakeFiles/lifecycle.dir/src/lifecycle/LifecycleLogger.cpp.obj
+[ 38%] Linking CXX static library libruntime.a
+[ 38%] Building CXX object openbsw/libs/bsw/lifecycle/CMakeFiles/lifecycle.dir/src/lifecycle/LifecycleManager.cpp.obj
+[ 38%] Built target runtime
+[ 38%] Building CXX object openbsw/libs/bsp/bspOutputPwm/CMakeFiles/bspOutputPwm.dir/src/outputPwm/OutputPwm.cpp.obj
+[ 40%] Linking CXX static library libbspOutputManager.a
+[ 40%] Building CXX object openbsw/libs/bsp/bspOutputPwm/CMakeFiles/bspOutputPwm.dir/src/outputPwm/OutputPwmTester.cpp.obj
+[ 40%] Linking CXX static library libbspInputManager.a
+[ 40%] Built target bspOutputManager
+[ 42%] Building CXX object openbsw/libs/bsw/lifecycle/CMakeFiles/lifecycle.dir/src/lifecycle/LifecycleManagerForwarder.cpp.obj
+[ 42%] Built target bspInputManager
+[ 44%] Building CXX object openbsw/libs/bsw/transport/CMakeFiles/transport.dir/src/AbstractTransportLayer.cpp.obj
+[ 44%] Building CXX object openbsw/libs/bsw/lifecycle/CMakeFiles/lifecycle.dir/src/lifecycle/SimpleLifecycleComponent.cpp.obj
+[ 44%] Building CXX object openbsw/libs/bsw/transport/CMakeFiles/transport.dir/src/LogicalAddress.cpp.obj
+[ 44%] Linking CXX static library libbspOutputPwm.a
+[ 44%] Built target bspOutputPwm
+[ 44%] Building CXX object openbsw/libs/bsw/lifecycle/CMakeFiles/lifecycle.dir/src/lifecycle/SingleContextLifecycleComponent.cpp.obj
+[ 44%] Building CXX object openbsw/libs/safety/safeWatchdog/CMakeFiles/safeWatchdog.dir/src/safeWatchdog/SafeWatchdog.cpp.obj
+[ 44%] Building CXX object openbsw/libs/bsw/asyncConsole/CMakeFiles/asyncConsole.dir/src/console/AsyncCommandWrapper.cpp.obj
+[ 44%] Linking CXX static library libsafeWatchdog.a
+[ 44%] Building CXX object openbsw/libs/bsw/transport/CMakeFiles/transport.dir/src/TransportLogger.cpp.obj
+[ 44%] Built target safeWatchdog
+[ 44%] Building CXX object openbsw/libs/bsw/transport/CMakeFiles/transport.dir/src/TransportMessage.cpp.obj
+[ 44%] Building CXX object openbsw/libs/bsw/asyncFreeRtos/CMakeFiles/asyncFreeRtosImpl.dir/src/async/Async.cpp.obj
+[ 44%] Linking CXX static library liblifecycle.a
+[ 44%] Built target lifecycle
+[ 44%] Building CXX object openbsw/libs/bsw/cpp2can/CMakeFiles/cpp2can.dir/src/can/canframes/CANFrame.cpp.obj
+[ 46%] Building CXX object openbsw/libs/bsw/cpp2can/CMakeFiles/cpp2can.dir/src/can/CanLogger.cpp.obj
+[ 46%] Building CXX object openbsw/libs/bsw/cpp2can/CMakeFiles/cpp2can.dir/src/can/filter/AbstractStaticBitFieldFilter.cpp.obj
+[ 46%] Building CXX object openbsw/libs/bsw/cpp2can/CMakeFiles/cpp2can.dir/src/can/filter/BitFieldFilter.cpp.obj
+[ 48%] Building CXX object openbsw/libs/bsw/asyncConsole/CMakeFiles/asyncConsole.dir/src/console/AsyncConsole.cpp.obj
+[ 50%] Linking CXX static library libtransport.a
+[ 50%] Building CXX object openbsw/libs/bsw/cpp2can/CMakeFiles/cpp2can.dir/src/can/filter/IntervalFilter.cpp.obj
+[ 50%] Built target transport
+[ 51%] Building CXX object openbsw/libs/bsw/logger/CMakeFiles/logger.dir/src/logger/DefaultLoggerCommand.cpp.obj
+[ 51%] Building CXX object openbsw/libs/bsw/asyncFreeRtos/CMakeFiles/asyncFreeRtosImpl.dir/src/async/FutureSupport.cpp.obj
+[ 53%] Building CXX object openbsw/libs/bsw/cpp2can/CMakeFiles/cpp2can.dir/src/can/transceiver/AbstractCANTransceiver.cpp.obj
+[ 53%] Building CXX object openbsw/libs/bsw/asyncConsole/CMakeFiles/asyncConsole.dir/src/console/SyncCommandWrapper.cpp.obj
+[ 53%] Building CXX object openbsw/libs/bsw/logger/CMakeFiles/logger.dir/src/logger/EntrySerializer.cpp.obj
+[ 53%] Building CXX object openbsw/libs/bsw/asyncFreeRtos/CMakeFiles/asyncFreeRtosImpl.dir/src/async/Hook.cpp.obj
+[ 53%] Linking CXX static library libcpp2can.a
+[ 53%] Built target cpp2can
+[ 55%] Building CXX object openbsw/libs/bsw/stdioConsoleInput/CMakeFiles/stdioConsoleInput.dir/src/console/StdioConsoleInput.cpp.obj
+[ 55%] Linking CXX static library liblogger.a
+[ 55%] Built target logger
+[ 55%] Building CXX object consoleCommands/CMakeFiles/consoleCommands.dir/src/lifecycle/console/LifecycleControlCommand.cpp.obj
+[ 55%] Building CXX object openbsw/libs/bsw/asyncConsole/CMakeFiles/asyncConsole.dir/src/logger/ConsoleLogger.cpp.obj
+[ 57%] Linking CXX static library libasyncConsole.a
+[ 57%] Built target asyncConsole
+[ 59%] Building CXX object openbsw/libs/bsw/asyncFreeRtos/CMakeFiles/asyncFreeRtosImpl.dir/src/async/Types.cpp.obj
+[ 59%] Linking CXX static library libstdioConsoleInput.a
+[ 61%] Building CXX object consoleCommands/CMakeFiles/consoleCommands.dir/src/lifecycle/console/StatisticsCommand.cpp.obj
+[ 61%] Building CXX object consoleCommands/CMakeFiles/consoleCommands.dir/src/can/console/CanCommand.cpp.obj
+[ 61%] Built target stdioConsoleInput
+[ 61%] Building CXX object platforms/rp2040/main/CMakeFiles/main.dir/src/main.cpp.obj
+[ 61%] Linking CXX static library libasyncFreeRtosImpl.a
+[ 61%] Built target asyncFreeRtosImpl
+[ 62%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/application/AbstractDiagApplication.cpp.obj
+[ 62%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/async/AsyncDiagHelper.cpp.obj
+[ 62%] Building CXX object platforms/rp2040/main/CMakeFiles/main.dir/src/lifecycle/StaticBsp.cpp.obj
+[ 64%] Building CXX object platforms/rp2040/main/CMakeFiles/main.dir/src/systems/BspSystem.cpp.obj
+[ 64%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/async/AsyncDiagJobHelper.cpp.obj
+[ 64%] Linking CXX static library libmain.a
+[ 64%] Linking CXX static library libconsoleCommands.a
+[ 64%] Built target consoleCommands
+[ 64%] Built target main
+[ 66%] Building CXX object openbsw/libs/safety/safeMemory/CMakeFiles/safeMemory.dir/src/safeMemory/MemoryProtection.cpp.obj
+[ 68%] Building CXX object openbsw/libs/bsw/loggerIntegration/CMakeFiles/loggerIntegration.dir/src/logger/LoggerComposition.cpp.obj
+[ 68%] Building CXX object openbsw/libs/bsw/loggerIntegration/CMakeFiles/loggerIntegration.dir/src/logger/LoggerTime.cpp.obj
+[ 68%] Linking CXX static library libsafeMemory.a
+[ 70%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/authentication/DefaultDiagAuthenticator.cpp.obj
+[ 70%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/AbstractDiagJob.cpp.obj
+[ 70%] Built target safeMemory
+[ 72%] Building CXX object openbsw/libs/safety/safeLifecycle/CMakeFiles/safeLifecycle.dir/src/safeLifecycle/SafetyManager.cpp.obj
+[ 72%] Building CXX object openbsw/libs/safety/safeLifecycle/CMakeFiles/safeLifecycle.dir/src/safeLifecycle/SafeSupervisor.cpp.obj
+[ 72%] Linking CXX static library libsafeLifecycle.a
+[ 72%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/DiagJobRoot.cpp.obj
+[ 72%] Built target safeLifecycle
+[ 72%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/DiagJobWithAuthentication.cpp.obj
+[ 74%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/DiagJobWithAuthenticationAndSessionControl.cpp.obj
+[ 74%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/Service.cpp.obj
+[ 74%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/ServiceWithAuthentication.cpp.obj
+[ 74%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/ServiceWithAuthenticationAndSessionControl.cpp.obj
+[ 75%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/Subfunction.cpp.obj
+[ 75%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/SubfunctionWithAuthentication.cpp.obj
+[ 75%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/base/SubfunctionWithAuthenticationAndSessionControl.cpp.obj
+[ 75%] Linking CXX static library libloggerIntegration.a
+[ 75%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/connection/DiagConnectionManager.cpp.obj
+[ 77%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/connection/IncomingDiagConnection.cpp.obj
+[ 77%] Built target loggerIntegration
+[ 77%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/connection/ManagedOutgoingDiagConnection.cpp.obj
+[ 77%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/connection/NestedDiagRequest.cpp.obj
+[ 79%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/connection/OutgoingDiagConnection.cpp.obj
+[ 79%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/connection/PositiveResponse.cpp.obj
+[ 79%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/jobs/DataIdentifierJob.cpp.obj
+[ 79%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/jobs/ReadIdentifierFromMemory.cpp.obj
+[ 81%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/jobs/ReadIdentifierFromMemoryWithAuthentication.cpp.obj
+[ 81%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/jobs/ReadIdentifierFromSliceRef.cpp.obj
+[ 81%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/jobs/RoutineControlJob.cpp.obj
+[ 81%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/jobs/WriteIdentifierToMemory.cpp.obj
+[ 83%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/resume/ResumableResetDriver.cpp.obj
+[ 83%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/controldtcsetting/ControlDTCSetting.cpp.obj
+[ 83%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/communicationcontrol/CommunicationControl.cpp.obj
+[ 85%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/ecureset/ECUReset.cpp.obj
+[ 85%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/ecureset/EnableRapidPowerShutdown.cpp.obj
+[ 85%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/ecureset/HardReset.cpp.obj
+[ 85%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/ecureset/PowerDown.cpp.obj
+[ 87%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/ecureset/SoftReset.cpp.obj
+[ 87%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/inputoutputcontrol/InputOutputControlByIdentifier.cpp.obj
+[ 87%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/readdata/MultipleReadDataByIdentifier.cpp.obj
+[ 87%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/readdata/ReadDataByIdentifier.cpp.obj
+[ 88%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/routinecontrol/RequestRoutineResults.cpp.obj
+[ 88%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/routinecontrol/StartRoutine.cpp.obj
+[ 88%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/routinecontrol/RoutineControl.cpp.obj
+[ 90%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/routinecontrol/StopRoutine.cpp.obj
+[ 90%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/securityaccess/SecurityAccess.cpp.obj
+[ 90%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/sessioncontrol/DiagnosticSessionControl.cpp.obj
+[ 90%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/testerpresent/TesterPresent.cpp.obj
+[ 92%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/services/writedata/WriteDataByIdentifier.cpp.obj
+[ 92%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/session/ApplicationDefaultSession.cpp.obj
+[ 92%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/session/ApplicationExtendedSession.cpp.obj
+[ 92%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/session/ProgrammingSession.cpp.obj
+[ 94%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/DiagDispatcher.cpp.obj
+[ 94%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/uds/UdsLogger.cpp.obj
+[ 94%] Building CXX object openbsw/libs/bsw/uds/CMakeFiles/uds.dir/src/util/RoutineControlOptionParser.cpp.obj
+[ 96%] Linking CXX static library libuds.a
+[ 96%] Built target uds
+[ 96%] Building CXX object udsConfiguration/CMakeFiles/udsConfigurationImpl.dir/src/uds/session/DiagSession.cpp.obj
+[ 96%] Linking CXX static library libudsConfigurationImpl.a
+[ 96%] Built target udsConfigurationImpl
+[ 96%] Building CXX object application/CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj
+[ 96%] Building CXX object application/CMakeFiles/app.referenceApp.dir/src/logger/logger.cpp.obj
+[ 98%] Building CXX object application/CMakeFiles/app.referenceApp.dir/src/systems/DemoSystem.cpp.obj
+[ 98%] Building CXX object application/CMakeFiles/app.referenceApp.dir/src/console/console.cpp.obj
+[ 98%] Building CXX object application/CMakeFiles/app.referenceApp.dir/src/systems/RuntimeSystem.cpp.obj
+[ 98%] Building CXX object application/CMakeFiles/app.referenceApp.dir/src/systems/SysAdminSystem.cpp.obj
+[ 98%] Building CXX object application/CMakeFiles/app.referenceApp.dir/src/systems/SafetySystem.cpp.obj
+[100%] Building CXX object application/CMakeFiles/app.referenceApp.dir/src/main.cpp.obj
+[100%] Building CXX object application/CMakeFiles/app.referenceApp.dir/led_proximity.cpp.obj
+[100%] Linking CXX executable app.referenceApp.elf
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `unsigned long etl::delegate<unsigned long ()>::function_stub<&getSystemTimeUs32Bit>(void*)':
+/workspaces/openbsw/executables/referenceApp/application/src/app/app.cpp:96:(.text._ZN3etl8delegateIFmvEE13function_stubIXadL_Z20getSystemTimeUs32BitEEEEmPv[_ZN3etl8delegateIFmvEE13function_stubIXadL_Z20getSystemTimeUs32BitEEEEmPv]+0x0): undefined reference to `getSystemTimeUs32Bit'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN3etl8delegateIFvvEE11method_stubIN5async16RunnableExecutorINS4_9IRunnableENS4_11EventPolicyINS4_11TaskContextINS4_15FreeRtosAdapterINS4_12AsyncBindingEEEEELj0EEENS4_4LockEEEXadL_ZNSF_11handleEventEvEEEEvPv[_ZN3etl8delegateIFvvEE11method_stubIN5async16RunnableExecutorINS4_9IRunnableENS4_11EventPolicyINS4_11TaskContextINS4_15FreeRtosAdapterINS4_12AsyncBindingEEEEELj0EEENS4_4LockEEEXadL_ZNSF_11handleEventEvEEEEvPv]+0x4): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN3etl8delegateIFvvEE11method_stubIN5async16RunnableExecutorINS4_9IRunnableENS4_11EventPolicyINS4_11TaskContextINS4_15FreeRtosAdapterINS4_12AsyncBindingEEEEELj0EEENS4_4LockEEEXadL_ZNSF_11handleEventEvEEEEvPv[_ZN3etl8delegateIFvvEE11method_stubIN5async16RunnableExecutorINS4_9IRunnableENS4_11EventPolicyINS4_11TaskContextINS4_15FreeRtosAdapterINS4_12AsyncBindingEEEEELj0EEENS4_4LockEEEXadL_ZNSF_11handleEventEvEEEEvPv]+0x1e): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN3etl8delegateIFvvEE11method_stubIN5async16RunnableExecutorINS4_9IRunnableENS4_11EventPolicyINS4_11TaskContextINS4_15FreeRtosAdapterINS4_12AsyncBindingEEEEELj0EEENS4_4LockEEEXadL_ZNSF_11handleEventEvEEEEvPv[_ZN3etl8delegateIFvvEE11method_stubIN5async16RunnableExecutorINS4_9IRunnableENS4_11EventPolicyINS4_11TaskContextINS4_15FreeRtosAdapterINS4_12AsyncBindingEEEEELj0EEENS4_4LockEEEXadL_ZNSF_11handleEventEvEEEEvPv]+0x2a): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN3etl8delegateIFvvEE11method_stubIN5async16RunnableExecutorINS4_9IRunnableENS4_11EventPolicyINS4_11TaskContextINS4_15FreeRtosAdapterINS4_12AsyncBindingEEEEELj0EEENS4_4LockEEEXadL_ZNSF_11handleEventEvEEEEvPv[_ZN3etl8delegateIFvvEE11method_stubIN5async16RunnableExecutorINS4_9IRunnableENS4_11EventPolicyINS4_11TaskContextINS4_15FreeRtosAdapterINS4_12AsyncBindingEEEEELj0EEENS4_4LockEEEXadL_ZNSF_11handleEventEvEEEEvPv]+0x38): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `runtime::RuntimeMonitor<runtime::RuntimeStatistics, runtime::RuntimeStatistics>::start()':
+/workspaces/openbsw/libs/bsw/runtime/include/runtime/RuntimeMonitor.h:68:(.text._ZN3app8startAppEv+0xa0): undefined reference to `getSystemTicks32Bit'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN3etl5arrayIN5async11TaskContextINS1_15FreeRtosAdapterINS1_12AsyncBindingEEEEELj9EEC2Ev[_ZN3etl5arrayIN5async11TaskContextINS1_15FreeRtosAdapterINS1_12AsyncBindingEEEEELj9EEC5Ev]+0x40): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN3etl5arrayIN5async11TaskContextINS1_15FreeRtosAdapterINS1_12AsyncBindingEEEEELj9EEC2Ev[_ZN3etl5arrayIN5async11TaskContextINS1_15FreeRtosAdapterINS1_12AsyncBindingEEEEELj9EEC5Ev]+0x4a): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN3etl5arrayIN5async11TaskContextINS1_15FreeRtosAdapterINS1_12AsyncBindingEEEEELj9EEC2Ev[_ZN3etl5arrayIN5async11TaskContextINS1_15FreeRtosAdapterINS1_12AsyncBindingEEEEELj9EEC5Ev]+0x52): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN3etl5arrayIN5async11TaskContextINS1_15FreeRtosAdapterINS1_12AsyncBindingEEEEELj9EEC2Ev[_ZN3etl5arrayIN5async11TaskContextINS1_15FreeRtosAdapterINS1_12AsyncBindingEEEEELj9EEC5Ev]+0x60): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::TaskContext<async::FreeRtosAdapter<async::AsyncBinding> >::handleTimeout()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/TaskContext.h:398:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv]+0xc): undefined reference to `getSystemTimeUs32Bit'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv]+0x12): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv]+0x42): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv]+0x6c): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv]+0x9c): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE13handleTimeoutEv]+0x2e): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::TaskContext<async::FreeRtosAdapter<async::AsyncBinding> >::waitEvents()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/TaskContext.h:308:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv]+0x10): undefined reference to `getSystemTimeUs32Bit'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv]+0x16): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/app/app.cpp.obj: in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv]+0x1e): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv]+0x6a): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv[_ZN5async11TaskContextINS_15FreeRtosAdapterINS_12AsyncBindingEEEE8dispatchEv]+0x96): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../consoleCommands/libconsoleCommands.a(StatisticsCommand.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN9lifecycle17StatisticsCommand13cyclic_1000msEv+0x6): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN9lifecycle17StatisticsCommand13cyclic_1000msEv+0xc6): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../consoleCommands/libconsoleCommands.a(StatisticsCommand.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN9lifecycle17StatisticsCommand13cyclic_1000msEv+0x106): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN9lifecycle17StatisticsCommand13cyclic_1000msEv+0x114): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Async.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN5async7executeEhRNS_9IRunnableE+0xe): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Async.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async7executeEhRNS_9IRunnableE+0x1e): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Async.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN5timer5TimerIN5async4LockEE10addTimeoutERNS_7TimeoutEmmm[_ZN5timer5TimerIN5async4LockEE10addTimeoutERNS_7TimeoutEmmm]+0xe): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Async.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5timer5TimerIN5async4LockEE10addTimeoutERNS_7TimeoutEmmm[_ZN5timer5TimerIN5async4LockEE10addTimeoutERNS_7TimeoutEmmm]+0x48): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Async.cpp.obj): in function `async::TaskContext<async::FreeRtosAdapter<async::AsyncBinding> >::scheduleAtFixedRate(async::IRunnable&, async::TimeoutType&, unsigned long, async::TimeUnit::Type)':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/TaskContext.h:275:(.text._ZN5async19scheduleAtFixedRateEhRNS_9IRunnableERNS_11TimeoutTypeEmNS_8TimeUnit4TypeE+0x32): undefined reference to `getSystemTimeUs32Bit'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Hook.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text.asyncEnterTask+0x8): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Hook.cpp.obj): in function `runtime::RuntimeMonitor<runtime::RuntimeStatistics, runtime::RuntimeStatistics>::enterTask(unsigned int)':
+/workspaces/openbsw/libs/bsw/runtime/include/runtime/RuntimeMonitor.h:96:(.text.asyncEnterTask+0xe): undefined reference to `getSystemTicks32Bit'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Hook.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text.asyncEnterTask+0x30): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text.asyncEnterTask+0x62): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Types.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN5async11TimeoutType6cancelEv+0x4): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN5async11TimeoutType6cancelEv+0x18): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/asyncFreeRtos/libasyncFreeRtosImpl.a(Types.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TimeoutType6cancelEv+0x42): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TimeoutType6cancelEv+0x78): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN5async11TimeoutType6cancelEv+0x4c): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN9lifecycle16LifecycleManager20addLifecycleListenerERNS_18ILifecycleListenerE+0x6): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN9lifecycle16LifecycleManager20addLifecycleListenerERNS_18ILifecycleListenerE+0x20): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN9lifecycle16LifecycleManager23removeLifecycleListenerERNS_18ILifecycleListenerE+0x6): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN9lifecycle16LifecycleManager23removeLifecycleListenerERNS_18ILifecycleListenerE+0x26): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN9lifecycle16LifecycleManager23removeLifecycleListenerERNS_18ILifecycleListenerE+0x46): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN9lifecycle16LifecycleManager24checkLevelTransitionDoneEv+0x96): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN9lifecycle16LifecycleManager24checkLevelTransitionDoneEv+0xa0): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN9lifecycle16LifecycleManager24checkLevelTransitionDoneEv+0xac): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN9lifecycle16LifecycleManager24checkLevelTransitionDoneEv+0xb4): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:34:(.text._ZN9lifecycle16LifecycleManager24checkLevelTransitionDoneEv+0xd4): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/lifecycle/liblifecycle.a(LifecycleManager.cpp.obj): in function `async::Lock::~Lock()':
+/workspaces/openbsw/libs/bsw/asyncFreeRtos/include/async/Lock.h:37:(.text._ZN9lifecycle16LifecycleManager24checkLevelTransitionDoneEv+0xd8): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/app.referenceApp.dir/src/systems/DemoSystem.cpp.obj: in function `bios::AnalogInputScaleImplementation<unsigned long, unsigned short>::get(unsigned short, unsigned long&)':
+/workspaces/openbsw/executables/referenceApp/platforms/rp2040/bspConfiguration/include/adc/AnalogInputScaleImplementation.hpp:32:(.text._ZN7systems10DemoSystem6cyclicEv+0x44): undefined reference to `bios::AnalogInput::get(unsigned short, unsigned short&)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/loggerIntegration/libloggerIntegration.a(LoggerComposition.cpp.obj): in function `etl::chrono::high_resolution_clock::now()':
+/workspaces/openbsw/libs/3rdparty/etl/include/etl/private/chrono/clocks.h:129:(.text._ZNK6logger17DefaultLoggerTimeIN3etl6chrono10time_pointINS2_21high_resolution_clockENS2_8durationImNS1_5ratioILx1ELx1000EEEEEEEE12getTimestampEv[_ZNK6logger17DefaultLoggerTimeIN3etl6chrono10time_pointINS2_21high_resolution_clockENS2_8durationImNS1_5ratioILx1ELx1000EEEEEEEE12getTimestampEv]+0x2): undefined reference to `etl_get_high_resolution_clock'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/loggerIntegration/libloggerIntegration.a(LoggerComposition.cpp.obj): in function `interrupts::SuspendResumeAllInterruptsScopedLock::SuspendResumeAllInterruptsScopedLock()':
+/workspaces/openbsw/libs/bsp/bspInterrupts/include/interrupts/SuspendResumeAllInterruptsScopedLock.h:18:(.text._ZNK6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE11outputEntryERNS_12IEntryOutputImmEERNS_11EntryBufferILh128EmE8EntryRefE[_ZNK6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE11outputEntryERNS_12IEntryOutputImmEERNS_11EntryBufferILh128EmE8EntryRefE]+0xc): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/loggerIntegration/libloggerIntegration.a(LoggerComposition.cpp.obj): in function `interrupts::SuspendResumeAllInterruptsScopedLock::~SuspendResumeAllInterruptsScopedLock()':
+/workspaces/openbsw/libs/bsp/bspInterrupts/include/interrupts/SuspendResumeAllInterruptsScopedLock.h:25:(.text._ZNK6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE11outputEntryERNS_12IEntryOutputImmEERNS_11EntryBufferILh128EmE8EntryRefE[_ZNK6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE11outputEntryERNS_12IEntryOutputImmEERNS_11EntryBufferILh128EmE8EntryRefE]+0x6a): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsp/bspInterrupts/include/interrupts/SuspendResumeAllInterruptsScopedLock.h:25:(.text._ZNK6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE11outputEntryERNS_12IEntryOutputImmEERNS_11EntryBufferILh128EmE8EntryRefE[_ZNK6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE11outputEntryERNS_12IEntryOutputImmEERNS_11EntryBufferILh128EmE8EntryRefE]+0x88): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/loggerIntegration/libloggerIntegration.a(LoggerComposition.cpp.obj): in function `etl::chrono::high_resolution_clock::now()':
+/workspaces/openbsw/libs/3rdparty/etl/include/etl/private/chrono/clocks.h:129:(.text._ZN6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE9logOutputERKN4util6logger13ComponentInfoERKNS6_9LevelInfoEPKcSt9__va_list[_ZN6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE9logOutputERKN4util6logger13ComponentInfoERKNS6_9LevelInfoEPKcSt9__va_list]+0x1e): undefined reference to `etl_get_high_resolution_clock'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/loggerIntegration/libloggerIntegration.a(LoggerComposition.cpp.obj): in function `interrupts::SuspendResumeAllInterruptsScopedLock::SuspendResumeAllInterruptsScopedLock()':
+/workspaces/openbsw/libs/bsp/bspInterrupts/include/interrupts/SuspendResumeAllInterruptsScopedLock.h:18:(.text._ZN6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE9logOutputERKN4util6logger13ComponentInfoERKNS6_9LevelInfoEPKcSt9__va_list[_ZN6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE9logOutputERKN4util6logger13ComponentInfoERKNS6_9LevelInfoEPKcSt9__va_list]+0xec): undefined reference to `getOldIntEnabledStatusValueAndSuspendAllInterrupts()'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/loggerIntegration/libloggerIntegration.a(LoggerComposition.cpp.obj): in function `interrupts::SuspendResumeAllInterruptsScopedLock::~SuspendResumeAllInterruptsScopedLock()':
+/workspaces/openbsw/libs/bsp/bspInterrupts/include/interrupts/SuspendResumeAllInterruptsScopedLock.h:25:(.text._ZN6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE9logOutputERKN4util6logger13ComponentInfoERKNS6_9LevelInfoEPKcSt9__va_list[_ZN6logger20BufferedLoggerOutputIN10interrupts36SuspendResumeAllInterruptsScopedLockELh128EtmmNS_16SectionPredicateEE9logOutputERKN4util6logger13ComponentInfoERKNS6_9LevelInfoEPKcSt9__va_list]+0x178): undefined reference to `resumeAllInterrupts(unsigned long)'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/stdioConsoleInput/libstdioConsoleInput.a(StdioConsoleInput.cpp.obj): in function `void etl::delegate<void ()>::method_stub<console::StdioConsoleInput, &console::StdioConsoleInput::onLineProcessed>(void*)':
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:85:(.text._ZN3etl8delegateIFvvEE11method_stubIN7console17StdioConsoleInputEXadL_ZNS5_15onLineProcessedEvEEEEvPv[_ZN3etl8delegateIFvvEE11method_stubIN7console17StdioConsoleInputEXadL_ZNS5_15onLineProcessedEvEEEEvPv]+0x3e): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/stdioConsoleInput/libstdioConsoleInput.a(StdioConsoleInput.cpp.obj): in function `printNewline':
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:86:(.text._ZN3etl8delegateIFvvEE11method_stubIN7console17StdioConsoleInputEXadL_ZNS5_15onLineProcessedEvEEEEvPv[_ZN3etl8delegateIFvvEE11method_stubIN7console17StdioConsoleInputEXadL_ZNS5_15onLineProcessedEvEEEEvPv]+0x44): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/stdioConsoleInput/libstdioConsoleInput.a(StdioConsoleInput.cpp.obj): in function `void etl::delegate<void ()>::method_stub<console::StdioConsoleInput, &console::StdioConsoleInput::onLineProcessed>(void*)':
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:92:(.text._ZN3etl8delegateIFvvEE11method_stubIN7console17StdioConsoleInputEXadL_ZNS5_15onLineProcessedEvEEEEvPv[_ZN3etl8delegateIFvvEE11method_stubIN7console17StdioConsoleInputEXadL_ZNS5_15onLineProcessedEvEEEEvPv]+0x4a): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/stdioConsoleInput/libstdioConsoleInput.a(StdioConsoleInput.cpp.obj): in function `printPrompt':
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:93:(.text._ZN3etl8delegateIFvvEE11method_stubIN7console17StdioConsoleInputEXadL_ZNS5_15onLineProcessedEvEEEEvPv[_ZN3etl8delegateIFvvEE11method_stubIN7console17StdioConsoleInputEXadL_ZNS5_15onLineProcessedEvEEEEvPv]+0x54): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/stdioConsoleInput/libstdioConsoleInput.a(StdioConsoleInput.cpp.obj): in function `console::StdioConsoleInput::run()':
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:38:(.text._ZN7console17StdioConsoleInput3runEv+0x10): undefined reference to `getByteFromStdin'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:85:(.text._ZN7console17StdioConsoleInput3runEv+0xe2): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/stdioConsoleInput/libstdioConsoleInput.a(StdioConsoleInput.cpp.obj): in function `printNewline':
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:86:(.text._ZN7console17StdioConsoleInput3runEv+0xe8): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/stdioConsoleInput/libstdioConsoleInput.a(StdioConsoleInput.cpp.obj): in function `getline':
+/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:67:(.text._ZN7console17StdioConsoleInput3runEv+0x120): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:68:(.text._ZN7console17StdioConsoleInput3runEv+0x126): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:69:(.text._ZN7console17StdioConsoleInput3runEv+0x12c): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/stdioConsoleInput/libstdioConsoleInput.a(StdioConsoleInput.cpp.obj):/workspaces/openbsw/libs/bsw/stdioConsoleInput/src/console/StdioConsoleInput.cpp:85: more undefined references to `putByteToStdout' follow
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/3rdparty/freeRtos/libfreeRtos.a(tasks.c.obj): in function `prvInitialiseNewTask':
+/workspaces/openbsw/libs/3rdparty/freeRtos/src/tasks.c:1011:(.text.xTaskCreateStatic+0x8e): undefined reference to `pxPortInitialiseStack'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/3rdparty/freeRtos/libfreeRtos.a(tasks.c.obj): in function `vTaskStartScheduler':
+/workspaces/openbsw/libs/3rdparty/freeRtos/src/tasks.c:2040:(.text.vTaskStartScheduler+0x46): undefined reference to `portDISABLE_INTERRUPTS'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/util/libutil.a(StdoutStream.cpp.obj): in function `util::stream::StdoutStream::write(unsigned char)':
+/workspaces/openbsw/libs/bsw/util/src/util/stream/StdoutStream.cpp:13:(.text._ZN4util6stream12StdoutStream5writeEh+0x2): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/util/libutil.a(StdoutStream.cpp.obj): in function `util::stream::StdoutStream::write(etl::span<unsigned char const, 4294967295u> const&)':
+/workspaces/openbsw/libs/bsw/util/src/util/stream/StdoutStream.cpp:19:(.text._ZN4util6stream12StdoutStream5writeERKN3etl4spanIKhLj4294967295EEE+0xe): undefined reference to `putByteToStdout'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/runtime/libruntime.a(StatisticsWriter.cpp.obj): in function `runtime::StatisticsWriter::writeRuntime(char const*, unsigned long, unsigned long)':
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:14:(.text._ZN7runtime16StatisticsWriter12writeRuntimeEPKcmm+0x3c): undefined reference to `systemTicksToTimeUs'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: ../openbsw/libs/bsw/runtime/libruntime.a(StatisticsWriter.cpp.obj): in function `runtime::StatisticsWriter::writeRuntimeMS(char const*, unsigned long, unsigned long)':
+/workspaces/openbsw/libs/bsw/runtime/src/runtime/StatisticsWriter.cpp:14:(.text._ZN7runtime16StatisticsWriter14writeRuntimeMSEPKcmm+0x44): undefined reference to `systemTicksToTimeUs'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-abort.o): in function `abort':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/stdlib/abort.c:59:(.text+0xa): undefined reference to `_exit'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-exit.o): in function `exit':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/stdlib/exit.c:65:(.text+0x14): undefined reference to `_exit'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-signalr.o): in function `_kill_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/signalr.c:53:(.text+0x12): undefined reference to `_kill'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-signalr.o): in function `_getpid_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/signalr.c:83:(.text+0x2c): undefined reference to `_getpid'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/sbrkr.c:51:(.text+0xc): undefined reference to `_sbrk'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o): in function `_write_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/writer.c:49:(.text+0x14): undefined reference to `_write'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-fstatr.o): in function `_fstat_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/fstatr.c:55:(.text+0x12): undefined reference to `_fstat'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-isattyr.o): in function `_isatty_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/isattyr.c:52:(.text+0xc): undefined reference to `_isatty'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o): in function `_close_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/closer.c:47:(.text+0xc): undefined reference to `_close'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o): in function `_read_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/readr.c:49:(.text+0x14): undefined reference to `_read'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/lseekr.c:49:(.text+0x14): undefined reference to `_lseek'
+[100%] Built target app.referenceApp

@@ -7,7 +7,9 @@
 #include <outputManager/Output.h>
 #include <outputPwm/OutputPwm.h>
 #endif
+#ifdef PLATFORM_SUPPORT_CAN
 #include "app/CanDemoListener.h"
+#endif
 #include "app/DemoLogger.h"
 
 #include <bsp/SystemTime.h>
@@ -138,19 +140,34 @@ void DemoSystem::cyclic()
     bool buttonStatus = false;
 
     // This is to read a digital input.
+#ifdef OPENBSW_PLATFORM_RP2040
+    DigitalInput::get(DigitalInput::ONBOARD_BUTTON, buttonStatus);
+#else
     DigitalInput::get(DigitalInput::EVAL_SW3, buttonStatus);
+#endif
 
     // This is to set an output.
+#ifdef OPENBSW_PLATFORM_RP2040
+    Output::set(Output::ONBOARD_LED, buttonStatus ? 1 : 0);
+#else
     Output::set(Output::EVAL_LED_RED, buttonStatus ? 1 : 0);
+#endif
 
     if (timeCounter >= 50)
     {
         // This is to read an analog input and set the duty cycle of a PWM output.
+#ifdef OPENBSW_PLATFORM_RP2040
+        if (AnalogInputScale::get(AnalogInput::AiRP2040_ADC0, value) == bsp::BSP_OK)
+        {
+            OutputPwm::setDuty(OutputPwm::ONBOARD_LED_PWM, value * 10000 / 5000);
+        }
+#else
         if (AnalogInputScale::get(AnalogInput::AiEVAL_POTI_ADC, value) == bsp::BSP_OK)
         {
             OutputPwm::setDuty(OutputPwm::EVAL_LED_GREEN_PWM, value * 10000 / 5000);
             OutputPwm::setDuty(OutputPwm::EVAL_LED_BLUE_PWM, value * 10000 / 5000);
         }
+#endif
         timeCounter = 0;
     }
 #endif

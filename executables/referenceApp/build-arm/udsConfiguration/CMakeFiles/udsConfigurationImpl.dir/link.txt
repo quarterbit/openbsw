@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libudsConfigurationImpl.a CMakeFiles/udsConfigurationImpl.dir/src/uds/session/DiagSession.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libudsConfigurationImpl.a

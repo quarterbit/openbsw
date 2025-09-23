@@ -1,0 +1,1 @@
+/workspaces/openbsw/libs/bsw/util/src/util/crc/LookupTable_0x31.cpp:34:44:static const T (& util::crc::LookupTable<T, Polynom>::getTable())[256] [with T = unsigned char; T Polynom = 49]	0	static

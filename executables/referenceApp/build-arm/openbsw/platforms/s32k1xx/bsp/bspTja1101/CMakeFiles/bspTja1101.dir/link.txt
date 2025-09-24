@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspTja1101.a CMakeFiles/bspTja1101.dir/src/phy/Tja1101.cpp.obj CMakeFiles/bspTja1101.dir/src/phy/Tja1101Tester.cpp.obj CMakeFiles/bspTja1101.dir/src/mdio/MdioTja1101.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspTja1101.a

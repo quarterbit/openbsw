@@ -1,7 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:186:13:)	20	static
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:201:13:)	20	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/udp/util/UdpIperf2Server.cpp:66:6:virtual void udp::UdpIperf2Server::dataReceived(udp::AbstractDatagramSocket&, ip::IPAddress, uint16_t, ip::IPAddress, uint16_t)	152	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/udp/util/UdpIperf2Server.cpp:17:1:udp::UdpIperf2Server::UdpIperf2Server(const ip::IPAddress&, uint16_t, udp::AbstractDatagramSocket&)	24	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/udp/util/UdpIperf2Server.cpp:22:6:bool udp::UdpIperf2Server::start()	16	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/udp/util/UdpIperf2Server.cpp:37:6:void udp::UdpIperf2Server::stop()	8	static

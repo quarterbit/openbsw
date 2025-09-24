@@ -1,3 +1,0 @@
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/ecureset/PowerDown.cpp:34:6:virtual void uds::PowerDown::responseSent(uds::IncomingDiagConnection&, uds::AbstractDiagJob::ResponseSendResult)	16	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/ecureset/PowerDown.cpp:25:22:virtual uds::DiagReturnCode::Type uds::PowerDown::process(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	8	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/ecureset/PowerDown.cpp:15:1:uds::PowerDown::PowerDown(uds::IUdsLifecycleConnector&)	40	static

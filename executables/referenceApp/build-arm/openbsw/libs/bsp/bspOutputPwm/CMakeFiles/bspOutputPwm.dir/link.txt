@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspOutputPwm.a CMakeFiles/bspOutputPwm.dir/src/outputPwm/OutputPwm.cpp.obj CMakeFiles/bspOutputPwm.dir/src/outputPwm/OutputPwmTester.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspOutputPwm.a

@@ -8,6 +8,8 @@ Testing/
 build/
 build-rp2040/
 **/build-rp2040/
+build.rp2040/
+**/build.rp2040/
 cmake-build*
 __pycache__/
 .pvenv/

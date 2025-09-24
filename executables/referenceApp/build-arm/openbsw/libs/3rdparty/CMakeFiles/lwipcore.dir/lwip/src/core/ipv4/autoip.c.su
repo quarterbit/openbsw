@@ -1,9 +1,0 @@
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:98:1:autoip_set_struct	16	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:119:1:autoip_remove_struct	0	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:243:1:autoip_start	24	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:214:1:autoip_conflict_callback	16	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:301:1:autoip_network_changed_link_up	0	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:322:1:autoip_network_changed_link_down	0	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:340:1:autoip_stop	8	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:362:1:autoip_supplied_address	0	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/ipv4/autoip.c:371:1:autoip_accept_packet	0	static

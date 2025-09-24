@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libcanflex2Transceiver.a CMakeFiles/canflex2Transceiver.dir/src/can/transceiver/canflex2/CanFlex2Transceiver.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libcanflex2Transceiver.a

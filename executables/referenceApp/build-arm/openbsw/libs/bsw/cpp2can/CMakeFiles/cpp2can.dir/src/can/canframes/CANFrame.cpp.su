@@ -1,8 +1,0 @@
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/canframes/CANFrame.cpp:24:1:can::CANFrame::CANFrame()	8	static
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/canframes/CANFrame.cpp:29:1:can::CANFrame::CANFrame(uint32_t)	8	static
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/canframes/CANFrame.cpp:34:1:can::CANFrame::CANFrame(const can::CANFrame&)	8	static
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/canframes/CANFrame.cpp:40:1:can::CANFrame::CANFrame(uint32_t, const uint8_t*, uint8_t)	8	static
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/canframes/CANFrame.cpp:47:1:can::CANFrame::CANFrame(uint32_t, const uint8_t*, uint8_t, bool)	8	static
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/canframes/CANFrame.cpp:59:11:can::CANFrame& can::CANFrame::operator=(const can::CANFrame&)	8	static
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/canframes/CANFrame.cpp:71:6:void can::CANFrame::setPayloadLength(uint8_t)	0	static
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/canframes/CANFrame.cpp:80:6:bool can::operator==(const CANFrame&, const CANFrame&)	0	static

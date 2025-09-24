@@ -1,7 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SafetySystem.cpp:33:6:virtual void systems::SafetySystem::init()	8	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SafetySystem.cpp:39:6:virtual void systems::SafetySystem::run()	16	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SafetySystem.cpp:47:6:virtual void systems::SafetySystem::shutdown()	8	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SafetySystem.cpp:59:6:void systems::SafetySystem::cyclic()	0	static
-/workspaces/openbsw/executables/referenceApp/application/include/systems/SafetySystem.h:25:10:virtual void systems::SafetySystem::_ZThn12_N7systems12SafetySystem7executeEv()	0	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SafetySystem.cpp:23:1:systems::SafetySystem::SafetySystem(async::ContextType, lifecycle::ILifecycleManager&)	24	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SafetySystem.cpp:61:1:cpp)	0	static

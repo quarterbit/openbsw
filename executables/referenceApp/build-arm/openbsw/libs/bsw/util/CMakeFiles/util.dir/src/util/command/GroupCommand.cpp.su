@@ -1,5 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/command/GroupCommand.cpp:16:13:virtual const char* util::command::GroupCommand::getId() const	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/command/GroupCommand.cpp:38:6:virtual void util::command::GroupCommand::getHelp(util::command::ICommand::IHelpCallback&) const	24	static
-/workspaces/openbsw/libs/bsw/util/src/util/command/GroupCommand.cpp:14:13:const char* util::command::GroupCommand::getDescription() const	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/command/GroupCommand.cpp:48:39:const util::command::GroupCommand::PlainCommandInfo* util::command::GroupCommand::lookupCommand(const util::string::ConstString&) const	24	static
-/workspaces/openbsw/libs/bsw/util/src/util/command/GroupCommand.cpp:19:1:virtual util::command::ICommand::ExecuteResult util::command::GroupCommand::execute(const util::string::ConstString&, util::stream::ISharedOutputStream*)	80	static

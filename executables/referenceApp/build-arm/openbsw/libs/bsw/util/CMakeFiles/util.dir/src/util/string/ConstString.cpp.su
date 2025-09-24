@@ -1,4 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/string/ConstString.cpp:11:9:int32_t util::string::ConstString::compare(const util::string::ConstString&) const	16	static
-/workspaces/openbsw/libs/bsw/util/src/util/string/ConstString.cpp:22:9:int32_t util::string::ConstString::compareIgnoreCase(const util::string::ConstString&) const	12	static
-/workspaces/openbsw/libs/bsw/util/src/util/string/ConstString.cpp:41:9:int32_t util::string::ConstString::find(const util::string::ConstString&, uint32_t) const	24	static
-/workspaces/openbsw/libs/bsw/util/src/util/string/ConstString.cpp:61:6:bool util::string::ConstString::contains(const util::string::ConstString&) const	8	static

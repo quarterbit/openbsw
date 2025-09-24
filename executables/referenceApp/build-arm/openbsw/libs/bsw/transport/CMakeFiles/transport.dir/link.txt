@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libtransport.a CMakeFiles/transport.dir/src/AbstractTransportLayer.cpp.obj CMakeFiles/transport.dir/src/LogicalAddress.cpp.obj CMakeFiles/transport.dir/src/TransportLogger.cpp.obj CMakeFiles/transport.dir/src/TransportMessage.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libtransport.a

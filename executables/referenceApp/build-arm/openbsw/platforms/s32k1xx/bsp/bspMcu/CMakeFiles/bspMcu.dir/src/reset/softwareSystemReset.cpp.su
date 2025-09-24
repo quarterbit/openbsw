@@ -1,3 +1,0 @@
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/include/3rdparty/cmsis/core_cm4.h:2055:34:void __NVIC_SystemReset()	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/src/reset/softwareSystemReset.cpp:9:19:void softwareSystemReset()	8	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcu/src/reset/softwareSystemReset.cpp:11:6:void softwareDestructiveReset()	8	static

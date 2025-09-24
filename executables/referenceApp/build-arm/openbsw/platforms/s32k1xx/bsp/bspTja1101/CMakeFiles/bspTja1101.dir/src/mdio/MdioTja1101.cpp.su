@@ -1,4 +1,0 @@
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/mdio/MdioTja1101.cpp:44:10:uint16_t enetphy::MdioTja1101::getDataPin() const	16	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/mdio/MdioTja1101.cpp:51:22:bsp::BspReturnCode enetphy::MdioTja1101::transfer(uint32_t*, bool) const	40	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/mdio/MdioTja1101.cpp:29:1:bsp::BspReturnCode enetphy::MdioTja1101::miimRead(uint8_t, uint8_t, uint16_t&)	24	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspTja1101/src/mdio/MdioTja1101.cpp:38:1:bsp::BspReturnCode enetphy::MdioTja1101::miimWrite(uint8_t, uint8_t, uint16_t)	16	static

@@ -1,8 +1,0 @@
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/def.c:76:1:lwip_htons	0	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/def.c:90:1:lwip_htonl	0	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/def.c:105:1:lwip_strnstr	24	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/def.c:128:1:lwip_strnistr	24	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/def.c:151:1:lwip_stricmp	8	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/def.c:186:1:lwip_strnicmp	20	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/def.c:222:1:lwip_itoa	12	static
-/workspaces/openbsw/libs/3rdparty/lwip/src/core/def.c:274:5:lwip_memcmp_consttime	4	static

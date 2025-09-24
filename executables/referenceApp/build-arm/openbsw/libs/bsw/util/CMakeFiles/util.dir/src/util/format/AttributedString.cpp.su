@@ -1,7 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/format/AttributedString.cpp:9:1:util::format::AttributedString::AttributedString(const util::format::PlainAttributedString&)	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/AttributedString.cpp:13:1:util::format::AttributedString::AttributedString(const char*, const util::format::StringAttributes&)	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/AttributedString.cpp:18:1:util::format::StringAttributes::StringAttributes(util::format::Color, uint8_t, util::format::Color)	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/AttributedString.cpp:26:1:util::format::StringAttributes::StringAttributes(const util::format::PlainStringAttributes&)	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/AttributedString.cpp:30:6:bool util::format::StringAttributes::operator==(const util::format::StringAttributes&) const	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/AttributedString.cpp:37:6:bool util::format::StringAttributes::operator!=(const util::format::StringAttributes&) const	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/AttributedString.cpp:42:6:bool util::format::StringAttributes::isAttributed() const	0	static

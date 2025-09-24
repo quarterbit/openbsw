@@ -1,2 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/osHooks.cpp:9:6:void vApplicationStackOverflowHook(TaskHandle_t, char*)	0	static
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/osHooks.cpp:14:6:void vIllegalISR()	8	static

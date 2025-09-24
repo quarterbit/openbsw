@@ -1,4 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/stream/SharedOutputStream.cpp:13:16:virtual util::stream::IOutputStream& util::stream::SharedOutputStream::startOutput(util::stream::ISharedOutputStream::IContinuousUser*)	16	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/SharedOutputStream.cpp:23:6:virtual void util::stream::SharedOutputStream::endOutput(util::stream::ISharedOutputStream::IContinuousUser*)	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/SharedOutputStream.cpp:25:6:virtual void util::stream::SharedOutputStream::releaseContinuousUser(util::stream::ISharedOutputStream::IContinuousUser&)	4	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/SharedOutputStream.cpp:9:1:util::stream::SharedOutputStream::SharedOutputStream(util::stream::IOutputStream&)	4	static

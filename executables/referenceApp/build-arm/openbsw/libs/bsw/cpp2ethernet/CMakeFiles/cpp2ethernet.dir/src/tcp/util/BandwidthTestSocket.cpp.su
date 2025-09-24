@@ -1,7 +1,0 @@
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/BandwidthTestSocket.cpp:13:1:virtual tcp::AbstractSocket* tcp::BandwidthTestSocket::getSocket(const ip::IPAddress&, uint16_t)	0	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/BandwidthTestSocket.cpp:24:6:virtual void tcp::BandwidthTestSocket::connectionAccepted(tcp::AbstractSocket&)	0	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/BandwidthTestSocket.cpp:29:6:virtual void tcp::BandwidthTestSocket::dataReceived(uint16_t)	0	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/BandwidthTestSocket.cpp:31:6:virtual void tcp::BandwidthTestSocket::connectionClosed(tcp::IDataListener::ErrorCode)	0	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/include/tcp/util/BandwidthTestSocket.h:25:10:virtual void tcp::BandwidthTestSocket::_ZThn4_N3tcp19BandwidthTestSocket16connectionClosedENS_13IDataListener9ErrorCodeE(tcp::IDataListener::ErrorCode)	0	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/include/tcp/util/BandwidthTestSocket.h:23:10:virtual void tcp::BandwidthTestSocket::_ZThn4_N3tcp19BandwidthTestSocket12dataReceivedEt(uint16_t)	0	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/util/BandwidthTestSocket.cpp:9:1:tcp::BandwidthTestSocket::BandwidthTestSocket(tcp::AbstractSocket&)	4	static

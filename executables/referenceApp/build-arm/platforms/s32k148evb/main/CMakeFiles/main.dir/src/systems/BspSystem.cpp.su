@@ -1,7 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/systems/BspSystem.cpp:25:6:virtual void systems::BspSystem::init()	0	static
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/systems/BspSystem.cpp:27:6:virtual void systems::BspSystem::run()	16	static
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/systems/BspSystem.cpp:33:6:virtual void systems::BspSystem::shutdown()	8	static
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/systems/BspSystem.cpp:39:6:virtual void systems::BspSystem::execute()	0	static
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/include/systems/BspSystem.h:27:10:virtual void systems::BspSystem::_ZThn12_N7systems9BspSystem7executeEv()	0	static
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/systems/BspSystem.cpp:11:1:systems::BspSystem::BspSystem(async::ContextType, StaticBsp&)	24	static
-/workspaces/openbsw/executables/referenceApp/platforms/s32k148evb/main/src/systems/BspSystem.cpp:47:6:void systems::BspSystem::cyclic()	0	static

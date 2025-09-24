@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libcommonImpl.a CMakeFiles/commonImpl.dir/common/src/busid/BusId.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libcommonImpl.a

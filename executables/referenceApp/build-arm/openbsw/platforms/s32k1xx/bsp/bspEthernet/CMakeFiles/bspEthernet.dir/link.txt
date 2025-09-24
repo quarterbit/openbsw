@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspEthernet.a CMakeFiles/bspEthernet.dir/src/ethernet/EnetDriver.cpp.obj CMakeFiles/bspEthernet.dir/src/ethernet/RxBuffers.cpp.obj CMakeFiles/bspEthernet.dir/src/ethernet/TxBuffers.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspEthernet.a

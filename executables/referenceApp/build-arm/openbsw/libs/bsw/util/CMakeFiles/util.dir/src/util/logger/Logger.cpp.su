@@ -1,4 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/logger/Logger.cpp:16:6:static void util::logger::Logger::init(util::logger::IComponentMapping&, util::logger::ILoggerOutput&)	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/logger/Logger.cpp:22:6:static void util::logger::Logger::shutdown()	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/logger/Logger.cpp:31:6:static void util::logger::Logger::doLog(uint8_t, util::logger::Level, const char*, va_list)	48	static
-/workspaces/openbsw/libs/bsw/util/src/util/logger/Logger.cpp:39:7:static util::logger::Level util::logger::Logger::getLevel(uint8_t)	0	static

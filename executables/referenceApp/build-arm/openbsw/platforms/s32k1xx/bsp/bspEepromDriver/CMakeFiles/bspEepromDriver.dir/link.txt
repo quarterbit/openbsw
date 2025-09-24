@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspEepromDriver.a CMakeFiles/bspEepromDriver.dir/src/eeprom/EepromDriver.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspEepromDriver.a

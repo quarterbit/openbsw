@@ -1,6 +1,0 @@
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspSci/src/SciDevice.cpp:11:6:void sciInit(uint8_t)	8	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspSci/src/SciDevice.cpp:32:9:uint8_t sciGetRxReady()	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspSci/src/SciDevice.cpp:48:9:uint8_t sciGeth()	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspSci/src/SciDevice.cpp:50:9:uint8_t sciGetTxNotReady()	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspSci/src/SciDevice.cpp:62:6:void sciPuth(int)	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspSci/src/SciDevice.cpp:64:9:uint8_t sciGetInitState()	0	static

@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspAdc.a CMakeFiles/bspAdc.dir/src/tester/AnalogTester.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspAdc.a

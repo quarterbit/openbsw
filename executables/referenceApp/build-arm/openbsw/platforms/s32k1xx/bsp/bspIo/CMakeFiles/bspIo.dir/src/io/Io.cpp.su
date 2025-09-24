@@ -1,8 +1,0 @@
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspIo/src/io/Io.cpp:31:15:static bsp::BspReturnCode bios::Io::setConfiguration(uint16_t, const PinConfiguration&)	8	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspIo/src/io/Io.cpp:19:15:static bsp::BspReturnCode bios::Io::setDefaultConfiguration(uint16_t)	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspIo/src/io/Io.cpp:90:20:static bsp::BspReturnCode bios::Io::getConfiguration(uint16_t, PinConfiguration&)	8	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspIo/src/io/Io.cpp:123:10:static uint32_t bios::Io::getPinNumber(uint16_t)	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspIo/src/io/Io.cpp:130:6:static bool bios::Io::getPin(uint16_t)	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspIo/src/io/Io.cpp:144:6:static bool bios::Io::getPinIrq(uint16_t)	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspIo/src/io/Io.cpp:157:15:static bsp::BspReturnCode bios::Io::setPin(uint16_t, bool)	4	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspIo/src/io/Io.cpp:178:20:static bsp::BspReturnCode bios::Io::resetConfig(uint16_t)	8	static

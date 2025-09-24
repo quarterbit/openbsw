@@ -1,5 +1,0 @@
-/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/utils/FilterFrame.cpp:33:8:netif* lwiputils::filterETHFrames(pbuf*, etl::span<netif>, etl::span<const short unsigned int>)	32	static
-/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/utils/FilterFrame.cpp:85:6:bool lwiputils::processPbufQueue(util::spsc::Queue<pbuf*, 10>::Receiver, etl::span<netif>, etl::span<const short unsigned int>)	64	static
-/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/utils/FilterFrame.cpp:110:6:void lwiputils::to_lwipIp(const ip::IPAddress&, ip_addr_t*)	8	static
-/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/utils/FilterFrame.cpp:134:7:err_t lwiputils::initNetifDriverParameters(etl::span<const unsigned char, 6>, netif&)	8	static
-/workspaces/openbsw/libs/bsw/lwipSocket/src/lwipSocket/utils/FilterFrame.cpp:157:17:ip::IPAddress lwiputils::from_lwipIp(const ip_addr_t&)	16	static

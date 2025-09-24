@@ -1,5 +1,0 @@
-/workspaces/openbsw/libs/bsw/uds/src/uds/base/DiagJobRoot.cpp:24:22:virtual uds::DiagReturnCode::Type uds::DiagJobRoot::verify(const uint8_t*, uint16_t)	0	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/base/DiagJobRoot.cpp:68:1:virtual uds::DiagReturnCode::Type uds::DiagJobRoot::verifySupplierIndication(const uint8_t*, uint16_t)	0	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/base/DiagJobRoot.cpp:33:22:virtual uds::DiagReturnCode::Type uds::DiagJobRoot::execute(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	32	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/base/DiagJobRoot.cpp:16:1:uds::DiagJobRoot::DiagJobRoot()	8	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/base/DiagJobRoot.cpp:22:1:uds::DiagJobRoot::~DiagJobRoot()	0	static

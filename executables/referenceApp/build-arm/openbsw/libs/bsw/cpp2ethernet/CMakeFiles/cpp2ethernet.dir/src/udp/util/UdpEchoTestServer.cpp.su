@@ -1,7 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:186:13:)	20	static
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:201:13:)	20	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/udp/util/UdpEchoTestServer.cpp:56:6:virtual void udp::UdpEchoTestServer::dataReceived(udp::AbstractDatagramSocket&, ip::IPAddress, uint16_t, ip::IPAddress, uint16_t)	72	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/udp/util/UdpEchoTestServer.cpp:13:1:udp::UdpEchoTestServer::UdpEchoTestServer(const ip::IPAddress&, uint16_t, const ip::IPAddress&, udp::AbstractDatagramSocket&)	24	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/udp/util/UdpEchoTestServer.cpp:21:6:bool udp::UdpEchoTestServer::start()	16	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/udp/util/UdpEchoTestServer.cpp:50:6:void udp::UdpEchoTestServer::stop()	8	static

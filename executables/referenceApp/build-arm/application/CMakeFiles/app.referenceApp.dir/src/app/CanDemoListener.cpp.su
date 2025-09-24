@@ -1,9 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/application/src/app/CanDemoListener.cpp:17:17:virtual can::IFilter& can::CanDemoListener::getFilter()	0	static
-/workspaces/openbsw/executables/referenceApp/application/include/app/CanDemoListener.h:22:21:virtual can::IFilter& can::CanDemoListener::_ZThn12_N3can15CanDemoListener9getFilterEv()	0	static
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
-/workspaces/openbsw/executables/referenceApp/application/src/app/CanDemoListener.cpp:19:6:virtual void can::CanDemoListener::frameReceived(const can::CANFrame&)	40	static
-/workspaces/openbsw/executables/referenceApp/application/src/app/CanDemoListener.cpp:35:6:virtual void can::CanDemoListener::canFrameSent(const can::CANFrame&)	8	static
-/workspaces/openbsw/executables/referenceApp/application/include/app/CanDemoListener.h:21:10:virtual void can::CanDemoListener::_ZThn12_N3can15CanDemoListener12canFrameSentERKNS_8CANFrameE(const can::CANFrame&)	8	static
-/workspaces/openbsw/executables/referenceApp/application/src/app/CanDemoListener.cpp:13:1:can::CanDemoListener::CanDemoListener(can::ICanTransceiver*)	16	static
-/workspaces/openbsw/executables/referenceApp/application/src/app/CanDemoListener.cpp:56:6:void can::CanDemoListener::shutdown()	8	static
-/workspaces/openbsw/executables/referenceApp/application/src/app/CanDemoListener.cpp:44:6:void can::CanDemoListener::run()	16	static

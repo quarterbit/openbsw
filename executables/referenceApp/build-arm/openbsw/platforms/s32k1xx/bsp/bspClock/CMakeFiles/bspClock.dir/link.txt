@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspClock.a CMakeFiles/bspClock.dir/src/clockConfig.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspClock.a

@@ -1,8 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/format/StringWriter.cpp:16:15:util::format::StringWriter& util::format::StringWriter::endl()	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/StringWriter.cpp:22:15:util::format::StringWriter& util::format::StringWriter::write(char)	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/StringWriter.cpp:28:15:util::format::StringWriter& util::format::StringWriter::write(const char*)	24	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/StringWriter.cpp:37:15:util::format::StringWriter& util::format::StringWriter::write(const char*, size_t)	16	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/StringWriter.cpp:43:15:util::format::StringWriter& util::format::StringWriter::write(const util::string::ConstString&)	16	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/StringWriter.cpp:48:15:)	44	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/StringWriter.cpp:58:15:util::format::StringWriter& util::format::StringWriter::vprintf(const char*, va_list)	56	static
-/workspaces/openbsw/libs/bsw/util/src/util/format/StringWriter.cpp:65:1:util::format::StringWriter& util::format::StringWriter::vprintf(const char*, util::format::IPrintfArgumentReader&)	32	static

@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspSci.a CMakeFiles/bspSci.dir/src/SciDevice.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspSci.a

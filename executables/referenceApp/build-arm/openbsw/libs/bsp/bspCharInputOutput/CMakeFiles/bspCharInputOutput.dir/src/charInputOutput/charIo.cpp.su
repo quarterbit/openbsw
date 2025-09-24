@@ -1,9 +1,0 @@
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:24:6:void setCharIOApi(const tCharIOApi*)	4	static
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:26:5:int setCharIOApi2Default()	8	static
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:40:6:void charIoSetAsynchronous()	0	static
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:42:6:void charIoSetSynchronous()	0	static
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:44:6:void charIoBackground()	0	static
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:46:5:int charIoGetc()	0	static
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:48:5:int charIoPutc(int)	0	static
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:50:5:int charIO__inchar()	0	static
-/workspaces/openbsw/libs/bsp/bspCharInputOutput/src/charInputOutput/charIo.cpp:52:5:int charIO__outchar(int, int)	0	static

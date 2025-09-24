@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspMcuWatchdog.a CMakeFiles/bspMcuWatchdog.dir/src/watchdog/Watchdog.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspMcuWatchdog.a

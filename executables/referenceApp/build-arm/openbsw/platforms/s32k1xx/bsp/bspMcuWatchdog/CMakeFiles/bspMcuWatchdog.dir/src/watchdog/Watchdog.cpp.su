@@ -1,7 +1,0 @@
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcuWatchdog/src/watchdog/Watchdog.cpp:12:6:static void bsp::Watchdog::enableWatchdog(uint32_t, bool, uint32_t)	16	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcuWatchdog/src/watchdog/Watchdog.cpp:46:6:static void bsp::Watchdog::disableWatchdog()	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcuWatchdog/src/watchdog/Watchdog.cpp:56:6:static void bsp::Watchdog::serviceWatchdog()	4	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcuWatchdog/src/watchdog/Watchdog.cpp:65:6:static void bsp::Watchdog::startFastTestLow()	4	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcuWatchdog/src/watchdog/Watchdog.cpp:87:6:static void bsp::Watchdog::startFastTestHigh()	4	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcuWatchdog/src/watchdog/Watchdog.cpp:109:6:static void bsp::Watchdog::setUserMode()	0	static
-/workspaces/openbsw/platforms/s32k1xx/bsp/bspMcuWatchdog/src/watchdog/Watchdog.cpp:130:10:static uint32_t bsp::Watchdog::getWatchdogServiceCounter()	0	static

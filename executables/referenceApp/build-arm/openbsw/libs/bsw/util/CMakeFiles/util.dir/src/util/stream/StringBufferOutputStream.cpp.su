@@ -1,8 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StringBufferOutputStream.cpp:29:6:virtual bool util::stream::StringBufferOutputStream::isEof() const	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StringBufferOutputStream.cpp:31:6:virtual void util::stream::StringBufferOutputStream::write(uint8_t)	4	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StringBufferOutputStream.cpp:40:6:virtual void util::stream::StringBufferOutputStream::write(const etl::span<const unsigned char>&)	16	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StringBufferOutputStream.cpp:17:1:util::stream::StringBufferOutputStream::StringBufferOutputStream(etl::span<char>, const char*, const char*)	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StringBufferOutputStream.cpp:62:6:void util::stream::StringBufferOutputStream::reset()	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StringBufferOutputStream.cpp:68:13:const char* util::stream::StringBufferOutputStream::getString()	20	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StringBufferOutputStream.cpp:27:1:util::stream::StringBufferOutputStream::~StringBufferOutputStream()	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StringBufferOutputStream.cpp:55:19:etl::span<char> util::stream::StringBufferOutputStream::getBuffer()	16	static

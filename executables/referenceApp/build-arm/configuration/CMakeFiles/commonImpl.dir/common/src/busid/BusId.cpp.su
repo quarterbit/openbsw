@@ -1,1 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/configuration/common/src/busid/BusId.cpp:15:13:static const char* common::busid::BusIdTraits::getName(uint8_t)	0	static

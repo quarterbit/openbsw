@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspCore.a CMakeFiles/bspCore.dir/src/cache/cache.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspCore.a

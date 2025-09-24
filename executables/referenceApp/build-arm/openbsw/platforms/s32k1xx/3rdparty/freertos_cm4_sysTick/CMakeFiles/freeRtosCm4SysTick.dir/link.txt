@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libfreeRtosCm4SysTick.a CMakeFiles/freeRtosCm4SysTick.dir/src/interrupt_manager.c.obj CMakeFiles/freeRtosCm4SysTick.dir/src/port.c.obj
-/usr/bin/arm-none-eabi-ranlib libfreeRtosCm4SysTick.a

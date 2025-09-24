@@ -1,2 +1,0 @@
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/socket/AbstractServerSocket.cpp:7:1:tcp::AbstractServerSocket::AbstractServerSocket()	0	static
-/workspaces/openbsw/libs/bsw/cpp2ethernet/src/tcp/socket/AbstractServerSocket.cpp:11:1:tcp::AbstractServerSocket::AbstractServerSocket(uint16_t, tcp::ISocketProvidingConnectionListener&)	4	static

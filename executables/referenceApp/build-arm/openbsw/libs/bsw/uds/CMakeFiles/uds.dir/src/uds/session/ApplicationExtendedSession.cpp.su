@@ -1,3 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/udsConfiguration/include/uds/session/DiagSession.h:48:18:virtual void uds::DiagSession::enter()	0	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/session/ApplicationExtendedSession.cpp:12:1:virtual uds::DiagReturnCode::Type uds::ApplicationExtendedSession::isTransitionPossible(uds::DiagSession::SessionType)	0	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/session/ApplicationExtendedSession.cpp:30:1:virtual uds::DiagSession& uds::ApplicationExtendedSession::getTransitionResult(uds::DiagSession::SessionType)	8	static

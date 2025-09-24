@@ -26,15 +26,15 @@ add_executable(
     src/app/app.cpp
     src/logger/logger.cpp
     src/console/console.cpp
-    src/systems/DemoSystem.cpp
+    src/systems/LedProximitySystem.cpp
     src/systems/RuntimeSystem.cpp
     src/systems/SysAdminSystem.cpp
     src/systems/SafetySystem.cpp
     ${app.referenceAppExtraSources}
      src/main.cpp)
 
-# Add LED proximity demo
-target_sources(app.referenceApp PRIVATE led_proximity.cpp)
+# Remove the incorrect LED proximity demo line since we added it above
+# target_sources(app.referenceApp PRIVATE led_proximity.cpp)
 
 set_target_properties(app.referenceApp PROPERTIES SUFFIX ".elf")
 
@@ -70,7 +70,6 @@ target_link_libraries(
             runtime
             safeLifecycle
             socBsp
-            bspSyscalls
             ws2812b)
 
 # Only link ethConfiguration if ethernet is supported

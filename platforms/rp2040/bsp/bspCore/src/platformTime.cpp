@@ -46,4 +46,15 @@ unsigned long etl_get_high_resolution_clock() {
     return rp2040::getTimerRegisters()->TIMELR;
 }
 
+/**
+ * Delay for specified microseconds
+ * @param delay Number of microseconds to delay
+ */
+void sysDelayUs(unsigned long delay) {
+    unsigned long start = getSystemTimeUs32Bit();
+    while ((getSystemTimeUs32Bit() - start) < delay) {
+        // Busy wait loop
+    }
+}
+
 } // extern "C"

@@ -3,7 +3,7 @@
 add_subdirectory(bspMcu)
 add_subdirectory(bspIo)
 add_subdirectory(bspInterruptsImpl)
-add_subdirectory(bspSyscalls)
+# add_subdirectory(bspSyscalls) # Using existing syscalls in bspCore/platformSyscalls.cpp
 
 # TODO: Add other BSP modules as they are implemented
 # add_subdirectory(bspClock)
@@ -20,8 +20,7 @@ target_link_libraries(
     INTERFACE bspMcu
               bspIo
               bspCore
-              bspInterruptsImpl
-              bspSyscalls)
+              bspInterruptsImpl)
 
 # Note: Removed pico_stdlib dependency to follow OpenBSW pattern
 # Direct hardware register access will be used instead

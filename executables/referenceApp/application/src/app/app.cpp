@@ -6,7 +6,6 @@
 #include "lifecycle/StaticBsp.h"
 #include "logger/logger.h"
 #include "reset/softwareSystemReset.h"
-#include "systems/DemoSystem.h"
 #include "systems/LedProximitySystem.h"
 #include "systems/RuntimeSystem.h"
 #include "systems/SafetySystem.h"
@@ -80,7 +79,7 @@ using AsyncRuntimeMonitor = ::async::AsyncBinding::RuntimeMonitorType;
 using AsyncContextHook    = ::async::AsyncBinding::ContextHookType;
 
 constexpr size_t MaxNumComponents         = 16;
-constexpr size_t MaxNumLevels             = 8;
+constexpr size_t MaxNumLevels             = 7;
 constexpr size_t MaxNumComponentsPerLevel = MaxNumComponents;
 
 using LifecycleManager = ::lifecycle::declare::
@@ -98,7 +97,6 @@ LifecycleManager lifecycleManager{
 
 ::etl::typed_storage<::systems::RuntimeSystem> runtimeSystem;
 ::etl::typed_storage<::systems::SysAdminSystem> sysAdminSystem;
-::etl::typed_storage<::systems::DemoSystem> demoSystem;
 ::etl::typed_storage<::systems::LedProximitySystem> ledProximitySystem;
 ::etl::typed_storage<::systems::SafetySystem> safetySystem;
 #ifdef PLATFORM_SUPPORT_ETHERNET
@@ -240,24 +238,6 @@ void startApp()
         "sysadmin", sysAdminSystem.create(TASK_SYSADMIN, lifecycleManager), 7U);
     lifecycleManager.addComponent(
         "ledproximity", ledProximitySystem.create(TASK_DEMO), 7U);
-
-    /* runlevel 8 */
-    ::platform::platformLifecycleAdd(lifecycleManager, 8U);
-    // clang-format off
-    lifecycleManager.addComponent(
-        "demo",
-        demoSystem.create(
-            TASK_DEMO,
-            lifecycleManager
-#ifdef PLATFORM_SUPPORT_CAN
-            , ::systems::getCanSystem()
-#endif
-#ifdef PLATFORM_SUPPORT_STORAGE
-            , (*storageSystem).getStorage()
-#endif
-        ),
-        8U);
-    // clang-format on
 
     lifecycleManager.transitionToLevel(MaxNumLevels);
 

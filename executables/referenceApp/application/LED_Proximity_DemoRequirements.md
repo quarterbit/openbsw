@@ -89,7 +89,11 @@ The system SHALL control a WS2812B LED strip with 144 addressable LEDs.
 :tags: led, color, functional
 :links: REQ-FUNC-005
 
-The system SHALL illuminate LEDs in purple color (RGB: 161, 0, 255).
+The system SHALL illuminate LEDs using a three-color gradient based on proximity:
+- **Green (RGB: 0, 255, 0)** for far distances (strip start)
+- **Orange (RGB: 255, 128, 0)** for medium distances (middle section)
+- **Red (RGB: 255, 0, 0)** for close distances (strip end)
+The gradient SHALL transition smoothly between colors, with brightness increasing toward closer proximity LEDs.
 ```
 
 ```{req} LED Strip Clear Function
@@ -243,9 +247,13 @@ The GPIO pin assignments SHALL be compatible with existing ioConfiguration.h def
 :tags: rp2040, gpio, platform
 
 The system SHALL use the following GPIO pins on RP2040/Pico W:
-- HC-SR04 Trigger: GP3 (Pin 5)
-- HC-SR04 Echo: GP4 (Pin 6)
-- WS2812B Data: GP2 (Pin 4)
+Pico W Pin | GPIO | Function        | Device Connection
+-----------|------|-----------------|------------------
+Pin 4      | GP2  | Digital Output  | HC-SR04 Trigger
+Pin 5      | GP3  | Digital Input   | HC-SR04 Echo  
+Pin 21     | GP16 | Digital Output  | WS2812B Data In
+Pin 38     | GND  | Ground          | Both devices GND
+Pin 40     | VBUS | 5V Power        | Both devices VCC
 ```
 
 ```{req} RP2040 Direct Register Access

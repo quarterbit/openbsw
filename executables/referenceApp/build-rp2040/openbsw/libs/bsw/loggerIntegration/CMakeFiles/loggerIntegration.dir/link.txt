@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libloggerIntegration.a CMakeFiles/loggerIntegration.dir/src/logger/LoggerComposition.cpp.obj CMakeFiles/loggerIntegration.dir/src/logger/LoggerTime.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libloggerIntegration.a

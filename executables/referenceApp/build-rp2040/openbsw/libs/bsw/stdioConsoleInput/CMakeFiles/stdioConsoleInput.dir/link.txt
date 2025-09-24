@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libstdioConsoleInput.a CMakeFiles/stdioConsoleInput.dir/src/console/StdioConsoleInput.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libstdioConsoleInput.a

@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-979653045e0d9e42729a00e172767036 openbsw/platforms/rp2040/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
-b0826a0534adf06790af1ad709b25dca openbsw/platforms/rp2040/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S

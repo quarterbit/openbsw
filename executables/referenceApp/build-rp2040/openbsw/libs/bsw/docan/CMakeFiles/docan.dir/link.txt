@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libdocan.a CMakeFiles/docan.dir/src/docan/common/DoCanLogger.cpp.obj CMakeFiles/docan.dir/src/docan/datalink/DoCanFrameCodecConfigPresets.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libdocan.a

@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libasyncFreeRtosImpl.a CMakeFiles/asyncFreeRtosImpl.dir/src/async/Async.cpp.obj CMakeFiles/asyncFreeRtosImpl.dir/src/async/FutureSupport.cpp.obj CMakeFiles/asyncFreeRtosImpl.dir/src/async/Hook.cpp.obj CMakeFiles/asyncFreeRtosImpl.dir/src/async/Types.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libasyncFreeRtosImpl.a

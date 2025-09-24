@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libstartUp.a CMakeFiles/startUp.dir/src/main.cpp.obj CMakeFiles/startUp.dir/src/lifecycle/StaticBsp.cpp.obj CMakeFiles/startUp.dir/src/systems/BspSystem.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libstartUp.a

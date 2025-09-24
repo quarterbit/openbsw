@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libbspInterruptsImpl.a CMakeFiles/bspInterruptsImpl.dir/src/suspendResumeAllInterrupts.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspInterruptsImpl.a

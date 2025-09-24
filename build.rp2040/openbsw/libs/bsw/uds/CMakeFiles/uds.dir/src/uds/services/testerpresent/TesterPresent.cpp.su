@@ -1,2 +1,0 @@
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/testerpresent/TesterPresent.cpp:28:22:virtual uds::DiagReturnCode::Type uds::TesterPresent::process(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	24	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/testerpresent/TesterPresent.cpp:18:1:uds::TesterPresent::TesterPresent()	32	static

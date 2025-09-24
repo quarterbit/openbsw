@@ -1,3 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StdoutStream.cpp:11:6:virtual bool util::stream::StdoutStream::isEof() const	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StdoutStream.cpp:13:6:virtual void util::stream::StdoutStream::write(uint8_t)	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StdoutStream.cpp:15:6:virtual void util::stream::StdoutStream::write(const etl::span<const unsigned char>&)	16	static

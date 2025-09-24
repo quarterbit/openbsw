@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc liblwipSocket.a CMakeFiles/lwipSocket.dir/src/lwipSocket/tcp/LwipSocket.cpp.obj CMakeFiles/lwipSocket.dir/src/lwipSocket/tcp/LwipServerSocket.cpp.obj CMakeFiles/lwipSocket.dir/src/lwipSocket/netif/LwipNetworkInterface.cpp.obj CMakeFiles/lwipSocket.dir/src/lwipSocket/udp/LwipDatagramSocket.cpp.obj CMakeFiles/lwipSocket.dir/src/lwipSocket/utils/TaskAssert.cpp.obj CMakeFiles/lwipSocket.dir/src/lwipSocket/utils/FilterFrame.cpp.obj
-/usr/bin/arm-none-eabi-ranlib liblwipSocket.a

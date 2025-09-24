@@ -1,4 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/lifecycle/StaticBsp.cpp:7:1:StaticBsp::StaticBsp()	0	static
-/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/lifecycle/StaticBsp.cpp:13:6:void StaticBsp::init()	0	static
-/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/lifecycle/StaticBsp.cpp:18:6:void StaticBsp::hwInit()	0	static
-/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/lifecycle/StaticBsp.cpp:28:6:void StaticBsp::cyclic()	0	static

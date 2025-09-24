@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspIo.a CMakeFiles/bspIo.dir/src/io/Io.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspIo.a

@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc liblifecycle.a CMakeFiles/lifecycle.dir/src/lifecycle/AsyncLifecycleComponent.cpp.obj CMakeFiles/lifecycle.dir/src/lifecycle/LifecycleComponent.cpp.obj CMakeFiles/lifecycle.dir/src/lifecycle/LifecycleLogger.cpp.obj CMakeFiles/lifecycle.dir/src/lifecycle/LifecycleManager.cpp.obj CMakeFiles/lifecycle.dir/src/lifecycle/LifecycleManagerForwarder.cpp.obj CMakeFiles/lifecycle.dir/src/lifecycle/SimpleLifecycleComponent.cpp.obj CMakeFiles/lifecycle.dir/src/lifecycle/SingleContextLifecycleComponent.cpp.obj
-/usr/bin/arm-none-eabi-ranlib liblifecycle.a

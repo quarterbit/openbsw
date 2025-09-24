@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libcpp2can.a CMakeFiles/cpp2can.dir/src/can/canframes/CANFrame.cpp.obj CMakeFiles/cpp2can.dir/src/can/CanLogger.cpp.obj CMakeFiles/cpp2can.dir/src/can/filter/AbstractStaticBitFieldFilter.cpp.obj CMakeFiles/cpp2can.dir/src/can/filter/BitFieldFilter.cpp.obj CMakeFiles/cpp2can.dir/src/can/filter/IntervalFilter.cpp.obj CMakeFiles/cpp2can.dir/src/can/transceiver/AbstractCANTransceiver.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libcpp2can.a

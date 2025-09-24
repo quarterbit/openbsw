@@ -1,5 +1,0 @@
-/workspaces/openbsw/libs/bsw/asyncFreeRtos/src/async/FutureSupport.cpp:16:6:virtual void async::FutureSupport::wait()	24	static
-/workspaces/openbsw/libs/bsw/asyncFreeRtos/src/async/FutureSupport.cpp:33:6:virtual void async::FutureSupport::notify()	0	static
-/workspaces/openbsw/libs/bsw/asyncFreeRtos/src/async/FutureSupport.cpp:50:6:virtual bool async::FutureSupport::verifyTaskContext()	8	static
-/workspaces/openbsw/libs/bsw/asyncFreeRtos/src/async/FutureSupport.cpp:48:6:virtual void async::FutureSupport::assertTaskContext()	8	static
-/workspaces/openbsw/libs/bsw/asyncFreeRtos/src/async/FutureSupport.cpp:11:1:async::FutureSupport::FutureSupport(async::ContextType)	8	static

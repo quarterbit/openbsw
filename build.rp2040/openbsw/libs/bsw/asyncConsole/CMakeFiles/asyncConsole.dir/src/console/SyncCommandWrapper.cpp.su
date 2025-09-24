@@ -1,4 +1,0 @@
-/workspaces/openbsw/libs/bsw/asyncConsole/src/console/SyncCommandWrapper.cpp:21:42:virtual util::command::ICommand::ExecuteResult console::SyncCommandWrapper::execute(const util::string::ConstString&, util::stream::ISharedOutputStream*)	48	static
-/workspaces/openbsw/libs/bsw/asyncConsole/src/console/SyncCommandWrapper.cpp:16:6:virtual void console::SyncCommandWrapper::getHelp(util::command::ICommand::IHelpCallback&) const	0	static
-/workspaces/openbsw/libs/bsw/asyncConsole/src/console/SyncCommandWrapper.cpp:14:13:virtual const char* console::SyncCommandWrapper::getId() const	0	static
-/workspaces/openbsw/libs/bsw/asyncConsole/src/console/SyncCommandWrapper.cpp:9:1:console::SyncCommandWrapper::SyncCommandWrapper(util::command::ICommand&)	8	static

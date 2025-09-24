@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libmain.a CMakeFiles/main.dir/src/main.cpp.obj CMakeFiles/main.dir/src/lifecycle/StaticBsp.cpp.obj CMakeFiles/main.dir/src/systems/BspSystem.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libmain.a

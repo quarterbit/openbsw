@@ -1,2 +1,0 @@
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/writedata/WriteDataByIdentifier.cpp:10:1:uds::WriteDataByIdentifier::WriteDataByIdentifier()	16	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/writedata/WriteDataByIdentifier.cpp:17:1:virtual uds::DiagReturnCode::Type uds::WriteDataByIdentifier::verify(const uint8_t*, uint16_t)	8	static

@@ -1,6 +1,0 @@
-/workspaces/openbsw/libs/bsw/cpp2can/include/can/filter/AbstractStaticBitFieldFilter.h:47:10:virtual void can::AbstractStaticBitFieldFilter::add(uint32_t)	0	static
-/workspaces/openbsw/libs/bsw/cpp2can/include/can/filter/AbstractStaticBitFieldFilter.h:55:10:virtual void can::AbstractStaticBitFieldFilter::add(uint32_t, uint32_t)	0	static
-/workspaces/openbsw/libs/bsw/cpp2can/include/can/filter/AbstractStaticBitFieldFilter.h:71:10:virtual void can::AbstractStaticBitFieldFilter::clear()	0	static
-/workspaces/openbsw/libs/bsw/cpp2can/include/can/filter/AbstractStaticBitFieldFilter.h:79:10:virtual void can::AbstractStaticBitFieldFilter::open()	0	static
-/workspaces/openbsw/libs/bsw/cpp2can/include/can/filter/AbstractStaticBitFieldFilter.h:87:10:virtual void can::AbstractStaticBitFieldFilter::acceptMerger(can::IMerger&)	0	static
-/workspaces/openbsw/libs/bsw/cpp2can/src/can/filter/AbstractStaticBitFieldFilter.cpp:8:6:virtual bool can::AbstractStaticBitFieldFilter::match(uint32_t) const	8	static

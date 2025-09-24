@@ -1,2 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/logger/ComponentInfo.cpp:13:16:util::logger::ComponentInfo& util::logger::ComponentInfo::operator=(const util::logger::ComponentInfo&)	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/logger/ComponentInfo.cpp:23:34:util::format::AttributedString util::logger::ComponentInfo::getName() const	8	static

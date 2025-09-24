@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libsafeMemory.a CMakeFiles/safeMemory.dir/src/safeMemory/MemoryProtection.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libsafeMemory.a

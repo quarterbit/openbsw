@@ -1,6 +1,0 @@
-/workspaces/openbsw/platforms/rp2040/3rdparty/freertos_rp2040/src/port.c:14:6:vPortSetupTimerInterrupt	0	static
-/workspaces/openbsw/platforms/rp2040/3rdparty/freertos_rp2040/src/port.c:18:6:vPortEnterCritical	0	static
-/workspaces/openbsw/platforms/rp2040/3rdparty/freertos_rp2040/src/port.c:22:6:vPortExitCritical	0	static
-/workspaces/openbsw/platforms/rp2040/3rdparty/freertos_rp2040/src/port.c:26:12:xPortStartScheduler	0	static
-/workspaces/openbsw/platforms/rp2040/3rdparty/freertos_rp2040/src/port.c:31:6:vPortEndScheduler	0	static
-/workspaces/openbsw/platforms/rp2040/3rdparty/freertos_rp2040/src/port.c:36:6:xPortSysTickHandler	0	static

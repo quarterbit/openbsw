@@ -1,6 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputHelper.cpp:11:1:util::stream::TaggedOutputHelper::TaggedOutputHelper(const char*, const char*)	8	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputHelper.cpp:17:6:void util::stream::TaggedOutputHelper::reset()	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputHelper.cpp:19:6:bool util::stream::TaggedOutputHelper::isLineStart() const	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputHelper.cpp:21:6:void util::stream::TaggedOutputHelper::writeBytes(util::stream::IOutputStream&, const etl::span<const unsigned char>&)	40	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputHelper.cpp:42:6:void util::stream::TaggedOutputHelper::writeBytes(util::stream::IOutputStream&, const etl::string_view&)	16	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/TaggedOutputHelper.cpp:48:6:void util::stream::TaggedOutputHelper::endLine(util::stream::IOutputStream&)	16	static

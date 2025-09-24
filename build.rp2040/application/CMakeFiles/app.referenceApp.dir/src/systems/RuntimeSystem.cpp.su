@@ -1,6 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/application/src/systems/RuntimeSystem.cpp:23:6:virtual void systems::RuntimeSystem::init()	8	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/RuntimeSystem.cpp:30:6:virtual void systems::RuntimeSystem::run()	16	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/RuntimeSystem.cpp:38:6:virtual void systems::RuntimeSystem::shutdown()	8	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/RuntimeSystem.cpp:45:6:virtual void systems::RuntimeSystem::execute()	0	static
-/workspaces/openbsw/executables/referenceApp/application/include/systems/RuntimeSystem.h:29:10:virtual void systems::RuntimeSystem::_ZThn12_N7systems13RuntimeSystem7executeEv()	0	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/RuntimeSystem.cpp:13:1:systems::RuntimeSystem::RuntimeSystem(async::ContextType, async::AsyncBinding::RuntimeMonitorType&)	24	static

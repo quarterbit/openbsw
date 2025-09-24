@@ -1,3 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/controldtcsetting/ControlDTCSetting.cpp:26:22:virtual uds::DiagReturnCode::Type uds::ControlDTCSetting::process(uds::IncomingDiagConnection&, const uint8_t*, uint16_t)	24	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/controldtcsetting/ControlDTCSetting.cpp:16:1:uds::ControlDTCSetting::ControlDTCSetting()	32	static

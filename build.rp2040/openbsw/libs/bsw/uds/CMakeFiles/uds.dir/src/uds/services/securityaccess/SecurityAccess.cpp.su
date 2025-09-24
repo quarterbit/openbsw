@@ -1,5 +1,0 @@
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/securityaccess/SecurityAccess.cpp:33:6:virtual bool uds::SecurityAccess::isAuthenticated(uint16_t) const	0	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/securityaccess/SecurityAccess.cpp:38:22:virtual uds::DiagReturnCode::Type uds::SecurityAccess::getNotAuthenticatedReturnCode() const	0	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/securityaccess/SecurityAccess.cpp:18:1:uds::SecurityAccess::SecurityAccess(uds::DiagSession::DiagSessionMask)	16	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/securityaccess/SecurityAccess.cpp:27:6:void uds::SecurityAccess::resetAuthentication()	0	static
-/workspaces/openbsw/libs/bsw/uds/src/uds/services/securityaccess/SecurityAccess.cpp:43:9:uint8_t uds::SecurityAccess::getSecurityAccessType() const	0	static

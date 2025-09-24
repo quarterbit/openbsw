@@ -1,9 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:191:13:)	20	static
-/workspaces/openbsw/libs/bsw/util/include/util/logger/Logger.h:196:13:)	20	static
-/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafeSupervisor.cpp:18:1:safety::SafeSupervisor::SafeSupervisor()	0	static
-/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafeSupervisor.cpp:37:6:void safety::SafeSupervisor::init() const	0	static
-/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafeSupervisor.cpp:42:6:void safety::SafeSupervisor::handle(const Event&)	8	static
-/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafeSupervisor.cpp:113:17:static safety::SafeSupervisor& safety::SafeSupervisor::getInstance()	0	static
-/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafeSupervisor.cpp:123:6:void safety::SafeSupervisor::enterLimpHome()	0	static
-/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafeSupervisor.cpp:125:6:void safety::SafeSupervisor::leaveLimpHome()	0	static
-/workspaces/openbsw/libs/safety/safeLifecycle/src/safeLifecycle/SafeSupervisor.cpp:127:6:bool safety::SafeSupervisor::limpHome() const	0	static

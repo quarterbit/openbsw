@@ -1,4 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/osHooks.cpp:10:6:void vApplicationStackOverflowHook(TaskHandle_t, char*)	0	static
-/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/osHooks.cpp:15:6:void vIllegalISR()	8	static
-/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/osHooks.cpp:23:6:void vApplicationMallocFailedHook()	8	static
-/workspaces/openbsw/executables/referenceApp/platforms/rp2040/main/src/osHooks.cpp:30:6:void vApplicationIdleHook()	0	static

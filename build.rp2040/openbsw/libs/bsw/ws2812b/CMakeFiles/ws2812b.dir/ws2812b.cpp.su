@@ -1,4 +1,0 @@
-/workspaces/openbsw/libs/bsw/ws2812b/ws2812b.cpp:88:6:void ws2812b_set_led(uint32_t, uint8_t, uint8_t, uint8_t)	4	static
-/workspaces/openbsw/libs/bsw/ws2812b/ws2812b.cpp:122:6:void ws2812b_show()	80	static
-/workspaces/openbsw/libs/bsw/ws2812b/ws2812b.cpp:95:6:void ws2812b_clear()	0	static
-/workspaces/openbsw/libs/bsw/ws2812b/ws2812b.cpp:81:6:void ws2812b_init(uint32_t, uint32_t)	16	static

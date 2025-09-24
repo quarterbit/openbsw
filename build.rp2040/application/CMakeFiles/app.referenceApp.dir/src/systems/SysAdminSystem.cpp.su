@@ -1,6 +1,0 @@
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SysAdminSystem.cpp:40:6:virtual void systems::SysAdminSystem::execute()	0	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SysAdminSystem.cpp:23:6:virtual void systems::SysAdminSystem::init()	0	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SysAdminSystem.cpp:25:6:virtual void systems::SysAdminSystem::run()	16	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SysAdminSystem.cpp:33:6:virtual void systems::SysAdminSystem::shutdown()	8	static
-/workspaces/openbsw/executables/referenceApp/application/include/systems/SysAdminSystem.h:29:10:virtual void systems::SysAdminSystem::_ZThn12_N7systems14SysAdminSystem7executeEv()	0	static
-/workspaces/openbsw/executables/referenceApp/application/src/systems/SysAdminSystem.cpp:13:1:systems::SysAdminSystem::SysAdminSystem(async::ContextType, lifecycle::ILifecycleManager&)	24	static

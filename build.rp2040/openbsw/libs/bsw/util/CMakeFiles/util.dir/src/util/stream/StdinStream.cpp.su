@@ -1,2 +1,0 @@
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StdinStream.cpp:11:6:virtual bool util::stream::StdinStream::isEof() const	0	static
-/workspaces/openbsw/libs/bsw/util/src/util/stream/StdinStream.cpp:13:10:virtual uint32_t util::stream::StdinStream::readBuffer(const etl::span<unsigned char>&)	16	static

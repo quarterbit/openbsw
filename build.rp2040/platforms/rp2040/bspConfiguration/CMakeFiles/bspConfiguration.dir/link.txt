@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libbspConfiguration.a CMakeFiles/bspConfiguration.dir/src/bsp/adc/AnalogInput.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libbspConfiguration.a

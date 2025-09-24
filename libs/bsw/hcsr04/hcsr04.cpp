@@ -52,19 +52,12 @@ namespace {
 #endif
     }
     
-    uint32_t gpio_read(uint32_t pin) {
 #ifndef __linux__
+    uint32_t gpio_read(uint32_t pin) {
         // S32K1xx implementation using BSP IO API
         return bios::Io::getPin(pin) ? 1 : 0;
-#else
-        // POSIX/stub implementation - simulate a changing signal for testing
-        (void)pin;
-        static uint32_t counter = 0;
-        counter++;
-        // Simulate HC-SR04 behavior: return 0 initially, then 1 for a period, then 0
-        return ((counter / 100) % 3) == 1 ? 1 : 0;
-#endif
     }
+#endif
     
     constexpr uint32_t GPIO_MODE_OUTPUT = 1;
     constexpr uint32_t GPIO_MODE_INPUT = 0;
@@ -79,6 +72,34 @@ void hcsr04_init(uint32_t trigger_pin, uint32_t echo_pin) {
 }
 
 int32_t hcsr04_measure_cm() {
+#ifdef __linux__
+    // POSIX simulation: cycle through 1-100cm for testing
+    static uint32_t measurement_counter = 0;
+    measurement_counter++;
+    
+    // Create a realistic distance pattern that cycles through 1-100cm
+    // Using a combination of sine-like function for smooth transitions
+    uint32_t cycle_position = measurement_counter % 200; // Full cycle every 200 measurements
+    int32_t distance;
+    
+    if (cycle_position < 100) {
+        // Increasing distance from 1 to 100
+        distance = 1 + cycle_position;
+    } else {
+        // Decreasing distance from 100 to 1
+        distance = 100 - (cycle_position - 100);
+    }
+    
+    // Add some variation to make it more realistic
+    int32_t variation = ((measurement_counter * 7) % 11) - 5; // -5 to +5 variation
+    distance += variation;
+    
+    // Clamp to valid range
+    if (distance < 1) distance = 1;
+    if (distance > 100) distance = 100;
+    
+    return distance;
+#else
     // Send 10us trigger pulse
     gpio_write(hcsr04_trigger_pin, 1);
     sysDelayUs(10);
@@ -101,4 +122,5 @@ int32_t hcsr04_measure_cm() {
 
     // Calculate distance in cm: distance = duration(us) / 58
     return static_cast<int32_t>(duration / 58);
+#endif
 }

@@ -32,9 +32,9 @@ include(${OPENBSW_TARGET_DIR}/Options.cmake)
 
 # Define platform macros for conditional compilation based on target platform
 if(BUILD_TARGET_PLATFORM STREQUAL "RP2040")
-    add_definitions(-DPLATFORM_RP2040)
+    add_definitions(-DPLATFORM_RP2040=1)
 elseif(BUILD_TARGET_PLATFORM STREQUAL "S32K148EVB")
-    add_definitions(-DPLATFORM_S32K148EVB)
+    add_definitions(-DPLATFORM_S32K148EVB=1)
 endif()
 
 # Add platform configuration headers to global include path

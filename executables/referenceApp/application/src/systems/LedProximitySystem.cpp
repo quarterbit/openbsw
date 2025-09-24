@@ -4,6 +4,10 @@
 #include "hcsr04.h"
 #include "ws2812b.h"
 
+#ifdef __linux__
+#include <cstdio>  // For printf on POSIX platform
+#endif
+
 // Platform-specific pin definitions
 #ifdef OPENBSW_PLATFORM_RP2040
     // RP2040 pin definitions
@@ -70,9 +74,23 @@ void LedProximitySystem::updateLeds() {
     // Read distance from HC-SR04 sensor
     int32_t distance_cm = hcsr04_measure_cm();
     
+#ifdef __linux__
+    // POSIX logging for testing and demonstration
+    static uint32_t update_counter = 0;
+    update_counter++;
+    
+    // Log every 10th update to avoid spam
+    if (update_counter % 10 == 0) {
+        printf("\n[%04d] Distance: %3d cm | ", update_counter / 10, distance_cm);
+    }
+#endif
+    
     // Handle sensor errors
     if (distance_cm < 0) {
         // Sensor error - show error pattern (all LEDs dim red)
+#ifdef __linux__
+        printf("SENSOR ERROR | ");
+#endif
         for (uint32_t i = 0; i < LED_COUNT; ++i) {
             ws2812b_set_led(i, 100, 0, 0); // Dim red
         }
@@ -88,6 +106,13 @@ void LedProximitySystem::updateLeds() {
     if (leds_on > static_cast<int32_t>(LED_COUNT)) leds_on = LED_COUNT;
     
     _target_leds_on = static_cast<uint32_t>(leds_on);
+    
+#ifdef __linux__
+    // Log LED count every 10th update
+    if (update_counter % 10 == 0) {
+        printf("LEDs: %3d/%d | ", _target_leds_on, LED_COUNT);
+    }
+#endif
     
     // Render LEDs with current state
     renderLeds(_target_leds_on);

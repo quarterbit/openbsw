@@ -5,6 +5,8 @@
 // Platform-specific includes
 #ifndef __linux__
 #include "io/Io.h"
+#else
+#include <cstdio>  // For printf, fflush, stdout
 #endif
 
 namespace {
@@ -45,18 +47,14 @@ namespace {
 #endif
     }
     
-    void gpio_write(uint32_t pin, uint32_t value) {
 #ifndef __linux__
+    void gpio_write(uint32_t pin, uint32_t value) {
         // S32K1xx implementation using BSP IO API
         bios::Io::setPin(pin, value != 0);
-#else
-        // POSIX/stub implementation for development/testing
-        (void)pin;
-        (void)value;
-        // Note: For POSIX simulation, GPIO operations are no-ops
-#endif
     }
+#endif
     
+#ifndef __linux__
     // Timer delay functions using nanoseconds - improved implementation
     void timer_delay_ns(uint32_t ns) {
         // For WS2812b, precise timing is critical
@@ -74,6 +72,7 @@ namespace {
             }
         }
     }
+#endif
     
     constexpr uint32_t GPIO_MODE_OUTPUT = 1;
 }
@@ -100,6 +99,7 @@ void ws2812b_clear() {
 }
 
 namespace {
+#ifndef __linux__
     void ws2812b_send_byte(uint8_t byte) {
         for (int i = 7; i >= 0; i--) {
             if (byte & (1 << i)) {
@@ -117,12 +117,36 @@ namespace {
             }
         }
     }
+#endif
 }
 
 void ws2812b_show() {
+#ifdef __linux__
+    // POSIX simulation: output ASCII representation of LED strip
+    printf("LED Strip: [");
+    
+    for (uint32_t i = 0; i < ws2812b_led_count; i++) {
+        uint8_t r = ws2812b_buffer[i * 3 + 1]; // Red
+        uint8_t g = ws2812b_buffer[i * 3 + 0]; // Green
+        uint8_t b = ws2812b_buffer[i * 3 + 2]; // Blue
+        
+        // Determine the dominant color for ASCII representation
+        if (r == 0 && g == 0 && b == 0) {
+            printf(" "); // Off LED
+        } else {
+            // Use ANSI color codes for true color representation
+            printf("\033[38;2;%d;%d;%dm█\033[0m", r, g, b);
+        }
+    }
+    
+    printf("]\n");
+    fflush(stdout);
+#else
+    // Hardware implementation
     for (uint32_t i = 0; i < ws2812b_led_count * 3; i++) {
         ws2812b_send_byte(ws2812b_buffer[i]);
     }
     // Latch
     sysDelayUs(50);
+#endif
 }

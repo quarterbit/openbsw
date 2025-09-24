@@ -10,8 +10,12 @@ build-rp2040/
 **/build-rp2040/
 build.rp2040/
 **/build.rp2040/
+build.posix/
+**/build.posix/
 build-arm/
 **/build-arm/
+build.*
+**/build.*
 cmake-build*
 __pycache__/
 .pvenv/

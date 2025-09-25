@@ -16,6 +16,13 @@ namespace {
     uint32_t ws2812b_led_count;
     uint8_t ws2812b_buffer[WS2812B_MAX_LEDS * 3];
     
+    // POSIX simulation display state
+#ifdef __linux__
+    int32_t display_distance_cm = -1;
+    uint32_t display_update_counter = 0;
+    bool display_sensor_error = false;
+#endif
+    
     // GPIO functions with platform-specific implementations
     void gpio_set_mode(uint32_t pin, uint32_t mode) {
 #ifndef __linux__
@@ -92,11 +99,18 @@ void ws2812b_set_led(uint32_t index, uint8_t r, uint8_t g, uint8_t b) {
 }
 
 void ws2812b_clear() {
-    for (uint32_t i = 0; i < sizeof(ws2812b_buffer); ++i) {
+    for (uint32_t i = 0; i < ws2812b_led_count * 3; i++) {
         ws2812b_buffer[i] = 0;
     }
-    ws2812b_show();
 }
+
+#ifdef __linux__
+void ws2812b_set_display_info(int32_t distance_cm, uint32_t update_counter, bool sensor_error) {
+    display_distance_cm = distance_cm;
+    display_update_counter = update_counter;
+    display_sensor_error = sensor_error;
+}
+#endif
 
 namespace {
 #ifndef __linux__
@@ -122,8 +136,24 @@ namespace {
 
 void ws2812b_show() {
 #ifdef __linux__
-    // POSIX simulation: output ASCII representation of LED strip
-    printf("LED Strip: [");
+    // POSIX simulation: output complete status line
+    if (display_sensor_error) {
+        printf("\rSENSOR ERROR | LED Strip: [");
+    } else {
+        printf("\r[%04d] Distance: %3d cm | LEDs: %3d/144 | LED Strip: [", 
+               display_update_counter, display_distance_cm,
+               // Count active LEDs
+               [](){ 
+                   uint32_t count = 0;
+                   for (uint32_t i = 0; i < ws2812b_led_count; i++) {
+                       uint8_t r = ws2812b_buffer[i * 3 + 1];
+                       uint8_t g = ws2812b_buffer[i * 3 + 0]; 
+                       uint8_t b = ws2812b_buffer[i * 3 + 2];
+                       if (r != 0 || g != 0 || b != 0) count++;
+                   }
+                   return count;
+               }());
+    }
     
     for (uint32_t i = 0; i < ws2812b_led_count; i++) {
         uint8_t r = ws2812b_buffer[i * 3 + 1]; // Red
@@ -139,7 +169,7 @@ void ws2812b_show() {
         }
     }
     
-    printf("]\n");
+    printf("]");
     fflush(stdout);
 #else
     // Hardware implementation

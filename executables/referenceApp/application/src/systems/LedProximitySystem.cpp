@@ -63,6 +63,7 @@ void LedProximitySystem::run() {
 void LedProximitySystem::shutdown() {
     _timeout.cancel();
     ws2812b_clear();
+    ws2812b_show();
     transitionDone();
 }
 
@@ -79,17 +80,15 @@ void LedProximitySystem::updateLeds() {
     static uint32_t update_counter = 0;
     update_counter++;
     
-    // Log every 10th update to avoid spam
-    if (update_counter % 10 == 0) {
-        printf("\n[%04d] Distance: %3d cm | ", update_counter / 10, distance_cm);
-    }
+    // Store current state for display (POSIX simulation only)
+    ws2812b_set_display_info(distance_cm, update_counter / 10, false);
 #endif
     
     // Handle sensor errors
     if (distance_cm < 0) {
         // Sensor error - show error pattern (all LEDs dim red)
 #ifdef __linux__
-        printf("SENSOR ERROR | ");
+        ws2812b_set_display_info(distance_cm, update_counter / 10, true);
 #endif
         for (uint32_t i = 0; i < LED_COUNT; ++i) {
             ws2812b_set_led(i, 100, 0, 0); // Dim red
@@ -106,13 +105,6 @@ void LedProximitySystem::updateLeds() {
     if (leds_on > static_cast<int32_t>(LED_COUNT)) leds_on = LED_COUNT;
     
     _target_leds_on = static_cast<uint32_t>(leds_on);
-    
-#ifdef __linux__
-    // Log LED count every 10th update
-    if (update_counter % 10 == 0) {
-        printf("LEDs: %3d/%d | ", _target_leds_on, LED_COUNT);
-    }
-#endif
     
     // Render LEDs with current state
     renderLeds(_target_leds_on);
@@ -168,48 +160,50 @@ int32_t LedProximitySystem::mapDistanceToLeds(int32_t distance_cm) {
 }
 
 void LedProximitySystem::renderLeds(uint32_t leds_on) {
-    // Clear all LEDs first
-    ws2812b_clear();
-    
-    // Light up the required number of LEDs with gradient effect
-    for (uint32_t i = 0; i < leds_on && i < LED_COUNT; ++i) {
-        Color color;
-        
-        // Create gradient effect based on position
-        uint32_t position_ratio = (i * 1000) / LED_COUNT; // 0-1000 scale
-        
-        if (position_ratio < 333) {
-            // First third: Green to Orange
-            uint32_t blend = (position_ratio * 1000) / 333; // 0-1000 within this third
-            color.r = (COLOR_MEDIUM.r * blend) / 1000;
-            color.g = COLOR_FAR.g - ((COLOR_FAR.g - COLOR_MEDIUM.g) * blend) / 1000;
-            color.b = 0;
-        } else if (position_ratio < 666) {
-            // Second third: Orange to Red
-            uint32_t blend = ((position_ratio - 333) * 1000) / 333; // 0-1000 within this third
-            color.r = COLOR_MEDIUM.r + ((COLOR_CLOSE.r - COLOR_MEDIUM.r) * blend) / 1000;
-            color.g = COLOR_MEDIUM.g - (COLOR_MEDIUM.g * blend) / 1000;
-            color.b = 0;
+    // Set all LEDs to their proper state in one pass
+    for (uint32_t i = 0; i < LED_COUNT; ++i) {
+        if (i < leds_on) {
+            Color color;
+            
+            // Create gradient effect based on position
+            uint32_t position_ratio = (i * 1000) / LED_COUNT; // 0-1000 scale
+            
+            if (position_ratio < 333) {
+                // First third: Green to Orange
+                uint32_t blend = (position_ratio * 1000) / 333; // 0-1000 within this third
+                color.r = (COLOR_MEDIUM.r * blend) / 1000;
+                color.g = COLOR_FAR.g - ((COLOR_FAR.g - COLOR_MEDIUM.g) * blend) / 1000;
+                color.b = 0;
+            } else if (position_ratio < 666) {
+                // Second third: Orange to Red
+                uint32_t blend = ((position_ratio - 333) * 1000) / 333; // 0-1000 within this third
+                color.r = COLOR_MEDIUM.r + ((COLOR_CLOSE.r - COLOR_MEDIUM.r) * blend) / 1000;
+                color.g = COLOR_MEDIUM.g - (COLOR_MEDIUM.g * blend) / 1000;
+                color.b = 0;
+            } else {
+                // Final third: Pure Red
+                color = COLOR_CLOSE;
+            }
+            
+            // Apply brightness based on distance (closer = brighter)
+            uint32_t brightness = 100 + ((900 * (LED_COUNT - i)) / LED_COUNT); // 100-1000 scale
+            
+            uint32_t final_r = (color.r * brightness) / 1000;
+            uint32_t final_g = (color.g * brightness) / 1000;
+            uint32_t final_b = (color.b * brightness) / 1000;
+            
+            // Scale down to 0-255 range for WS2812B
+            ws2812b_set_led(i, 
+                (final_r * 255) / 1000,
+                (final_g * 255) / 1000,
+                (final_b * 255) / 1000);
         } else {
-            // Final third: Pure Red
-            color = COLOR_CLOSE;
+            // Turn off this LED
+            ws2812b_set_led(i, 0, 0, 0);
         }
-        
-        // Apply brightness based on distance (closer = brighter)
-        uint32_t brightness = 100 + ((900 * (LED_COUNT - i)) / LED_COUNT); // 100-1000 scale
-        
-        uint32_t final_r = (color.r * brightness) / 1000;
-        uint32_t final_g = (color.g * brightness) / 1000;
-        uint32_t final_b = (color.b * brightness) / 1000;
-        
-        // Scale down to 0-255 range for WS2812B
-        ws2812b_set_led(i, 
-            (final_r * 255) / 1000,
-            (final_g * 255) / 1000,
-            (final_b * 255) / 1000);
     }
     
-    // Update the LED strip
+    // Update the LED strip once
     ws2812b_show();
 }
 
@@ -233,6 +227,7 @@ void LedProximitySystem::performSelfTest() {
     
     // Test 3: Clear LEDs
     ws2812b_clear();
+    ws2812b_show();
     
     // Test 4: Basic HC-SR04 sensor test
     int32_t test_distance = hcsr04_measure_cm();

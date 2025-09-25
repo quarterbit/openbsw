@@ -29,4 +29,14 @@ void ws2812b_show();
  */
 void ws2812b_clear();
 
+#ifdef __linux__
+/**
+ * @brief Set display information for POSIX simulation
+ * @param distance_cm Current distance measurement
+ * @param update_counter Update counter for display
+ * @param sensor_error True if sensor error occurred
+ */
+void ws2812b_set_display_info(int32_t distance_cm, uint32_t update_counter, bool sensor_error);
+#endif
+
 #endif // WS2812B_H

@@ -1,0 +1,27 @@
+site_name: OpenBSW
+site_description: Open-source automotive basic software for the Software-Defined Vehicle era
+site_url: https://eclipse.dev/openbsw/
+repo_url: https://github.com/eclipse-openbsw/openbsw
+repo_name: eclipse-openbsw/openbsw
+theme:
+  name: material
+  logo: null
+  favicon: null
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+  nav:
+    - Home: index.md
+    - Features: features.md
+    - Architecture: architecture.md
+    - Getting Started: getting-started.md
+    - AUTOSAR: autosar.md
+    - Community: community.md
+ 
